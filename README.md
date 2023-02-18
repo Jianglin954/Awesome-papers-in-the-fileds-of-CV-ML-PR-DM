@@ -214,6 +214,7 @@ initialized dense network can be transformed into a trainable condition, where t
 
 
 <a name="hashingSurvey" />
+
 ### Survey
 
 1. **A Survey on Learning to Hash.** *Jingdong Wang et al, IEEE TPAMI 2018.*  [[PDF]](https://ieeexplore.ieee.org/abstract/document/7915742) 
