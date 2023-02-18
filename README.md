@@ -1,8 +1,8 @@
-# Awesome papers in the filed of CV, ML, DM.
+# Awesome papers in the fields of computer vision, machine learning, and data mining.
 
-![PRs Welcome](https://img.shields.io/badge/PhD-Welcome-green) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Paper Reading](https://img.shields.io/badge/PhD-PaperReading-green) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is a collection of papers that inspire me a lot. Feel free to fork. 
+This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, and data mining. The notes only represent my personal views. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
 
 
 ## Contents
@@ -15,6 +15,7 @@ This is a collection of papers that inspire me a lot. Feel free to fork.
   - [Survey](#TransformersSurvey)
   - [Vision Transformers](#ViT)
   - [Graph Transformers](#GraphTransformers)
+- [Convolutional Neural Network](#CNN)
 - [High Dynamic Range Imaging](#HDR)
 - [Point Cloud](#pointcloud)
 - [Causal Inference](#cause)
@@ -88,6 +89,15 @@ This is a collection of papers that inspire me a lot. Feel free to fork.
 ### Graph Transformers
 
 1. **Graph Transformer Networks.** *Seongjun Yun et al, NeurIPS 2019.*  [[PDF]](https://arxiv.org/abs/1911.06455)
+
+
+
+
+
+<a name="CNN" />
+
+## Convolutional Neural Network
+
 
 
 
