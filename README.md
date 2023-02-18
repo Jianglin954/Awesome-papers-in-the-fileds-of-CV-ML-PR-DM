@@ -16,25 +16,38 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Vision Transformers](#ViT)
   - [Graph Transformers](#GraphTransformers)
 - [Convolutional Neural Network](#CNN)
-- [High Dynamic Range Imaging](#HDR)
+- [Low-Level Vision](#llv)
+  - [High Dynamic Range Imaging](#HDR)
+  - [Image Super-Resolution](#ImageSR)
+  - [Image Super-Resolution](#ImageSR)
 - [Point Cloud](#pointcloud)
 - [Causal Inference](#cause)
-- [Clustering](#clustering)
-  - [Shallow Clustering](#shallowClustering)
-  - [Deep Clustering](#deepclustering)
 - [Self-Supervised Learning](#ssl)
-- [Learning with Label Noise](#labelnoise)
 - [Network Compression](#networkcompression)
   - [Survey](#NetCompreSrvey)
   - [Pruning](#pruning)
+  - [Knowledge Distillation](#knowDistil)
+  - [Network Quantization](#quantization)
+  - [Pruning](#pruning)
 - [Vision Language Pretraining](#VLP)
-- [Hashing](#hashing)
+- [Manifold Learning](#mainfold)
+- [Sparse Representation](#sparseRepre)
+- [Low-Rank Representation](#LRR)
+- [Clustering](#clustering)
+  - [Shallow Clustering](#shallowClustering)
+  - [Deep Clustering](#deepclustering)
+- [Learning with Label Noise](#labelnoise)
+- [Learning to Hash](#hashing)
   - [Survey](#hashingSurvey)
   - [Shallow Hashing](#shallowHash)
   - [Deep Hashing](#deepHash)
 - [Domain Adaptation](#DA)
-- [Matrix Completion](#matrixcompletion)
-- [CUR Decomposition](#cur)
+- [Others](#others)
+  - [Procrustes Problem](#procrustes)
+  - [CUR Decomposition](#cur)
+  - [Matrix Completion](#matrixcompletion)
+
+
 
 
 
@@ -124,31 +137,6 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
 
-<a name="clustering" />
-
-## Clustering
-
-
-<a name="shallowClustering" />
-
-### Shallow Clustering
-
-1. **Sparse Subspace Clustering: Algorithm, Theory, and Applications.** *Ehsan Elhamifar et al, IEEE TPAMI 2013.*  [[PDF]](https://ieeexplore.ieee.org/document/6482137)   
-Notes: This papers proposes **Sparse Subspace Clustering (SSC)** which introduces sparse representation into the subspace clustering problem, and define the **Self-Expressiveness** property: each data point in a union of subspaces can be efficiently reconstructed by a combination of other points in the dataset.
-
-
-
-<a name="deepclustering" />
-
-### Deep Clustering
-
-1. **A Critique of Self-Expressive Deep Subspace Clustering.** *Benjamin David Haeffele et al, ICLR 2021.*  [[PDF]](https://openreview.net/forum?id=FOyuZ26emy)    
-Notes: This papers show that many previous deep subspace networks are ill-posed, and their performance improvement is largely attributable to an ad-hoc post-processing step.
-
-1. **Deep Subspace Clustering Networks.** *Pan Ji et al, NIPS 2017.*  [[PDF]](https://arxiv.org/abs/1709.02508)   
-Notes: This is the first deep subspace clustering network, however, it has been proved to be ill-posed by [paper](https://openreview.net/forum?id=FOyuZ26emy).
-
-
 <a name="ssl" />
 
 ## Self-Supervised Learning
@@ -163,15 +151,6 @@ Notes: This is the first deep subspace clustering network, however, it has been 
 
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
-
-
-
-
-<a name="labelnoise" />
-
-## Learning with Label Noise
-
-1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
 
 
@@ -218,9 +197,72 @@ initialized dense network can be transformed into a trainable condition, where t
 
 
 
+<a name="mainfold" />
+
+## Manifold Learning
+
+
+
+
+<a name="sparseRepre" />
+
+## Sparse Representation
+
+
+
+<a name="LRR" />
+
+## Low-Rank Representation
+
+
+<a name="clustering" />
+
+## Clustering
+
+
+<a name="shallowClustering" />
+
+### Shallow Clustering
+
+
+1. **Large Scale Spectral Clustering with Landmark-Based Representation.** *Xinlei Chen et al, AAAI 2011.*  [[PDF]](http://www.cad.zju.edu.cn/home/dengcai/Publication/Conference/2011_AAAI-LSC.pdf)   
+Notes: This paper adopts anchor graph for spectral clustering.
+
+
+1. **Sparse Subspace Clustering: Algorithm, Theory, and Applications.** *Ehsan Elhamifar et al, IEEE TPAMI 2013.*  [[PDF]](https://ieeexplore.ieee.org/document/6482137)   
+Notes: This papers proposes **Sparse Subspace Clustering (SSC)** which introduces sparse representation into the subspace clustering problem, and define the **Self-Expressiveness** property: each data point in a union of subspaces can be efficiently reconstructed by a combination of other points in the dataset.
+
+
+1. **Clustering and projected clustering with adaptive neighbors.** *Feiping Nie et al, KDD 2014.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623726)   
+Notes: This paper proposes **Clustering with Adaptive Neighbors (CAN)** to learn the data similarity matrix and clustering structure simultaneously. It is worth noting that they present an effective method to determine the regularization parameter considering the locality of the data.
+
+
+
+<a name="deepclustering" />
+
+### Deep Clustering
+
+1. **A Critique of Self-Expressive Deep Subspace Clustering.** *Benjamin David Haeffele et al, ICLR 2021.*  [[PDF]](https://openreview.net/forum?id=FOyuZ26emy)    
+Notes: This papers show that many previous deep subspace networks are ill-posed, and their performance improvement is largely attributable to an ad-hoc post-processing step.
+
+1. **Deep Subspace Clustering Networks.** *Pan Ji et al, NIPS 2017.*  [[PDF]](https://arxiv.org/abs/1709.02508)   
+Notes: This is the first deep subspace clustering network, however, it has been proved to be ill-posed by [paper](https://openreview.net/forum?id=FOyuZ26emy).
+
+
+
+
+<a name="labelnoise" />
+
+## Learning with Label Noise
+
+1. **.** * et al, ICCV 2019.*  [[PDF]]()
+
+
+
+
 <a name="hashing" />
 
-## Hashing
+## Learning to Hash
 
 
 <a name="hashingSurvey" />
@@ -293,6 +335,11 @@ Notes: This paper proposes **Deep Anchor Graph Hashing (DAGH)**, which adopts an
 
 
 
+1. **Deep Cross-Modal Hashing.** *Qing-Yuan Jiang et al, CVPR 2017.*  [[PDF]](https://ieeexplore.ieee.org/document/9010953)   
+Notes: This paper proposes the first deep cross-modal hashing called **Deep Cross-Modal Hashing (DCMH)** which can be regarded as a cross-modal extension of [Deep Pairwise-Supervised Hashing (DPSH)](https://www.ijcai.org/Proceedings/16/Papers/245.pdf).
+
+
+
 
 
 <a name="DA" />
@@ -310,9 +357,65 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
+
+
+
+
+<a name="others" />
+
+## Others
+
+<a name="procrustes" />
+
+### Procrustes Problem
+
+
+1. **A Generalized Solution of the Orthogonal Procrustes Problem.** *Peter H. Schönemann, Psychometrika 1966.*  [[PDF]](https://web.stanford.edu/class/cs273/refs/procrustes.pdf)   
+Notes: This is a classical paper that proposes a generalized solution to the **Orthogonal Procrustes Problem**, which is applicable to the case where the matrices involved are of less than full column rank. 
+
+
+
+1. **<font color=blue>Generalized Embedding Regression: A Framework for Supervised Feature Extraction.</font>** *Jianglin Lu et al, IEEE TNNLS 2022.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9248650)   
+Notes: My first-author paper attempts to unify previous hand-crafted feature extraction methods in a **Generalized Embedding Regression (GER)** framework. Based on GER, a new supervised feature extraction method is further proposed, which adopts the penalty graph Laplacian as the constraint matrix of a generalized orthogonal constraint. We theoretically demonstrate that the resulted optimization subproblem is intrinsically an unbalanced Procrustes problem, and elaborately design an iterative algorithm to solve it with convergence guarantee. Although the topic is somewhat out-of-date, the optimization makes me excited.
+
+
+
+
+<a name="labelPropagation" />
+
+### Label Propagation
+
+1. **Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions** *Xiaojin Zhu, ICML 2003.*  [[PDF]](https://mlg.eng.cam.ac.uk/zoubin/papers/zgl.pdf)   
+Notes: 
+
+1. **Label Propagation Through Linear Neighborhoods** *Fei Wang, ICML 2006.*  [[PDF]](https://dl.acm.org/doi/10.1145/1143844.1143968)   
+Notes: 
+
+
+
+
+
+
+
+
+
+<a name="cur" />
+
+### CUR Decomposition
+
+1. **Joint Active Learning with Feature Selection via CUR Matrix Decomposition.** *Changsheng Li et al, IEEE TPAMI 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8367893)   
+Notes: This work performs sample selection and feature selection simulteneously based on CUR decomposition.
+
+
+1. **Robust CUR Decomposition: Theory and Imaging Applications.** *HanQin Cai et al, SIAM 2021.*  [[PDF]](https://arxiv.org/pdf/2101.05231.pdf)   
+Notes: This paper considers the use of Robust PCA in a CUR decomposition framework.
+
+
+
+
 <a name="matrixcompletion" />
 
-## Matrix Completion
+### Matrix Completion
 
 1. **Speedup Matrix Completion with Side Information: Application to Multi-Label Learning.** *Miao Xu et al, NIPS 2013.*  [[PDF]](https://proceedings.neurips.cc/paper/2013/file/e58cc5ca94270acaceed13bc82dfedf7-Paper.pdf)   
 Notes: This paper explicitly explores the side information of data for matrix completion, with which the number of observed entries needed for a perfect recovery of matrix M can be dramatically reduced from $O(n ln^2 n)$ to $O(ln n)$.
@@ -321,11 +424,3 @@ Notes: This paper explicitly explores the side information of data for matrix co
 1. **Graph Convolutional Matrix Completion.** *Rianne van den Berg et al, KDD 2018.*  [[PDF]](https://arxiv.org/pdf/1706.02263.pdf)   
 Notes: This paper considers matrix completion for recommender systems from the point of view of
 link prediction on graphs.
-
-
-<a name="cur" />
-
-## CUR Decomposition
-
-1. **Joint Active Learning with Feature Selection via CUR Matrix Decomposition.** *Changsheng Li et al, IEEE TPAMI 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8367893)   
-Notes: This work performs sample selection and feature selection simulteneously based on CUR decomposition.
