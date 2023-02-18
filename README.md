@@ -222,6 +222,7 @@ initialized dense network can be transformed into a trainable condition, where t
 
 
 <a name="shallowHash" />
+
 ### Shallow Hashing
 
 
@@ -263,6 +264,7 @@ Notes: This paper proposes **Fast Supervised Discrete Hashing (FSDH)** that regr
 
 
 <a name="deepHash" />
+
 ### Deep Hashing
 
 1. **Feature Learning based Deep Supervised Hashing with Pairwise Labels.** *Wu-Jun Li et al, IJCAI 2016.*  [[PDF]](https://www.ijcai.org/Proceedings/16/Papers/245.pdf)   
@@ -283,6 +285,7 @@ Notes: This paper proposes **Deep Anchor Graph Hashing (DAGH)**, which adopts an
 
 
 <a name="DA" />
+
 ## Domain Adaptation
 
 1. **Universal Domain Adaptation.** *Kaichao You et al, CVPR 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8954135)   
