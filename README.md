@@ -22,8 +22,8 @@ This is a collection of papers that inspire me a lot. Feel free to fork.
 - [Matrix completion](#matrixcompletion)
 - [Network Compression](#networkcompression)
   - [Pruning](#pruning)
-- [CUR Decomposition](cur)
-- [Vision Language Pretraining](VLP)
+- [CUR Decomposition](#cur)
+- [Vision Language Pretraining](#VLP)
 
 
 
