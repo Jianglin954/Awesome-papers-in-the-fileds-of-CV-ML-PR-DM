@@ -254,10 +254,10 @@ Notes: This paper proposes the first deep cross-modal hashing called **Deep Cros
 
 1. **Domain Adaptation under Target and Conditional Shift.** *Kun Zhang et al, ICML 2013.*  [[PDF]](http://proceedings.mlr.press/v28/zhang13d.pdf)   
 Notes: This paper exploits importance reweighting or sample transformation to find the learning machine that works well on test data, and propose to estimate the weights or transformations by reweighting or transforming training data to reproduce the covariate distribution on the test domain.
-A personal learning note of this paper can be seen at [PDF](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)
+A personal learning note of this paper can be seen in [My Personal Learning Notes](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf).
 
 1. **Domain Adaptation with Conditional Transferable Components.** *Mingming Gong et al, ICML 2016.*  [[PDF]](http://proceedings.mlr.press/v48/gong16.pdf)   
-Notes: This paper introduces. A personal learning note of this paper can be seen at [PDF](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)
+Notes: This paper introduces. A personal learning note of this paper can be seen in [My Personal Learning Notes](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf).
 
 1. **Universal Domain Adaptation.** *Kaichao You et al, CVPR 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8954135)   
 Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires no prior knowledge on the label sets of source and target domains.
