@@ -439,21 +439,21 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ### Survey
 
-1. **A Comprehensive Survey on Graph Neural Networks.** *Zonghan Wu et al, IEEE TNNLS 2021.* [paper](https://ieeexplore.ieee.org/document/9046288)
+1. **A Comprehensive Survey on Graph Neural Networks.** *Zonghan Wu et al, IEEE TNNLS 2021.* [[PDF]](https://ieeexplore.ieee.org/document/9046288)
 
 
 <a name="LGL" />
 
 ### Latent Graph Learning
 
-1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [paper](https://ieeexplore.ieee.org/document/9763421)
+1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421)
 
 
 <a name="wltest" />
 
 ### WL Test
 
-1. **Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning.** *Pan Li et al, NeurIPS 2020.* [paper](https://ieeexplore.ieee.org/document/9046288)
+1. **Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning.** *Pan Li et al, NeurIPS 2020.* [[PDF]](https://ieeexplore.ieee.org/document/9046288)
 
 
 
