@@ -482,8 +482,7 @@ Notes:
 
 1. **A Comprehensive Survey on Graph Neural Networks.** *Zonghan Wu et al, IEEE TNNLS 2021.* [[PDF]](https://ieeexplore.ieee.org/document/9046288)
 
-1. **Self-Supervised Learning of Graph Neural Networks: A Unified Review.** *Yaochen Xie et al, IEEE PAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.
-2. jsp?tp=&arnumber=9764632)  
+1. **Self-Supervised Learning of Graph Neural Networks: A Unified Review.** *Yaochen Xie et al, IEEE PAMI 2023.* [[PDF]](https://arxiv.org/pdf/2102.10757.pdf) [[Author]](https://ycremar.github.io/)  
 
 
 
