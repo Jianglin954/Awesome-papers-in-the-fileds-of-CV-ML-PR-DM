@@ -103,7 +103,7 @@ Notes:
 Notes:
 
 
-#### Resources
+### Resources
 
 1. **SLEP: Sparse Learning with Efficient Projections.** *Jun Liu et al, Arizona State University 2009.*  [[PDF]](https://media.gradebuddy.com/documents/411659/9e8ca2d6-1223-47a2-81b1-02c81e2f40ce.pdf) [[Resource]](http://www.yelabs.net/software/SLEP/) [[Author]](https://sites.google.com/site/junliupage/)  
 Notes: This paper develops a **Sparse Learning with Efficient Projections (SLEP)** package written in Matlab for sparse representation learning.
@@ -124,7 +124,7 @@ Notes: This paper develops a **Sparse Learning with Efficient Projections (SLEP)
 
 <a name="LRR" />
 
-## Low-Rank Representation
+## Low-Rank Representation [[Back to Top]](#Contents)
 
 1. **Robust Subspace Segmentation by Low-Rank Representation.** *Guangcan Liu et al, ICML 2010.*  [[PDF]](https://icml.cc/Conferences/2010/papers/521.pdf) [[Author]](https://sites.google.com/site/guangcanliu/)   
 Notes:
@@ -248,7 +248,7 @@ Notes: This paper proposes **Deep Anchor Graph Hashing (DAGH)**, which adopts an
 Notes: This paper proposes the first deep cross-modal hashing called **Deep Cross-Modal Hashing (DCMH)** which can be regarded as a cross-modal extension of [Deep Pairwise-Supervised Hashing (DPSH)](https://www.ijcai.org/Proceedings/16/Papers/245.pdf).
 
 
-#### Survey
+### Survey
 
 1. **A Survey on Learning to Hash.** *Jingdong Wang et al, IEEE TPAMI 2018.*  [[PDF]](https://ieeexplore.ieee.org/abstract/document/7915742) 
 
@@ -383,7 +383,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
-#### Survey
+### Survey
 
 
 1. **A Survey on Vision Transformer.** *Kai Han et al, IEEE TPAMI 2022.*  [[PDF]](https://ieeexplore.ieee.org/document/9716741)
@@ -478,7 +478,7 @@ Notes:
 
 
 
-#### Survey
+### Survey
 
 1. **A Comprehensive Survey on Graph Neural Networks.** *Zonghan Wu et al, IEEE TNNLS 2021.* [[PDF]](https://ieeexplore.ieee.org/document/9046288)
 
@@ -564,7 +564,7 @@ initialized dense network can be transformed into a trainable condition, where t
 
 
 
-#### Survey
+### Survey
 
 
 1. **Recent Advances on Neural Network Pruning at Initialization.** *Huan Wang et al, IJCAI 2022.*  [[PDF]](https://www.ijcai.org/proceedings/2022/786)  
