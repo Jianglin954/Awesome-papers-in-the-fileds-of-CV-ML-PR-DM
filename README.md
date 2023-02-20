@@ -1,9 +1,11 @@
-# Awesome papers in the fields of computer vision, machine learning, and data mining.
+# Awesome papers in the fields of computer vision, machine learning, pattern recognition, and data mining.
 
 
-![Paper Reading](https://img.shields.io/badge/PhD-PaperReading-green) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Paper Reading](https://img.shields.io/badge/PhD-Paper_Reading-green)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Paper Reading](https://img.shields.io/badge/Fields-CV_ML_PR_DM-blue)
 
-This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, and data mining (where the notes only represent my personal views). The collection will be continuously updated, so stay tuned. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
+This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, pattern recognition, and data mining (where the notes only represent my personal views). The collection will be continuously updated, so stay tuned. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
 
 
 ## Contents
@@ -46,7 +48,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [PAC Learning](#PACLearning)
   - [Quantum Computing](#quantumcomputing)
 - [Learning Sources](#learningsources)
-
+- [Acknowledgement](#acknowledgement)
 
 
 
@@ -881,3 +883,25 @@ link prediction on graphs.
 1. **Qiskit Machine Learning Documentation** [[Website]](https://qiskit.org/documentation/machine-learning/index.html)
 
 1. **Interpretable Machine Learning** [[Website]](https://christophm.github.io/interpretable-ml-book/)
+
+
+
+
+
+
+
+
+<a name="acknowledgement" />
+
+## Acknowledgement <a href="#top">[Back to Top]</a>
+
+<!-- I would like to express my most sincere appreciation to those who provided me with unwavering encouragement and insightful suggestions throughout the course of my research career.   
+
+[Yun Raymond Fu](http://www1.ece.neu.edu/~yunfu/)              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Jie Zhou]()                                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+[Alexander Lapin](https://kpfu.ru/Alexandr.Lapin?p_lang=2)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Pan Li](https://sites.google.com/view/panli-purdue/home)	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Xi-Zhao Wang](http://www.hebmlc.org/en/)                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Tongliang Liu](https://tongliang-liu.github.io/)              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+[Yudong Chen]()                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-->
