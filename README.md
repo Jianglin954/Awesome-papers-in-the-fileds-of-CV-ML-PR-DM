@@ -1,5 +1,9 @@
 # Awesome papers in the fields of computer vision, machine learning, and data mining.
 
+<a class="top-link hide" href="#toc">↑</a>
+<a name="toc"></a>
+
+
 ![Paper Reading](https://img.shields.io/badge/PhD-PaperReading-green) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, and data mining (where the notes only represent my personal views). The collection will be continuously updated, so stay tuned. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
@@ -878,3 +882,5 @@ link prediction on graphs.
 1. **PyTorch Lightning Documentation** [[Website]](https://pytorch-lightning.readthedocs.io/en/stable/)
 
 1. **Qiskit Machine Learning Documentation** [[Website]](https://qiskit.org/documentation/machine-learning/index.html)
+
+1. **Interpretable Machine Learning** [[Website]](https://christophm.github.io/interpretable-ml-book/)
