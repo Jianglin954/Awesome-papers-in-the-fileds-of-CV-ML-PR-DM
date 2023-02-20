@@ -53,7 +53,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 
 <a name="mainfold" />
 
-## Manifold Learning
+## Manifold Learning [[Back to Top]](#Contents)
 
 1. **A Global Geometric Framework for Nonlinear Dimensionality Reduction.** *Joshua B. Tenenbaum et al, Science 2000.*  [[PDF]](https://www.science.org/doi/10.1126/science.290.5500.2319) [[Author]](http://web.mit.edu/cocosci/josh.html)   
 Notes: This is a classical paper that proposes **Isometric Feature Mapping (ISOMAP)** for nonlinear dimensionality reduction, which contains three step including neighborhood graph construction, shortest paths computing, and low-dimensional embedding.
@@ -85,7 +85,7 @@ Notes: This paper proposes **Spectral Regression (SR)** for subspace learning, w
 
 <a name="sparseRepre" />
 
-## Sparse Representation
+## Sparse Representation [[Back to Top]](#Contents)
 
 1. **Regression Shrinkage and Selection Via the Lasso.** *Rob Tibshirani, Journal of the Royal Statistical Society 1996.*  [[PDF]](https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.2517-6161.1996.tb02080.x) [[Author]](http://tibshirani.su.domains/)   
 Notes: This is a classical paper that proposes **Least absolute shrinkage and selection operator (LASSO)** for linear regression, which minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. AKA L<sub>1</sub> penalty. 
@@ -156,7 +156,7 @@ Notes:
 
 <a name="clustering" />
 
-## Clustering
+## Clustering [[Back to Top]](#Contents)
 
 
 <a name="shallowClustering" />
@@ -197,7 +197,7 @@ Notes: This is the first deep subspace clustering network, however, it has been 
 
 <a name="hashing" />
 
-## Learning to Hash
+## Learning to Hash [[Back to Top]](#Contents)
 
 
 <a name="shallowHash" />
@@ -259,7 +259,7 @@ Notes: This paper proposes the first deep cross-modal hashing called **Deep Cros
 
 <a name="DA" />
 
-## Domain Adaptation
+## Domain Adaptation [[Back to Top]](#Contents)
 1. **My Personal Learning Notes on Domain Adaptation.** *Jianglin Lu.*  [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)  
 
 1. **Domain Adaptation under Target and Conditional Shift.** *Kun Zhang et al, ICML 2013.*  [[PDF]](http://proceedings.mlr.press/v28/zhang13d.pdf)   
@@ -317,7 +317,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 <a name="CNN" />
 
-## Convolutional Neural Network
+## Convolutional Neural Network [[Back to Top]](#Contents)
 
 
 
@@ -359,7 +359,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 <a name="Transformers" />
 
-## Transformers
+## Transformers [[Back to Top]](#Contents)
 
 
 
@@ -424,7 +424,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 <a name="GNN" />
 
-## Graph Neural Network
+## Graph Neural Network [[Back to Top]](#Contents)
 
 
 1. **My Personal Learning Notes on Graph Neural Network.** *Jianglin Lu.* [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_GNN.pdf)
@@ -520,7 +520,7 @@ Notes:
 
 <a name="networkcompression" />
 
-## Network Compression
+## Network Compression [[Back to Top]](#Contents)
 
 
 
@@ -583,7 +583,7 @@ Notes: This is the first survey on pruning at initialization.
 
 <a name="labelnoise" />
 
-## Learning with Label Noise
+## Learning with Label Noise [[Back to Top]](#Contents)
 
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
@@ -618,7 +618,7 @@ Notes: This is the first survey on pruning at initialization.
 
 <a name="ssl" />
 
-## Self-Supervised Learning
+## Self-Supervised Learning [[Back to Top]](#Contents)
 
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
@@ -658,12 +658,12 @@ Notes: This is the first survey on pruning at initialization.
 
 <a name="llv" />
 
-## Low-Level Vision
+## Low-Level Vision [[Back to Top]](#Contents)
 
 
 <a name="HDR" />
 
-## High Dynamic Range Imaging
+### High Dynamic Range Imaging
 
 1. **Ghost-free High Dynamic Range Imaging with Context-Aware Transformer.** *Zhen Liu et al, ECCV 2022.*  [[PDF]](https://arxiv.org/abs/2208.05114)   
 Notes: This is the first work that introduces Transformer for HDR imaging. 
@@ -672,7 +672,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
-### Survey 
+#### Survey 
 
 1. **Deep Learning for HDR Imaging: State-of-the-Art and Future Trends.** *Lin Wang et al, IEEE TPAMI 2021.*  [[PDF]](https://arxiv.org/pdf/2110.10394.pdf) [[Author]](https://addisonwang2013.github.io/vlislab/linwang.html)   
  
@@ -683,14 +683,14 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="ImageSR" />
 
-## Image Super-Resolution
+### Image Super-Resolution
 
 
 
 
 <a name="ImageLLE" />
 
-## Image Low-Light Enhancement
+### Image Low-Light Enhancement
 
 
 
@@ -711,7 +711,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="VLP" />
 
-## Vision Language Pretraining 
+## Vision Language Pretraining [[Back to Top]](#Contents)
 
 
 1. **Learning Transferable Visual Models From Natural Language Supervision.** *Alec Radford et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/radford21a/radford21a.pdf)
@@ -737,7 +737,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="pointcloud" />
 
-## Point Cloud
+## Point Cloud [[Back to Top]](#Contents)
 
 1. **Dynamic Graph CNN for Learning on Point Clouds.** *Yue Wang et al, ACM TOG 2019.*  [[PDF]](https://dl.acm.org/doi/10.1145/3326362)
 
@@ -754,7 +754,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="cause" />
 
-## Causal Inference
+## Causal Inference [[Back to Top]](#Contents)
 
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
@@ -779,7 +779,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="others" />
 
-## Others
+## Others [[Back to Top]](#Contents)
 
 
 
@@ -865,7 +865,7 @@ link prediction on graphs.
 
 <a name="learningsources" />
 
-## Learning Sources
+## Learning Sources [[Back to Top]](#Contents)
 
 1. **UvA Deep Learning Tutorials.** [[Website]](https://uvadlc-notebooks.readthedocs.io/en/latest/index.html)   
 
