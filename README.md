@@ -1,8 +1,5 @@
 # Awesome papers in the fields of computer vision, machine learning, and data mining.
 
-<a class="top-link hide" href="#toc">↑</a>
-<a name="toc"></a>
-{{TOC:2-5}} 
 
 ![Paper Reading](https://img.shields.io/badge/PhD-PaperReading-green) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -57,7 +54,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 
 <a name="mainfold" />
 
-## Manifold Learning [[Back to Top]](#Contents)
+## Manifold Learning [[Back to Top]](#)
 
 1. **A Global Geometric Framework for Nonlinear Dimensionality Reduction.** *Joshua B. Tenenbaum et al, Science 2000.*  [[PDF]](https://www.science.org/doi/10.1126/science.290.5500.2319) [[Author]](http://web.mit.edu/cocosci/josh.html)   
 Notes: This is a classical paper that proposes **Isometric Feature Mapping (ISOMAP)** for nonlinear dimensionality reduction, which contains three step including neighborhood graph construction, shortest paths computing, and low-dimensional embedding.
@@ -89,7 +86,7 @@ Notes: This paper proposes **Spectral Regression (SR)** for subspace learning, w
 
 <a name="sparseRepre" />
 
-## Sparse Representation [[Back to Top]](#Contents)
+## Sparse Representation [[Back to Top]](#)
 
 1. **Regression Shrinkage and Selection Via the Lasso.** *Rob Tibshirani, Journal of the Royal Statistical Society 1996.*  [[PDF]](https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.2517-6161.1996.tb02080.x) [[Author]](http://tibshirani.su.domains/)   
 Notes: This is a classical paper that proposes **Least absolute shrinkage and selection operator (LASSO)** for linear regression, which minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. AKA L<sub>1</sub> penalty. 
@@ -128,7 +125,7 @@ Notes: This paper develops a **Sparse Learning with Efficient Projections (SLEP)
 
 <a name="LRR" />
 
-## Low-Rank Representation [[Back to Top]](#Contents)
+## Low-Rank Representation [[Back to Top]](#)
 
 1. **Robust Subspace Segmentation by Low-Rank Representation.** *Guangcan Liu et al, ICML 2010.*  [[PDF]](https://icml.cc/Conferences/2010/papers/521.pdf) [[Author]](https://sites.google.com/site/guangcanliu/)   
 Notes:
@@ -160,7 +157,7 @@ Notes:
 
 <a name="clustering" />
 
-## Clustering [[Back to Top]](#Contents)
+## Clustering [[Back to Top]](#)
 
 
 <a name="shallowClustering" />
@@ -201,7 +198,7 @@ Notes: This is the first deep subspace clustering network, however, it has been 
 
 <a name="hashing" />
 
-## Learning to Hash [[Back to Top]](#Contents)
+## Learning to Hash [[Back to Top]](#)
 
 
 <a name="shallowHash" />
@@ -263,7 +260,7 @@ Notes: This paper proposes the first deep cross-modal hashing called **Deep Cros
 
 <a name="DA" />
 
-## Domain Adaptation [[Back to Top]](#Contents)
+## Domain Adaptation [[Back to Top]](#)
 1. **My Personal Learning Notes on Domain Adaptation.** *Jianglin Lu.*  [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)  
 
 1. **Domain Adaptation under Target and Conditional Shift.** *Kun Zhang et al, ICML 2013.*  [[PDF]](http://proceedings.mlr.press/v28/zhang13d.pdf)   
@@ -321,7 +318,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 <a name="CNN" />
 
-## Convolutional Neural Network [[Back to Top]](#Contents)
+## Convolutional Neural Network [[Back to Top]](#)
 
 
 
@@ -363,7 +360,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 <a name="Transformers" />
 
-## Transformers [[Back to Top]](#Contents)
+## Transformers [[Back to Top]](#)
 
 
 
@@ -428,7 +425,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 <a name="GNN" />
 
-## Graph Neural Network [[Back to Top]](#Contents)
+## Graph Neural Network [[Back to Top]](#)
 
 
 1. **My Personal Learning Notes on Graph Neural Network.** *Jianglin Lu.* [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_GNN.pdf)
@@ -524,7 +521,7 @@ Notes:
 
 <a name="networkcompression" />
 
-## Network Compression [[Back to Top]](#Contents)
+## Network Compression [[Back to Top]](#)
 
 
 
@@ -587,7 +584,7 @@ Notes: This is the first survey on pruning at initialization.
 
 <a name="labelnoise" />
 
-## Learning with Label Noise [[Back to Top]](#Contents)
+## Learning with Label Noise [[Back to Top]](#)
 
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
@@ -622,7 +619,7 @@ Notes: This is the first survey on pruning at initialization.
 
 <a name="ssl" />
 
-## Self-Supervised Learning [[Back to Top]](#Contents)
+## Self-Supervised Learning [[Back to Top]](#)
 
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
@@ -662,7 +659,7 @@ Notes: This is the first survey on pruning at initialization.
 
 <a name="llv" />
 
-## Low-Level Vision [[Back to Top]](#Contents)
+## Low-Level Vision [[Back to Top]](#)
 
 
 <a name="HDR" />
@@ -715,7 +712,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="VLP" />
 
-## Vision Language Pretraining [[Back to Top]](#Contents)
+## Vision Language Pretraining [[Back to Top]](#)
 
 
 1. **Learning Transferable Visual Models From Natural Language Supervision.** *Alec Radford et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/radford21a/radford21a.pdf)
@@ -741,7 +738,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="pointcloud" />
 
-## Point Cloud [[Back to Top]](#Contents)
+## Point Cloud [[Back to Top]](#)
 
 1. **Dynamic Graph CNN for Learning on Point Clouds.** *Yue Wang et al, ACM TOG 2019.*  [[PDF]](https://dl.acm.org/doi/10.1145/3326362)
 
@@ -758,7 +755,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="cause" />
 
-## Causal Inference [[Back to Top]](#Contents)
+## Causal Inference [[Back to Top]](#)
 
 1. **.** * et al, ICCV 2019.*  [[PDF]]()
 
@@ -783,7 +780,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 <a name="others" />
 
-## Others [[Back to Top]](#Contents)
+## Others [[Back to Top]](#)
 
 
 
@@ -869,7 +866,7 @@ link prediction on graphs.
 
 <a name="learningsources" />
 
-## Learning Sources [[Back to Top]](#Contents)
+## Learning Sources [[Back to Top]](#)
 
 1. **UvA Deep Learning Tutorials.** [[Website]](https://uvadlc-notebooks.readthedocs.io/en/latest/index.html)   
 
