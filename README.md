@@ -866,7 +866,7 @@ link prediction on graphs.
 
 <a name="learningsources" />
 
-## Learning Sources <a href="#top">[Back to top]</a>
+## Learning Sources <a href="#top">[Back to Top]</a>
 
 1. **UvA Deep Learning Tutorials.** [[Website]](https://uvadlc-notebooks.readthedocs.io/en/latest/index.html)   
 
