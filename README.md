@@ -2,7 +2,7 @@
 
 ![Paper Reading](https://img.shields.io/badge/PhD-PaperReading-green) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, and data mining. The notes only represent my personal views. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
+This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, and data mining (where the notes only represent my personal views). The collection will be continuously updated, so stay tuned. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
 
 
 ## Contents
@@ -42,9 +42,9 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Procrustes Problem](#procrustes)
   - [CUR Decomposition](#cur)
   - [Matrix Completion](#matrixcompletion)
-
-
-
+  - [PAC Learning](#PACLearning)
+  - [Quantum Computing](#quantumcomputing)
+- [Learning Sources](#learningsources)
 
 
 
@@ -260,14 +260,13 @@ Notes: This paper proposes the first deep cross-modal hashing called **Deep Cros
 <a name="DA" />
 
 ## Domain Adaptation
-
+1. **My Personal Learning Notes on Domain Adaptation.** *Jianglin Lu.*  [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)  
 
 1. **Domain Adaptation under Target and Conditional Shift.** *Kun Zhang et al, ICML 2013.*  [[PDF]](http://proceedings.mlr.press/v28/zhang13d.pdf)   
 Notes: This paper exploits importance reweighting or sample transformation to find the learning machine that works well on test data, and propose to estimate the weights or transformations by reweighting or transforming training data to reproduce the covariate distribution on the test domain.
-A personal learning note of this paper can be seen in [[My Personal Learning Notes]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf).
 
 1. **Domain Adaptation with Conditional Transferable Components.** *Mingming Gong et al, ICML 2016.*  [[PDF]](http://proceedings.mlr.press/v48/gong16.pdf)   
-Notes: This paper introduces. A personal learning note of this paper can be seen in [[My Personal Learning Notes]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf).
+Notes:
 
 1. **Universal Domain Adaptation.** *Kaichao You et al, CVPR 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8954135)   
 Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires no prior knowledge on the label sets of source and target domains.
@@ -428,6 +427,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 ## Graph Neural Network
 
 
+1. **My Personal Learning Notes on Graph Neural Network.** *Jianglin Lu.* [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_GNN.pdf)
 
 
 
@@ -671,6 +671,16 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
+
+### Survey 
+
+1. **Deep Learning for HDR Imaging: State-of-the-Art and Future Trends.** *Lin Wang et al, IEEE TPAMI 2021.*  [[PDF]](https://arxiv.org/pdf/2110.10394.pdf) [[Author]](https://addisonwang2013.github.io/vlislab/linwang.html)   
+ 
+
+
+
+
+
 <a name="ImageSR" />
 
 ## Image Super-Resolution
@@ -827,3 +837,44 @@ Notes: This paper explicitly explores the side information of data for matrix co
 1. **Graph Convolutional Matrix Completion.** *Rianne van den Berg et al, KDD 2018.*  [[PDF]](https://arxiv.org/pdf/1706.02263.pdf)   
 Notes: This paper considers matrix completion for recommender systems from the point of view of
 link prediction on graphs.
+
+
+
+
+
+
+<a name="PACLearning" />
+
+### Probably Approximately Correct (PAC) Learning
+
+
+
+
+
+<a name="quantumcomputing" />
+
+### Quantum Computing
+
+1. **My Personal Learning Notes on Quantum Computing.** *Jianglin Lu.* [[PDF]](https://jianglin954.github.io/files/Quantum%20Computing.pdf)
+
+
+
+
+
+
+
+<a name="learningsources" />
+
+## Learning Sources
+
+1. **UvA Deep Learning Tutorials.** [[Website]](https://uvadlc-notebooks.readthedocs.io/en/latest/index.html)   
+
+1. **PyTorch Image Models (timm) Documentation** [[Website]](https://github.com/rwightman/pytorch-image-models)
+
+1. **PyTorch Geometric (PyG) Documentation** [[Website]](https://pytorch-geometric.readthedocs.io/en/latest/)
+
+1. **Deep Graph Library (DGL) Tutorials and Documentation** [[Website]](https://docs.dgl.ai/en/latest/)
+
+1. **PyTorch Lightning Documentation** [[Website]](https://pytorch-lightning.readthedocs.io/en/stable/)
+
+1. **Qiskit Machine Learning Documentation** [[Website]](https://qiskit.org/documentation/machine-learning/index.html)
