@@ -19,6 +19,8 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Shallow Hashing](#shallowHash)
   - [Deep Hashing](#deepHash)
 - [Domain Adaptation](#DA)
+  - [Shallow Domain Adaptation](#shallowDA)
+  - [Deep Domain Adaptation](#deepDA)
 - [Convolutional Neural Network](#CNN)
 - [Transformers](#Transformers)
   - [Vision Transformers](#ViT)
@@ -34,6 +36,9 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Network Quantization](#quantization)
   - [Low-Rank Factorization](#LRF)
 - [Learning with Label Noise](#labelnoise)
+  - [Statistically Inconsistent Classifiers](#SICnoise)
+  - [Statistically Consistent Classifiers](#SCCnoise)
+- [Contrastive Learning](#CLR)
 - [Low-Level Vision](#llv)
   - [High Dynamic Range Imaging](#HDR)
   - [Image Super-Resolution](#ImageSR)
@@ -46,6 +51,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [CUR Decomposition](#cur)
   - [Matrix Completion](#matrixcompletion)
   - [PAC Learning](#PACLearning)
+  - [Optimization Methods](#Optimization)
   - [Quantum Computing](#quantumcomputing)
 - [Learning Sources](#learningsources)
 - [Acknowledgement](#acknowledgement)
@@ -260,10 +266,57 @@ Notes: This paper proposes the first deep cross-modal hashing called **Deep Cros
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="DA" />
 
 ## Domain Adaptation [[Back to Top]](#)
+
 1. **My Personal Learning Notes on Domain Adaptation.** *Jianglin Lu.*  [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)  
+
+
+
+<a name="shallowDA" />
+
+### Shallow Domain Adaptation
 
 1. **Domain Adaptation under Target and Conditional Shift.** *Kun Zhang et al, ICML 2013.*  [[PDF]](http://proceedings.mlr.press/v28/zhang13d.pdf) [[Author]](https://www.andrew.cmu.edu/user/kunz1/index.html)    
 Notes: This paper exploits importance reweighting or sample transformation to find the learning machine that works well on test data, and propose to estimate the weights or transformations by reweighting or transforming training data to reproduce the covariate distribution on the test domain.
@@ -271,8 +324,21 @@ Notes: This paper exploits importance reweighting or sample transformation to fi
 1. **Domain Adaptation with Conditional Transferable Components.** *Mingming Gong et al, ICML 2016.*  [[PDF]](http://proceedings.mlr.press/v48/gong16.pdf) [[Author]](https://mingming-gong.github.io/)    
 Notes:
 
+
+
+
+
+
+<a name="deepDA" />
+
+### Deep Domain Adaptation
+
 1. **Universal Domain Adaptation.** *Kaichao You et al, CVPR 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8954135) [[Author]](https://youkaichao.github.io/about)   
 Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires no prior knowledge on the label sets of source and target domains.
+
+
+
+
 
 
 
@@ -360,6 +426,19 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="Transformers" />
 
 ## Transformers [[Back to Top]](#)
@@ -390,6 +469,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 1. **A Survey on Vision Transformer.** *Kai Han et al, IEEE TPAMI 2022.*  [[PDF]](https://ieeexplore.ieee.org/document/9716741) [[Author]](https://scholar.google.com/citations?user=vThoBVcAAAAJ&hl=en&oi=sra)
+
 
 
 
@@ -527,6 +607,19 @@ Notes:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="networkcompression" />
 
 ## Network Compression [[Back to Top]](#)
@@ -590,10 +683,69 @@ Notes: This is the first survey on pruning at initialization.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="labelnoise" />
 
 ## Learning with Label Noise [[Back to Top]](#)
 
+
+
+<a name="SCCnoise" />
+
+### Statistically Consistent Classifiers
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+<a name="SICnoise" />
+
+### Statistically Inconsistent Classifiers
+
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
@@ -625,11 +777,67 @@ Notes: This is the first survey on pruning at initialization.
 
 
 
-<a name="ssl" />
 
-## Self-Supervised Learning [[Back to Top]](#)
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="CLR" />
+
+## Contrastive Learning [[Back to Top]](#)
+
+1. **A Simple Framework for Contrastive Learning of Visual Representations.** *Ting Chen et al, ICML 2020.*  [[PDF]](http://proceedings.mlr.press/v119/chen20j/chen20j.pdf) [[Author]](https://scholar.google.com/citations?user=KoXUMbsAAAAJ&hl=en)   
+Notes: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -689,7 +897,6 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
-
 <a name="ImageSR" />
 
 ### Image Super-Resolution
@@ -700,6 +907,41 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 <a name="ImageLLE" />
 
 ### Image Low-Light Enhancement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -744,6 +986,35 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="pointcloud" />
 
 ## Point Cloud [[Back to Top]](#)
@@ -761,11 +1032,50 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="cause" />
 
 ## Causal Inference [[Back to Top]](#)
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -856,15 +1166,43 @@ link prediction on graphs.
 
 ### Probably Approximately Correct (PAC) Learning
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
+
+<a name="Optimization" />
+
+### Optimization Methods
+
+1. **Optimization Methods for Large-Scale Machine Learning.** *L ́eon Bottou et al, SIAM 2018.*  [[PDF]](https://epubs.siam.org/doi/epdf/10.1137/16M1080173) [[Author]](https://leon.bottou.org/start)   
+Notes: This paper provides a review and commentary on the past, present, and future of numeri-cal optimization algorithms in the context of machine learning applications. 
 
 <a name="quantumcomputing" />
 
 ### Quantum Computing
 
 1. **My Personal Learning Notes on Quantum Computing.** *Jianglin Lu.* [[PDF]](https://jianglin954.github.io/files/Quantum%20Computing.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
