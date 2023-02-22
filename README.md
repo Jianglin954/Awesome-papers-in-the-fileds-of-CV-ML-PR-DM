@@ -28,6 +28,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 - [Graph Neural Network](#GNN)
   - [Spectral-based GNN](#SpectralGNN)
   - [Spatial-based GNN](#SpatialGNN)
+  - [Graph Pooling](#GraphPooling)
   - [Latent Graph Learning](#LGL) 
   - [Self-Supervised GNN](#SSLGNN) 
   - [Weisfeiler-Lehman Test](#wltest)
@@ -608,20 +609,26 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
+<a name="GraphPooling" />
+
+### Graph Pooling
+
+
 <a name="LGL" />
 
-### Latent Graph Learning (aka, graph structure learning)
+### Latent Graph Learning (AKA, Graph Structure Learning)
 
 1. **Adaptive Graph Convolutional Neural Networks.** *Ruoyu Li et al, AAAI 2018.* [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11691) [[Author]](https://scholar.google.co.uk/citations?user=S23gEPsAAAAJ&hl=en)  
 Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. required identical graph structure shared among inputs; C. fixed graph constructed without training; d. incapability of learning from topological structure. This paper proposes **Adaptive Graph Convolution Network (AGCN)** that feeds on original data of diverse graph structures. AGCN seems to be designed primarily for graph classification. Besides, AGCN needs an initial graph and suffers from the limitation of transductive models as described in [paper](https://ieeexplore.ieee.org/document/9763421).
     
-1. **Semi-Supervised Learning With Graph Learning-Convolutional Networks.** *Bo Jiang et al, .*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) [[Author]](https://scholar.google.com/citations?user=n-aTwuMAAAAJ&hl=zh-CN)   
+1. **Semi-Supervised Learning With Graph Learning-Convolutional Networks.** *Bo Jiang et al, CVPR 2019.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) [[Author]](https://scholar.google.com/citations?user=n-aTwuMAAAAJ&hl=zh-CN)   
 Notes: 
 
-1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, .*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
+1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
 Notes: 
 
 
+1. **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings.** *Yu Chen et al, NeurIPS 2020.* [[PDF]](https://proceedings.neurips.cc/paper/2020/file/e05c7ba4e087beea9410929698dc41a6-Paper.pdf) [[Author]](http://academic.hugochan.net/) 
 
 
 
