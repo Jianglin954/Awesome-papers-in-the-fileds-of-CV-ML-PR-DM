@@ -9,7 +9,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 
 
 ## Contents
-- [Manifold Learning](#mainfold)
+- [Manifold Learning](#Manifold)
 - [Sparse Representation](#sparseRepre)
 - [Low-Rank Representation](#LRR)
 - [Clustering](#clustering)
@@ -26,6 +26,8 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Vision Transformers](#ViT)
   - [Graph Transformers](#GraphTransformers)
 - [Graph Neural Network](#GNN)
+  - [Spectral-based GNN](#SpectralGNN)
+  - [Spatial-based GNN](#SpatialGNN)
   - [Latent Graph Learning](#LGL) 
   - [Self-Supervised GNN](#SSLGNN) 
   - [Weisfeiler-Lehman Test](#wltest)
@@ -60,7 +62,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 
 
 
-<a name="mainfold" />
+<a name="Manifold" />
 
 ## Manifold Learning [[Back to Top]](#)
 
@@ -68,9 +70,9 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 Notes: This is a classical paper that proposes **Isometric Feature Mapping (ISOMAP)** for nonlinear dimensionality reduction, which contains three step including neighborhood graph construction, shortest paths computing, and low-dimensional embedding.
 
 1. **Nonlinear Dimensionality Reduction by Locally Linear Embedding.** *Sam T. Roweis et al, Science 2000.*  [[PDF]](https://www.science.org/doi/10.1126/science.290.5500.2323)  [[Author]](https://cs.nyu.edu/~roweis/)   
-Notes: This is a classical paper that proposes **Locally Linear Embedding (LLE)** for nonlinear dimensionality reduction, which, being different from ISOMAP, assumes that each data point and its neighbors lie on or close to a locally linear patch of the mainfold. The local geometry of these patches is characterized by linear coefficients that reconstruct each data point from its neighbors. 
+Notes: This is a classical paper that proposes **Locally Linear Embedding (LLE)** for nonlinear dimensionality reduction, which, being different from ISOMAP, assumes that each data point and its neighbors lie on or close to a locally linear patch of the manifold. The local geometry of these patches is characterized by linear coefficients that reconstruct each data point from its neighbors. 
 
-1. **Laplacian Eigenmaps for Dimensionality Reduction and Data Representation.** *Mikhail Belkin et al, Neural Computation 2003.*  [[PDF]](https://ieeexplore.ieee.org/abstract/document/6789755) [[Author]](http://misha.belkin-wang.org/)    
+1. **Laplacian Eigenmaps for Dimensionality Reduction and Data Representation.** *Mikhail Belkin et al, Neural Computation 2003.*  [[PDF]](https://www2.imm.dtu.dk/projects/manifold/Papers/Laplacian.pdf) [[Author]](http://misha.belkin-wang.org/)    
 Notes: This is a classical paper that proposes **Laplacian Eigenmaps (LE)** for nonlinear dimensionality reduction and data representation, which uses the notion of Laplacian of the graph to compute a low-dimensional representation of the data set that optimally preserves local neighborhood information in a certain sense.
 
 1. **Locality Preserving Projections.** *Xiaofei He et al, NIPS 2003.*  [[PDF]](https://proceedings.neurips.cc/paper/2003/file/d69116f8b0140cdeb1f99a4d5096ffe4-Paper.pdf) [[Author]](http://www.cad.zju.edu.cn/home/xiaofeihe/)   
@@ -92,6 +94,32 @@ Notes: This paper proposes **Spectral Regression (SR)** for subspace learning, w
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="sparseRepre" />
 
 ## Sparse Representation [[Back to Top]](#)
@@ -100,7 +128,7 @@ Notes: This paper proposes **Spectral Regression (SR)** for subspace learning, w
 Notes: This is a classical paper that proposes **Least absolute shrinkage and selection operator (LASSO)** for linear regression, which minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. AKA L<sub>1</sub> penalty. 
 
 1. **Regularization and Variable Selection via the Elastic Net.** *Hui Zou et al, Journal of the royal statistical society 2005.*  [[PDF]](https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1467-9868.2005.00503.x) [[Author]](http://users.stat.umn.edu/~zouxx019/)   
-Notes: This paper proposes **Elastic Net** for regularization and variable selection, which encourages a grouping effect where strongly correlated predictors tend to be in or out of the model together. The Elastic Net combines L<sub>2</sub> and L<sub>1</sub> regularizations together, and can be viewed as a generalization of LASSO.
+Notes: This paper proposes **Elastic Net** for regularization and variable selection, which encourages a grouping effect where strongly correlated predictors tend to be in or out of the model together. The Elastic Net combines L<sub>2</sub> regularization and L<sub>1</sub> regularization together, and can be viewed as a generalization of LASSO.
 
 1. **Sparse Principal Component Analysis.** *Hui Zou et al, Journal of Computational and Graphical Statistics 2006.*  [[PDF]](https://hastie.su.domains/Papers/spc_jcgs.pdf) [[Author]](http://users.stat.umn.edu/~zouxx019/)   
 Notes: This paper proposes **Sparse Principal Component Analysis (SPCA)** that introduces the LASSO or Elastic Net into Principal Component Analysis (PCA) to produce modified principal components with sparse loadings. It formulates PCA as a regression-type optimization problem and then obtains sparse loadings by imposing the LASSO or Elastic Net constraint on the regression coefficients. The Theorem 4 of **Reduced Rank Procrustes Rotation** is useful. 
@@ -131,6 +159,34 @@ Notes: This paper develops a **Sparse Learning with Efficient Projections (SLEP)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="LRR" />
 
 ## Low-Rank Representation [[Back to Top]](#)
@@ -143,6 +199,34 @@ Notes:
 
 1. **The Augmented Lagrange Multiplier Method for Exact Recovery of Corrupted Low-Rank Matrices.** *Zhouchen Lin et al, arXiv 2013.*  [[PDF]](https://arxiv.org/abs/1009.5055) [[Author]](https://zhouchenlin.github.io/)   
 Notes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -246,7 +330,7 @@ Notes: This paper proposes **Fast Supervised Discrete Hashing (FSDH)** that regr
 1. **Feature Learning based Deep Supervised Hashing with Pairwise Labels.** *Wu-Jun Li et al, IJCAI 2016.*  [[PDF]](https://www.ijcai.org/Proceedings/16/Papers/245.pdf) [[Author]](https://cs.nju.edu.cn/lwj/index.htm)  
 Notes: This paper proposes the first deep hashing method called **Deep Pairwise-Supervised Hashing (DPSH)** for applications with pairwise labels, which can perform simultaneous feature learning and hash-code learning. This paper can be regarded as a deep learning extension of [Latent Factor Hashing (LFH)](https://dl.acm.org/doi/pdf/10.1145/2600428.2609600).
 
-1. **Asymmetric Deep Supervised Hashing.** *Qing-Yuan Jiang et al, AAAI 2018.*  [[PDF]](https://arxiv.org/abs/1707.08325) [[]](https://jiangqy.github.io/)   
+1. **Asymmetric Deep Supervised Hashing.** *Qing-Yuan Jiang et al, AAAI 2018.*  [[PDF]](https://arxiv.org/abs/1707.08325) [[Author]](https://jiangqy.github.io/)   
 Notes: This paper proposes the first asymmetric deep hashing method called **Asymmetric Deep Supervised Hashing(ADSH)**, which can treats query points and database points in an asymmetric way. Specifically, ADSH learns a deep hash function only for query points while the hash codes for
 database points are directly learned.
 
@@ -310,7 +394,7 @@ Notes: This paper proposes the first deep cross-modal hashing called **Deep Cros
 
 ## Domain Adaptation [[Back to Top]](#)
 
-1. **My Personal Learning Notes on Domain Adaptation.** *Jianglin Lu.*  [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)  
+1. **My Personal Learning Notes on Domain Adaptation.** *Jianglin Lu.*  [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-PR-DM/files/Introduction_of_Two_Domain_Adaptation_Methods.pdf)  
 
 
 
@@ -454,19 +538,13 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 1. **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows.** *Ze Liu et al, ICCV 2021.*  [[PDF]](https://ieeexplore.ieee.org/document/9710580) [[Author]](https://zeliu98.github.io/)
 
 
-
-
 <a name="GraphTransformers" />
 
 ### Graph Transformers
 
 1. **Graph Transformer Networks.** *Seongjun Yun et al, NeurIPS 2019.*  [[PDF]](https://arxiv.org/abs/1911.06455) [[Author]](https://scholar.google.com/citations?user=8-MZ2RwAAAAJ&hl=en)
 
-
-
-
 ### Survey
-
 
 1. **A Survey on Vision Transformer.** *Kai Han et al, IEEE TPAMI 2022.*  [[PDF]](https://ieeexplore.ieee.org/document/9716741) [[Author]](https://scholar.google.com/citations?user=vThoBVcAAAAJ&hl=en&oi=sra)
 
@@ -510,21 +588,42 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 ## Graph Neural Network [[Back to Top]](#)
 
 
-1. **My Personal Learning Notes on Graph Neural Network.** *Jianglin Lu.* [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-DM/files/Introduction_of_GNN.pdf) 
+1. **My Personal Learning Notes on Graph Neural Network.** *Jianglin Lu.* [[PDF]](https://jianglin954.github.io/Awesome-papers-in-the-fileds-of-CV-ML-PR-DM/files/Introduction_of_GNN.pdf) 
+
+
+
+<a name="SpectralGNN" />
+
+### Spectral-based GNN
+
+
+
+
+<a name="SpatialGNN" />
+
+### Spatial-based GNN
+
 
 
 
 <a name="LGL" />
 
-### Latent Graph Learning
+### Latent Graph Learning (aka, graph structure learning)
 
+
+1. **Adaptive Graph Convolutional Neural Networks.** *Ruoyu Li et al, AAAI 2018.* [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11691) [[Author]](https://scholar.google.co.uk/citations?user=S23gEPsAAAAJ&hl=en)  
+Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. required identical graph structure shared among inputs; C. fixed graph constructed without training; d. incapability of learning from topological structure. This paper proposes **Adaptive Graph Convolution Network (AGCN)** that feeds on original data of diverse graph structures. AGCN seems to be designed primarily for graphic classification tasks. Besides, AGCN needs an initial graph and suffers from the limitation of transductive models as described in [paper](https://ieeexplore.ieee.org/document/9763421). 
+
+
+    
 
 1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/) 
 
 
 
 
-1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)
+1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)   
+Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
 
@@ -569,13 +668,11 @@ Notes:
 
 ### Survey
 
+1. **Geometric Deep Learning: Going beyond Euclidean Data.** *Michael Bronstein et al, IEEE SPM 2017.* [[PDF]](https://ieeexplore.ieee.org/abstract/document/7974879) [[Author]](https://www.cs.ox.ac.uk/people/michael.bronstein/) 
+
 1. **A Comprehensive Survey on Graph Neural Networks.** *Zonghan Wu et al, IEEE TNNLS 2021.* [[PDF]](https://ieeexplore.ieee.org/document/9046288) [[Author]](https://scholar.google.com/citations?user=SzH0tgMAAAAJ&hl=en&oi=sra)
 
-1. **Self-Supervised Learning of Graph Neural Networks: A Unified Review.** *Yaochen Xie et al, IEEE PAMI 2023.* [[PDF]](https://arxiv.org/pdf/2102.10757.pdf) [[Author]](https://ycremar.github.io/)  
-
-
-
-
+1. **Self-Supervised Learning of Graph Neural Networks: A Unified Review.** *Yaochen Xie et al, IEEE TPAMI 2023.* [[PDF]](https://arxiv.org/pdf/2102.10757.pdf) [[Author]](https://ycremar.github.io/)  
 
 
 
@@ -1138,7 +1235,7 @@ Notes:
 ### CUR Decomposition
 
 1. **Joint Active Learning with Feature Selection via CUR Matrix Decomposition.** *Changsheng Li et al, IEEE TPAMI 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8367893) [[Author]](https://cs.bit.edu.cn/szdw/jsml/gjjgccrc/lcs_e253eb02bdf246c4a88e1d2499212546/index.htm)   
-Notes: This work performs sample selection and feature selection simulteneously based on CUR decomposition.
+Notes: This work performs sample selection and feature selection simultaneously based on CUR decomposition.
 
 1. **Robust CUR Decomposition: Theory and Imaging Applications.** *HanQin Cai et al, SIAM 2021.*  [[PDF]](https://arxiv.org/pdf/2101.05231.pdf) [[Author]](https://hqcai.org/)   
 Notes: This paper considers the use of Robust PCA in a CUR decomposition framework.
@@ -1176,7 +1273,7 @@ link prediction on graphs.
 ### Optimization Methods
 
 1. **Optimization Methods for Large-Scale Machine Learning.** *L ́eon Bottou et al, SIAM 2018.*  [[PDF]](https://epubs.siam.org/doi/epdf/10.1137/16M1080173) [[Author]](https://leon.bottou.org/start)   
-Notes: This paper provides a review and commentary on the past, present, and future of numeri-cal optimization algorithms in the context of machine learning applications. 
+Notes: This paper provides a review and commentary on the past, present, and future of numerical optimization algorithms in the context of machine learning applications. 
 
 <a name="quantumcomputing" />
 
