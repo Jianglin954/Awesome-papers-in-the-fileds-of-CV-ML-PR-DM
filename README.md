@@ -258,7 +258,7 @@ Notes:
 ### Shallow Clustering
 
 1. **Large Scale Spectral Clustering with Landmark-Based Representation.** *Xinlei Chen et al, AAAI 2011.*  [[PDF]](http://www.cad.zju.edu.cn/home/dengcai/Publication/Conference/2011_AAAI-LSC.pdf) [[Author]](https://xinleic.xyz/)   
-Notes: This paper adopts anchor graph for spectral clustering.
+Notes: This paper adopts an **Anchor Graph** for spectral clustering.
 
 1. **Sparse Subspace Clustering: Algorithm, Theory, and Applications.** *Ehsan Elhamifar et al, IEEE TPAMI 2013.*  [[PDF]](https://ieeexplore.ieee.org/document/6482137) [[Author]](https://khoury.northeastern.edu/home/eelhami/)   
 Notes: This papers proposes **Sparse Subspace Clustering (SSC)** which introduces sparse representation into the subspace clustering problem, and define the **Self-Expressiveness** property: each data point in a union of subspaces can be efficiently reconstructed by a combination of other points in the dataset.
@@ -336,7 +336,7 @@ Notes: This paper proposes the first asymmetric deep hashing method called **Asy
 database points are directly learned.
 
 1. **Deep Supervised Hashing with Anchor Graph.** *Yudong Chen et al, ICCV 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/9010953) [[Author]]()    
-Notes: This paper proposes **Deep Anchor Graph Hashing (DAGH)**, which adopts an anchor graph to learn the hash codes of the whole training samples directly during training. Since in different epochs the anchors used are different, the entire training samples will be trained if given enough epochs. This paper can also be regarded as an asymmetric deep hashing method. 
+Notes: This paper proposes **Deep Anchor Graph Hashing (DAGH)**, which adopts an **Anchor Graph** to learn the hash codes of the whole training samples directly during training. Since in different epochs the anchors used are different, the entire training samples will be trained if given enough epochs. This paper can also be regarded as an asymmetric deep hashing method. 
 
 1. **Deep Cross-Modal Hashing.** *Qing-Yuan Jiang et al, CVPR 2017.*  [[PDF]](https://ieeexplore.ieee.org/document/9010953) [[Author]](https://jiangqy.github.io/)   
 Notes: This paper proposes the first deep cross-modal hashing called **Deep Cross-Modal Hashing (DCMH)** which can be regarded as a cross-modal extension of [Deep Pairwise-Supervised Hashing (DPSH)](https://www.ijcai.org/Proceedings/16/Papers/245.pdf).
@@ -424,8 +424,13 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
+### Survey
+
+1. **A Survey on Transfer Learning.** *Sinno Jialin Pan et al, IEEE TKDE 2010.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5288526) [[Author]](http://www.cse.cuhk.edu.hk/~sinnopan/) 
 
 
+
+1. **A Comprehensive Survey on Transfer Learning.** *Fuzhen Zhuang et al, Proceedings of the IEEE 2021.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9134370) [[Author]](https://fuzhenzhuang.github.io/index.html) 
 
 
 
@@ -597,7 +602,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ### Spectral-based GNN
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 <a name="SpatialGNN" />
@@ -605,7 +610,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 ### Spatial-based GNN
 
 
-[//]:1. **Adaptive Sampling Towards Fast Graph Representation Learning.** *Wenbing Huang et al, NeurIPS 2018.* [[PDF]](https://proceedings.neurips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf) [[Author]](https://gsai.ruc.edu.cn/addons/teacher/index/info.html?user_id=31&ruccode=ADIIMVRnBzFXMFdnVTAIOw%3D%3D&ln=en) 
+1. **Adaptive Sampling Towards Fast Graph Representation Learning.** *Wenbing Huang et al, NeurIPS 2018.* [[PDF]](https://proceedings.neurips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf) [[Author]](https://gsai.ruc.edu.cn/addons/teacher/index/info.html?user_id=31&ruccode=ADIIMVRnBzFXMFdnVTAIOw%3D%3D&ln=en) 
 
 
 
@@ -624,11 +629,20 @@ Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. requi
 1. **Semi-Supervised Learning With Graph Learning-Convolutional Networks.** *Bo Jiang et al, CVPR 2019.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) [[Author]](https://scholar.google.com/citations?user=n-aTwuMAAAAJ&hl=zh-CN)   
 Notes: 
 
+1. **Large Scale Graph Learning from Smooth Signals.** *Vassilis Kalofolias et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1710.05654.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
+Notes:  
+
 1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
-Notes: 
+Notes: A bilevel program is given by: $\min_{\theta, \omega_{\theta}}F(\omega_{\theta}, \theta)$ such that $\omega_{\theta} \in \arg \min_{\omega} L(\omega, \theta)$.
 
 
-1. **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings.** *Yu Chen et al, NeurIPS 2020.* [[PDF]](https://proceedings.neurips.cc/paper/2020/file/e05c7ba4e087beea9410929698dc41a6-Paper.pdf) [[Author]](http://academic.hugochan.net/) 
+1. **Graph Structure Learning for Robust Graph Neural Networks** *Wei Jin et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Author]](http://cse.msu.edu/~jinwei2/)   
+Notes:
+
+
+
+1. **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings.** *Yu Chen et al, NeurIPS 2020.* [[PDF]](https://proceedings.neurips.cc/paper/2020/file/e05c7ba4e087beea9410929698dc41a6-Paper.pdf) [[Author]](http://academic.hugochan.net/)  
+Notes: This paper proposes **Iterative Deep Graph Learning (IDGL)** that learns graph structure and graph embedding simultaneously. The graph learning problem is transferred as a similarity metric learning problem and an adaptive graph regularization is leveraged (assume that the optimized graph structure is potentially a shift from the initial graph structure). IDGL adopts multi-head self-attention with $\epsilon$-neighborhood sparsification for graph construction. An **Anchor Graph** based version is also proposed and the corresponding node-anchor message passing strategy is provided. IDGL works on (semi-)supervised tasks and needs an initial $kNN$ graph construction.
 
 
 
@@ -688,8 +702,7 @@ Notes:
 
 1. **Self-Supervised Learning of Graph Neural Networks: A Unified Review.** *Yaochen Xie et al, IEEE TPAMI 2023.* [[PDF]](https://arxiv.org/pdf/2102.10757.pdf) [[Author]](https://ycremar.github.io/)  
 
-
-
+1. **A Survey on Graph Structure Learning: Progress and Opportunities.** *Yanqiao Zhu et al, arXiv 2022.* [[PDF]](https://arxiv.org/pdf/2103.03036.pdf) [[Author]](https://sxkdz.github.io/) 
 
 
 
