@@ -609,6 +609,9 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ### Spatial-based GNN
 
+1. **Inductive Representation Learning on Large Graphs.** *William L. Hamilton et al, NeurIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf) [[Author]](https://www.cs.mcgill.ca/~wlh/)   
+Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive node embedding.
+
 
 1. **Adaptive Sampling Towards Fast Graph Representation Learning.** *Wenbing Huang et al, NeurIPS 2018.* [[PDF]](https://proceedings.neurips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf) [[Author]](https://gsai.ruc.edu.cn/addons/teacher/index/info.html?user_id=31&ruccode=ADIIMVRnBzFXMFdnVTAIOw%3D%3D&ln=en) 
 
@@ -617,6 +620,13 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 <a name="GraphPooling" />
 
 ### Graph Pooling
+
+1. **Hierarchical Graph Representation Learning with Differentiable Pooling.** *Rex Ying et al, NeurIPS 2018.*  [[PDF]](https://proceedings.neurips.cc/paper/2018/file/e77dbaf6759253c7c6d0efc5690369c7-Paper.pdf) [[Author]](https://cs.stanford.edu/people/rexy/)
+
+
+
+
+
 
 
 <a name="LGL" />
@@ -630,14 +640,14 @@ Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. requi
 Notes: 
 
 1. **Large Scale Graph Learning from Smooth Signals.** *Vassilis Kalofolias et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1710.05654.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
-Notes:  
+Notes: This papers uses approximate nearest neighbor techniques for large scale graph learning from smooth signals.  
 
 1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
-Notes: A bilevel program is given by: $\min_{\theta, \omega_{\theta}}F(\omega_{\theta}, \theta)$ such that $\omega_{\theta} \in \arg \min_{\omega} L(\omega, \theta)$.
+Notes: This paper proposes **Learning Discrete Structures (LDS)** to learn the graph structure and the parameters of GCNs by approximately solving a bilevel program that learns a discrete probability distribution of the edges of the graph. Given two objective functions $F$ and $L$, the outer and inner objectives, and two sets of variables, $\theta \in \mathcal{R}^{m}$ and $\omega \in \mathcal{R}^{d}$, the outer and inner variables, a **Bilevel Program** is given by: $\min_{\theta, \omega_{\theta}}F(\omega_{\theta}, \theta)$ such that $\omega_{\theta} \in \arg \min_{\omega} L(\omega, \theta)$. LDS only works in the transductive setting and the graph topology learned cannot be controlled due to the sampling strategy. 
 
 
 1. **Graph Structure Learning for Robust Graph Neural Networks** *Wei Jin et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Author]](http://cse.msu.edu/~jinwei2/)   
-Notes:
+Notes: This paper proposes **Property GNN (Pro-GNN)** that explores graph properties of sparsity, low rank and feature smoothness to defend adversarial attacks. Pro-GNN simultaneously learns the clean graph structure from perturbed graph and GNN parameters to defend against adversarial attacks. This paper assumes that the graph structure has already been perturbed before training GNNs while the node features are not changed.
 
 
 
@@ -1246,7 +1256,7 @@ Notes: My first-author paper attempts to unify previous hand-crafted feature ext
 1. **Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions** *Xiaojin Zhu, ICML 2003.*  [[PDF]](https://mlg.eng.cam.ac.uk/zoubin/papers/zgl.pdf) [[Author]](https://pages.cs.wisc.edu/~jerryzhu/)   
 Notes: 
 
-1. **Label Propagation Through Linear Neighborhoods** *Fei Wang, ICML 2006.*  [[PDF]](https://dl.acm.org/doi/10.1145/1143844.1143968) [[Author]](https://wcm-wanglab.github.io/index.html)   
+1. **Label Propagation Through Linear Neighborhoods** *Fei Wang, ICML 2006.*  [[PDF]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a7cd9ab6aaabf54350554f3f64c0bf19f85e65e5) [[Author]](https://wcm-wanglab.github.io/index.html)   
 Notes: 
 
 
@@ -1276,6 +1286,9 @@ Notes: This paper considers the use of Robust PCA in a CUR decomposition framewo
 
 1. **Speedup Matrix Completion with Side Information: Application to Multi-Label Learning.** *Miao Xu et al, NIPS 2013.*  [[PDF]](https://proceedings.neurips.cc/paper/2013/file/e58cc5ca94270acaceed13bc82dfedf7-Paper.pdf) [[Author]](https://researchers.uq.edu.au/researcher/26509)   
 Notes: This paper explicitly explores the side information of data for matrix completion, with which the number of observed entries needed for a perfect recovery of matrix M can be dramatically reduced from $O(n \ln^2 n)$ to $O(\ln n)$.
+
+
+1. **Matrix Completion on Graphs.** *Vassilis Kalofolias et al, arXiv 2014.*  [[PDF]](https://arxiv.org/pdf/1408.1717.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
 
 1. **Graph Convolutional Matrix Completion.** *Rianne van den Berg et al, KDD 2018.*  [[PDF]](https://arxiv.org/pdf/1706.02263.pdf) [[Author]](https://www.microsoft.com/en-us/research/people/rvandenberg/)   
 Notes: This paper considers matrix completion for recommender systems from the point of view of
