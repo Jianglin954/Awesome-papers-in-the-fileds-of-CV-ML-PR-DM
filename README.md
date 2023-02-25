@@ -34,6 +34,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [GNN Pre-training](#GNNPreTrain)
   - [GNN Adversarial Attacks](#GNNAA) 
   - [GNN Pruning](#GNNpruning)
+  - [Graph Domain Adaptation](#GraphDA)
   - [Weisfeiler-Lehman Test](#wltest)
   - [Deeper GNN](#deeperGNN)
 - [Network Compression](#networkcompression)
@@ -723,6 +724,14 @@ Notes:
  
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
+
+
+<a name="GraphDA" />
+
+### GNN Domain Adaptation
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
