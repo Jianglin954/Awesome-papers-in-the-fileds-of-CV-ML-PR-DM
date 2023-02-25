@@ -30,7 +30,10 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Spatial-based GNN](#SpatialGNN)
   - [Graph Pooling](#GraphPooling)
   - [Latent Graph Learning](#LGL) 
-  - [Self-Supervised GNN](#SSLGNN) 
+  - [Self-Supervised GNN](#SSLGNN)
+  - [GNN Pre-training](#GNNPreTrain)
+  - [GNN Adversarial Attacks](#GNNAA) 
+  - [GNN Pruning](#GNNpruning)
   - [Weisfeiler-Lehman Test](#wltest)
   - [Deeper GNN](#deeperGNN)
 - [Network Compression](#networkcompression)
@@ -478,7 +481,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ## Convolutional Neural Network [[Back to Top]](#)
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -602,7 +605,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ### Spectral-based GNN
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Graph Attention Networks.** *Petar Veličković et al, ICLR 2018.*  [[PDF]](https://arxiv.org/abs/1710.10903) [[Author]](https://petar-v.com/)
 
 
 <a name="SpatialGNN" />
@@ -615,6 +618,11 @@ Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive no
 
 1. **Adaptive Sampling Towards Fast Graph Representation Learning.** *Wenbing Huang et al, NeurIPS 2018.* [[PDF]](https://proceedings.neurips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf) [[Author]](https://gsai.ruc.edu.cn/addons/teacher/index/info.html?user_id=31&ruccode=ADIIMVRnBzFXMFdnVTAIOw%3D%3D&ln=en) 
 
+
+1. **Grale: Designing Networks for Graph Learning.** *Jonathan Halcrow et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403302) [[Author]](https://scholar.google.com/citations?user=2zZucy4AAAAJ&hl=en&oi=ao)   
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 <a name="GraphPooling" />
@@ -633,11 +641,18 @@ Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive no
 
 ### Latent Graph Learning (AKA, Graph Structure Learning)
 
+1. **Deep Convolutional Networks on Graph-Structured Data.** *Mikael Henaff et al, arXiv 2015.*  [[PDF]](https://arxiv.org/pdf/1506.05163.pdf) [[Author]](http://www.mikaelhenaff.net/)   
+Notes: 
+
 1. **Adaptive Graph Convolutional Neural Networks.** *Ruoyu Li et al, AAAI 2018.* [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11691) [[Author]](https://scholar.google.co.uk/citations?user=S23gEPsAAAAJ&hl=en)  
 Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. required identical graph structure shared among inputs; C. fixed graph constructed without training; d. incapability of learning from topological structure. This paper proposes **Adaptive Graph Convolution Network (AGCN)** that feeds on original data of diverse graph structures. AGCN seems to be designed primarily for graph classification. Besides, AGCN needs an initial graph and suffers from the limitation of transductive models as described in [paper](https://ieeexplore.ieee.org/document/9763421).
+
+1. **Topology Optimization based Graph Convolutional Network.** *Liang Yang et al, IJCAI 2019.*  [[PDF]](https://www.ijcai.org/proceedings/2019/0563.pdf) [[Author]](http://yangliang.github.io/)   
+Notes: 
+
     
 1. **Semi-Supervised Learning With Graph Learning-Convolutional Networks.** *Bo Jiang et al, CVPR 2019.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) [[Author]](https://scholar.google.com/citations?user=n-aTwuMAAAAJ&hl=zh-CN)   
-Notes: 
+Notes: This paper proposes **Graph Learning-Convolutional Network (GLCN)** for semi-supervised task, which integrates both graph learning and graph convolution in a unified network architecture such that both given and estimated labels are incorporated to provide weakly supervised information for graph structure refinement. The graph learning function is similar to **Graph Attention Networks** ([paper](https://arxiv.org/abs/1710.10903)) and the graph learning loss is similar to **Clustering with Adaptive Neighbors (CAN)** ([paper](https://dl.acm.org/doi/pdf/10.1145/2623330.2623726)). The graph learned in the sense of probability is dense and lack sparse structure.
 
 1. **Large Scale Graph Learning from Smooth Signals.** *Vassilis Kalofolias et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1710.05654.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
 Notes: This papers uses approximate nearest neighbor techniques for large scale graph learning from smooth signals.  
@@ -645,27 +660,24 @@ Notes: This papers uses approximate nearest neighbor techniques for large scale 
 1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
 Notes: This paper proposes **Learning Discrete Structures (LDS)** to learn the graph structure and the parameters of GCNs by approximately solving a bilevel program that learns a discrete probability distribution of the edges of the graph. Given two objective functions $F$ and $L$, the outer and inner objectives, and two sets of variables, $\theta \in \mathcal{R}^{m}$ and $\omega \in \mathcal{R}^{d}$, the outer and inner variables, a **Bilevel Program** is given by: $\min_{\theta, \omega_{\theta}}F(\omega_{\theta}, \theta)$ such that $\omega_{\theta} \in \arg \min_{\omega} L(\omega, \theta)$. LDS only works in the transductive setting and the graph topology learned cannot be controlled due to the sampling strategy. 
 
-
 1. **Graph Structure Learning for Robust Graph Neural Networks** *Wei Jin et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Author]](http://cse.msu.edu/~jinwei2/)   
 Notes: This paper proposes **Property GNN (Pro-GNN)** that explores graph properties of sparsity, low rank and feature smoothness to defend adversarial attacks. Pro-GNN simultaneously learns the clean graph structure from perturbed graph and GNN parameters to defend against adversarial attacks. This paper assumes that the graph structure has already been perturbed before training GNNs while the node features are not changed.
-
-
 
 1. **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings.** *Yu Chen et al, NeurIPS 2020.* [[PDF]](https://proceedings.neurips.cc/paper/2020/file/e05c7ba4e087beea9410929698dc41a6-Paper.pdf) [[Author]](http://academic.hugochan.net/)  
 Notes: This paper proposes **Iterative Deep Graph Learning (IDGL)** that learns graph structure and graph embedding simultaneously. The graph learning problem is transferred as a similarity metric learning problem and an adaptive graph regularization is leveraged (assume that the optimized graph structure is potentially a shift from the initial graph structure). IDGL adopts multi-head self-attention with $\epsilon$-neighborhood sparsification for graph construction. An **Anchor Graph** based version is also proposed and the corresponding node-anchor message passing strategy is provided. IDGL works on (semi-)supervised tasks and needs an initial $kNN$ graph construction.
 
+1. **Latent-Graph Learning for Disease Prediction.** *Luca Cosmo et al, MICCAI 2020.*  [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59713-9_62) [[Author]](https://www.dsi.unive.it/~cosmo/)   
+Notes: This paper proposes an end-to-end trainable graph learning architecture that automatically learns to predict an underlying patients-graph. The edge weight is learned through a sigmoid-like function with two trainable parameters. This method can work in inductive setting since it does not directly optimize a graph for a given population but rather learn a function that predicts the graph from input features. The graph learned is directly used only in a classification loss without any regularization. Besides, the global threshold and the Euclidean space embedding may not be necessarily optimal. 
 
-
-1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/) 
-
-
+1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/)  
+Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Parameters with Self-supervision (SLAPS)** for semi-supervised classification, which provides more supervision for inferring a graph structure through self-supervision. The authors also identify a **Supervision Starvation** problem in latent graph learning: To solve this, a multi-task learning framework is designed by supplementing the classification task with a self-supervised task (which is based on the hypothesis that a graph structure is suitable for predicting the node feature is also suitable for predicting the node labels). 
 
 1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)   
 Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 <a name="SSLGNN" />
@@ -674,7 +686,34 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 
 
 1. **Self-Supervised Representation Learning via Latent Graph Prediction.** *Yaochen Xie et al, ICML 2022.* [[PDF]](https://arxiv.org/pdf/2202.08333.pdf) [[Author]](https://ycremar.github.io/)   
-Notes: This paper proposes **LaGraph**, a predictive SSL framework for representation learning of graph data, based on self-supervised latent graph prediction. It makes two assumptions: a. the observed feature vector of each node in an obsereved graph is independently generated from a certain distribution conditioned on the corresponding latent graph; b. the conditional distribution of the observed graph is centered at the latent graph. 
+Notes: This paper proposes **LaGraph**, a predictive SSL framework for representation learning of graph data, based on self-supervised latent graph prediction. It makes two assumptions: a. the observed feature vector of each node in an observed graph is independently generated from a certain distribution conditioned on the corresponding latent graph; b. the conditional distribution of the observed graph is centered at the latent graph. 
+
+
+
+<a name="GNNPreTrain" />
+
+### GNN Pre-Training
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+<a name="GNNAA" />
+
+### GNN Adversarial Attacks
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+<a name="GNNpruning" />
+
+### GNN Pruning
+
+1. **A Unified Lottery Ticket Hypothesis for Graph Neural Networks.** *Tianlong Chen et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/chen21p/chen21p.pdf) [[Author]](https://tianlong-chen.github.io/about/)  
+Notes:
+
+ 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -686,7 +725,7 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 1. **Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning.** *Pan Li et al, NeurIPS 2020.* [[PDF]](https://ieeexplore.ieee.org/document/9046288) [[Author]](https://sites.google.com/view/panli-purdue/home)
 
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -698,7 +737,7 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 1. **Towards Deeper Graph Neural Networks.** *Meng Liu et al, KDD 2020.* [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403076) [[Author]](https://mengliu1998.github.io/)   
 Notes: 
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -778,7 +817,7 @@ initialized dense network can be transformed into a trainable condition, where t
 
 ### Knowledge Distillation
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -788,7 +827,7 @@ initialized dense network can be transformed into a trainable condition, where t
 
 ### Network Quantization
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -797,7 +836,7 @@ initialized dense network can be transformed into a trainable condition, where t
 
 ### Low-Rank Factorization
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 ### Survey
@@ -1035,14 +1074,14 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 ### Image Super-Resolution
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 <a name="ImageLLE" />
 
 ### Image Low-Light Enhancement
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1102,7 +1141,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 1. **Learning Transferable Visual Models From Natural Language Supervision.** *Alec Radford et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/radford21a/radford21a.pdf) [[Author]](https://scholar.google.com/citations?user=dOad5HoAAAAJ&hl=en)
 
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
