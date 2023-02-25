@@ -36,8 +36,10 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [GNN Pruning](#GNNpruning)
   - [Graph Domain Adaptation](#GraphDomainAdaptation)
   - [Graph Data Augmentation](#GraphDataAugmentation)
+  - [Graph Generation](#GraphGeneration)
   - [Weisfeiler-Lehman Test](#wltest)
   - [Deeper GNN](#deeperGNN)
+- [Diffusion Models](#DiffusionModels)
 - [Network Compression](#networkcompression)
   - [Pruning](#pruning)
   - [Knowledge Distillation](#knowDistil)
@@ -720,6 +722,8 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 
 1. **Strategies for Pre-training Graph Neural Networks.** *Weihua Hu et al, ICLR 2020.*  [[PDF]](https://arxiv.org/pdf/1905.12265.pdf) [[Author]](https://weihua916.github.io/)
 
+1. **GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training.** *Jiezhong Qiu et al, KDD 2020.*  [[PDF]](https://arxiv.org/pdf/2006.09963.pdf) [[Author]](http://jiezhongqiu.com/)
+
 
 
 <a name="GNNAA" />
@@ -743,7 +747,7 @@ Notes:
 
 <a name="GraphDomainAdaptation" />
 
-### GNN Domain Adaptation
+### Graph Domain Adaptation
 
 
 1. **Graph Domain Adaptation via Theory-Grounded Spectral Regularization.** Yuning You* et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=OysfLgrk8mk) [[Author]](https://yyou1996.github.io/)
@@ -755,6 +759,19 @@ Notes:
 ### Graph Data Augmentation
 
 1. **Local Augmentation for Graph Neural Networks.** *Songtao Liu et al, ICML 2022.*  [[PDF]](https://arxiv.org/pdf/2109.03856.pdf) [[Author]](https://songtaoliu0823.github.io/)
+
+
+
+<a name="GraphGeneration" />
+
+### Graph Generation
+
+[Graph Generation](#GraphGeneration)
+
+1. **A Survey on Deep Graph Generation: Methods and Applications.** *Yanqiao Zhu et al, LoG 2022.*  [[PDF]](https://arxiv.org/pdf/2203.06714.pdf) [[Author]](https://sxkdz.github.io/)
+
+
+1. **Generative Diffusion Models on Graphs: Methods and Applications.** *Wenqi Fan et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2302.02591.pdf) [[Author]](https://wenqifan03.github.io/)
 
 
 
@@ -803,12 +820,17 @@ Notes:
 
 
 
+<a name="DiffusionModels" />
+
+## Diffusion Models [[Back to Top]](#)
 
 
 
 
 
+### Survey 
 
+1. **Diffusion Models in Vision: A Survey.** *Florinel-Alin Croitoru et al, TPAMI 2022.*  [[PDF]](https://arxiv.org/pdf/2209.04747.pdf) [[Author]](https://scholar.google.com/citations?user=RyD1dScAAAAJ&hl=zh-CN&oi=sra)
 
 
 
@@ -1367,6 +1389,11 @@ Notes: This paper explicitly explores the side information of data for matrix co
 
 
 1. **Matrix Completion on Graphs.** *Vassilis Kalofolias et al, arXiv 2014.*  [[PDF]](https://arxiv.org/pdf/1408.1717.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
+
+
+1. **Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks.** *Federico Monti et al, NeurIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/2eace51d8f796d04991c831a07059758-Paper.pdf) [[Author]](https://scholar.google.com/citations?hl=en&user=NUdNFucAAAAJ)
+
+
 
 1. **Graph Convolutional Matrix Completion.** *Rianne van den Berg et al, KDD 2018.*  [[PDF]](https://arxiv.org/pdf/1706.02263.pdf) [[Author]](https://www.microsoft.com/en-us/research/people/rvandenberg/)   
 Notes: This paper considers matrix completion for recommender systems from the point of view of
