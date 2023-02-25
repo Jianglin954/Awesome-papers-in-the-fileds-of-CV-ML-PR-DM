@@ -768,6 +768,11 @@ Notes:
 
 [Graph Generation](#GraphGeneration)
 
+1. **Fast Graph Generation via Spectral Diffusion.** *Tianze Luo et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2211.08892.pdf) [[Author]](https://www.linkedin.com/in/tianze-luo-40720a82/)
+
+
+
+
 1. **A Survey on Deep Graph Generation: Methods and Applications.** *Yanqiao Zhu et al, LoG 2022.*  [[PDF]](https://arxiv.org/pdf/2203.06714.pdf) [[Author]](https://sxkdz.github.io/)
 
 
