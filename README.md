@@ -702,7 +702,7 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 ### Self-Supervised GNN
 
 1. **Graph Contrastive Learning with Augmentations.** *Yuning You et al, NeurIPS 2020.*  [[PDF]]() [[Author]]()
-2. 
+
 1. **When Does Self-Supervision Help Graph Convolutional Networks?** *Yuning You et al, ICML 2020.*  [[PDF]]() [[Author]]()
 
 1. **Self-Supervised Representation Learning via Latent Graph Prediction.** *Yaochen Xie et al, ICML 2022.* [[PDF]](https://arxiv.org/pdf/2202.08333.pdf) [[Author]](https://ycremar.github.io/)   
@@ -718,7 +718,7 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 
 ### GNN Pre-Training
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Strategies for Pre-training Graph Neural Networks.** *Weihua Hu et al, ICLR 2020.*  [[PDF]](https://arxiv.org/pdf/1905.12265.pdf) [[Author]](https://weihua916.github.io/)
 
 
 
@@ -762,10 +762,9 @@ Notes:
 
 ### Weisfeiler-Lehman Test
 
+1. **How Powerful are Graph Neural Networks?** *Keyulu Xu et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1810.00826.pdf) [[Author]](https://people.csail.mit.edu/keyulux/)
+
 1. **Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning.** *Pan Li et al, NeurIPS 2020.* [[PDF]](https://ieeexplore.ieee.org/document/9046288) [[Author]](https://sites.google.com/view/panli-purdue/home)
-
-
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
