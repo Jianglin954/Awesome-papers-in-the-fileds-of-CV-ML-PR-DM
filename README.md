@@ -34,7 +34,8 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [GNN Pre-training](#GNNPreTrain)
   - [GNN Adversarial Attacks](#GNNAA) 
   - [GNN Pruning](#GNNpruning)
-  - [Graph Domain Adaptation](#GraphDA)
+  - [Graph Domain Adaptation](#GraphDomainAdaptation)
+  - [Graph Data Augmentation](#GraphDataAugmentation)
   - [Weisfeiler-Lehman Test](#wltest)
   - [Deeper GNN](#deeperGNN)
 - [Network Compression](#networkcompression)
@@ -623,6 +624,12 @@ Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive no
 1. **Grale: Designing Networks for Graph Learning.** *Jonathan Halcrow et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403302) [[Author]](https://scholar.google.com/citations?user=2zZucy4AAAAJ&hl=en&oi=ao)   
 
 
+1. **Graph Neural Networks with Adaptive Residual.** *Xiaorui Liu et al, NeurIPS 202.*  [[PDF]](https://proceedings.neurips.cc/paper/2021/file/50abc3e730e36b387ca8e02c26dc0a22-Paper.pdf) [[Author]]()
+
+
+
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
@@ -644,6 +651,10 @@ Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive no
 
 1. **Deep Convolutional Networks on Graph-Structured Data.** *Mikael Henaff et al, arXiv 2015.*  [[PDF]](https://arxiv.org/pdf/1506.05163.pdf) [[Author]](http://www.mikaelhenaff.net/)   
 Notes: 
+
+1. **A Quest for Structure: Jointly Learning the Graph Structure and Semi-Supervised Classification.** *Xuan Wu et al, CIKM 2018.*  [[PDF]](https://arxiv.org/pdf/1909.12385.pdf) [[Author]]()
+
+
 
 1. **Adaptive Graph Convolutional Neural Networks.** *Ruoyu Li et al, AAAI 2018.* [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11691) [[Author]](https://scholar.google.co.uk/citations?user=S23gEPsAAAAJ&hl=en)  
 Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. required identical graph structure shared among inputs; C. fixed graph constructed without training; d. incapability of learning from topological structure. This paper proposes **Adaptive Graph Convolution Network (AGCN)** that feeds on original data of diverse graph structures. AGCN seems to be designed primarily for graph classification. Besides, AGCN needs an initial graph and suffers from the limitation of transductive models as described in [paper](https://ieeexplore.ieee.org/document/9763421).
@@ -697,6 +708,10 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 1. **Self-Supervised Representation Learning via Latent Graph Prediction.** *Yaochen Xie et al, ICML 2022.* [[PDF]](https://arxiv.org/pdf/2202.08333.pdf) [[Author]](https://ycremar.github.io/)   
 Notes: This paper proposes **LaGraph**, a predictive SSL framework for representation learning of graph data, based on self-supervised latent graph prediction. It makes two assumptions: a. the observed feature vector of each node in an observed graph is independently generated from a certain distribution conditioned on the corresponding latent graph; b. the conditional distribution of the observed graph is centered at the latent graph. 
 
+1. **Automated Self-Supervised Learning for Graphs.** *Wei Jin et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2106.05470.pdf) [[Author]]()
+
+
+
 
 
 <a name="GNNPreTrain" />
@@ -726,12 +741,20 @@ Notes:
 
 
 
-<a name="GraphDA" />
+<a name="GraphDomainAdaptation" />
 
 ### GNN Domain Adaptation
 
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Graph Domain Adaptation via Theory-Grounded Spectral Regularization.** Yuning You* et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=OysfLgrk8mk) [[Author]](https://yyou1996.github.io/)
+
+
+
+<a name="GraphDataAugmentation" />
+
+### Graph Data Augmentation
+
+1. **Local Augmentation for Graph Neural Networks.** *Songtao Liu et al, ICML 2022.*  [[PDF]](https://arxiv.org/pdf/2109.03856.pdf) [[Author]](https://songtaoliu0823.github.io/)
 
 
 
