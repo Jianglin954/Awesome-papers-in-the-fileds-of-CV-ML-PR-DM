@@ -712,7 +712,7 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 1. **Self-Supervised Representation Learning via Latent Graph Prediction.** *Yaochen Xie et al, ICML 2022.* [[PDF]](https://arxiv.org/pdf/2202.08333.pdf) [[Author]](https://ycremar.github.io/)   
 Notes: This paper proposes **LaGraph**, a predictive SSL framework for representation learning of graph data, based on self-supervised latent graph prediction. It makes two assumptions: a. the observed feature vector of each node in an observed graph is independently generated from a certain distribution conditioned on the corresponding latent graph; b. the conditional distribution of the observed graph is centered at the latent graph. 
 
-1. **Automated Self-Supervised Learning for Graphs.** *Wei Jin et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2106.05470.pdf) [[Author]]()
+1. **Automated Self-Supervised Learning for Graphs.** *Wei Jin et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2106.05470.pdf) [[Author]](http://cse.msu.edu/~jinwei2/)
 
 
 
@@ -732,7 +732,15 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 
 ### GNN Adversarial Attacks
 
+
+1. **Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective.** *Kaidi Xu et al, IJCAI 2019.*  [[PDF]](https://arxiv.org/pdf/1906.04214.pdf) [[Author]](https://kaidixu.com/)
+
+1. **Empowering Graph Representation Learning with Test-Time Graph Transformation.** *Wei Jin et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=Lnxl5pr018) [[Author]](http://cse.msu.edu/~jinwei2/)
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
 
 
 <a name="GNNpruning" />
