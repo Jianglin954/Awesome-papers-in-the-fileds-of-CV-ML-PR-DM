@@ -620,6 +620,9 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive node embedding.
 
 
+1. **Deeper Insights Into Graph Convolutional Networks for Semi-Supervised Learning.** *Qimai Li et al, AAAI 2018.*  [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11604) [[Author]](https://liqimai.github.io/)
+
+
 1. **Adaptive Sampling Towards Fast Graph Representation Learning.** *Wenbing Huang et al, NeurIPS 2018.* [[PDF]](https://proceedings.neurips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf) [[Author]](https://gsai.ruc.edu.cn/addons/teacher/index/info.html?user_id=31&ruccode=ADIIMVRnBzFXMFdnVTAIOw%3D%3D&ln=en) 
 
 
@@ -662,7 +665,7 @@ Notes:
 Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. required identical graph structure shared among inputs; C. fixed graph constructed without training; d. incapability of learning from topological structure. This paper proposes **Adaptive Graph Convolution Network (AGCN)** that feeds on original data of diverse graph structures. AGCN seems to be designed primarily for graph classification. Besides, AGCN needs an initial graph and suffers from the limitation of transductive models as described in [paper](https://ieeexplore.ieee.org/document/9763421).
 
 1. **Topology Optimization based Graph Convolutional Network.** *Liang Yang et al, IJCAI 2019.*  [[PDF]](https://www.ijcai.org/proceedings/2019/0563.pdf) [[Author]](http://yangliang.github.io/)   
-Notes: 
+Notes: This paper proposes **Topology Optimization based GCN (TO-GCN)** to jointly learn the network topology and the parameters of fully connected network. The refinement of the network topology is modeled as a **[Label Propagation](#labelPropagation)** process where the network topology is modeled as the multiplication of the predicted label matrix with its transpose matrix. The TO-GCN also penalizes the high similarities between the nodes from different classes. 
 
     
 1. **Semi-Supervised Learning With Graph Learning-Convolutional Networks.** *Bo Jiang et al, CVPR 2019.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) [[Author]](https://scholar.google.com/citations?user=n-aTwuMAAAAJ&hl=zh-CN)   
