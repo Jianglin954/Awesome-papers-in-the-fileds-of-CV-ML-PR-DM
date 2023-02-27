@@ -608,6 +608,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 <a name="SpatialGNN" />
 
@@ -693,12 +694,51 @@ Notes: This paper proposes **Graph-Revised Convolutional Network (GRCN)**, where
 1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/)  
 Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Parameters with Self-supervision (SLAPS)** for semi-supervised classification, which provides more supervision for inferring a graph structure through self-supervision. The authors also identify a **Supervision Starvation** problem in latent graph learning: the edges between pairs of nodes that are far from labeled nodes receive insufficient supervision. To solve this, a multi-task learning framework is designed by supplementing the classification task with a self-supervised task (which is based on the hypothesis that a graph structure is suitable for predicting the node feature is also suitable for predicting the node labels). Also refer to [paper](http://proceedings.mlr.press/v119/you20a/you20a.pdf).
 
+1. **Graph Structure Learning with Variational Information Bottleneck.** *Qingyun Sun et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2112.08903.pdf) [[Author]](https://sunqysunqy.github.io/)
+
+
+1. **Robust Graph Structure Learning via Multiple Statistical Tests.** *Yaohua Wang et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2210.03956.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)
+
+
+1. **pyGSL: A Graph Structure Learning Toolkit.** *Max Wasserman et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2211.03583.pdf) [[Author]](https://github.com/maxwass)
+
+
+1. **Learning Graph Structure from Convolutional Mixtures.** *Max Wasserman et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2205.09575.pdf) [[Author]](https://github.com/maxwass)
+
+
+1. **Self-organization Preserved Graph Structure Learning with Principle of Relevant Information.** *Qingyun Sun et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2301.00015.pdf) [[Author]](https://sunqysunqy.github.io/)
+
+1. **Regularized Graph Structure Learning with Semantic Knowledge for Multi-variates Time-Series Forecasting.** *Hongyuan Yu et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2210.06126.pdf) [[Author]]()
+
+1. **DBGSL: Dynamic Brain Graph Structure Learning.** *Alexander Campbell et al, .*  [[PDF]](https://arxiv.org/pdf/2209.13513.pdf) [[Author]]()
+
+1. **Position-aware Structure Learning for Graph Topology-imbalance by Relieving Under-reaching and Over-squashing.** *Qingyun Sun et al, CIKM 2022.*  [[PDF]](https://arxiv.org/pdf/2208.08302.pdf) [[Author]](https://sunqysunqy.github.io/)
+
+
+1. **Semi-Supervised Clustering via Dynamic Graph Structure Learning.** *Huaming Ling et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2209.02513.pdf) [[Author]]()
+
+
+1. **Boosting Graph Structure Learning with Dummy Nodes.** *Xin Liu et al, ICML 2022.*  [[PDF]](https://arxiv.org/pdf/2206.08561.pdf) [[Author]](https://cse.hkust.edu.hk/~xliucr/)
+
+1. **GPN: A Joint Structural Learning Framework for Graph Neural Networks.** *Qianggang Ding et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2205.05964.pdf) [[Author]](http://mrdqg.com/)
+
+
+1. **Multi-view graph structure learning using subspace merging on Grassmann manifold.** *Razieh Ghiasi et al, Multimedia Tools and Applications 2022.*  [[PDF]](https://arxiv.org/pdf/2204.05258.pdf) [[Author]]()
+
+
 1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)   
 Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
+
+
 
 
 <a name="SSLGNN" />
