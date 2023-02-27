@@ -39,6 +39,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Graph Generation](#GraphGeneration)
   - [Weisfeiler-Lehman Test](#wltest)
   - [Deeper GNN](#deeperGNN)
+  - [Few-Shot Learning on Graph](#fewshotGNN)
 - [Diffusion Models](#DiffusionModels)
 - [Network Compression](#networkcompression)
   - [Pruning](#pruning)
@@ -703,6 +704,9 @@ Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Paramete
 1. **pyGSL: A Graph Structure Learning Toolkit.** *Max Wasserman et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2211.03583.pdf) [[Author]](https://github.com/maxwass)
 
 
+1. **Learning Continuous Graph Structure with Bilevel Programming for Graph Neural Networks.** *Minyang Hu et al, IJCAI 2022.*  [[PDF]](https://www.ijcai.org/proceedings/2022/0424.pdf) [[Author]]()
+2. 
+
 1. **Learning Graph Structure from Convolutional Mixtures.** *Max Wasserman et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2205.09575.pdf) [[Author]](https://github.com/maxwass)
 
 
@@ -731,6 +735,7 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 
 
 1. **ASGNN: Graph Neural Networks with Adaptive Structure.** *Zepeng Zhang et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2210.01002.pdf) [[Author]](https://home.zepengzhang.com/)
+
 
 
 
@@ -861,10 +866,23 @@ Notes:
 1. **Towards Deeper Graph Neural Networks.** *Meng Liu et al, KDD 2020.* [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403076) [[Author]](https://mengliu1998.github.io/)   
 Notes: 
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+<a name="fewshotGNN" />
+
+### Few-Shot Learning on Graph
+
+1. **Few-Shot Learning on Graphs.** *Chuxu Zhang et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2203.09308.pdf) [[Author]](https://chuxuzhang.github.io/index.html)
 
 
 
+<a name="heterogeneousGNN" />
+
+### Heterogeneous Graph Neural Network
+
+
+
+1. **Heterogeneous Graph Neural Network.** *Chuxu Zhang et al, KDD 2019.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3292500.3330961) [[Author]](https://chuxuzhang.github.io/index.html)
 
 
 ### Survey
@@ -1358,12 +1376,26 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 ## Causal Inference [[Back to Top]](#)
 
+1. **Advances in Variational Inference.** *Cheng Zhang et al, TPAMI 2019.*  [[PDF]](https://arxiv.org/pdf/1711.05597.pdf) [[Author]](https://cheng-zhang.org/)
+
+1. **A Causal View on Robustness of Neural Networks.** *Cheng Zhang et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/02ed812220b0705fabb868ddbf17ea20-Paper.pdf) [[Author]](https://cheng-zhang.org/)
+
+1. **Relating Graph Neural Networks to Structural Causal Models.** Matej Zečević* et al, arXiv 2021.*  [[PDF]](https://qiniu.pattern.swarma.org/pdf/arxiv/2109.04173.pdf) [[Author]]()
+
+
+1. **Debiasing Graph Neural Networks via Learning Disentangled Causal Substructure.** *Shaohua Fan et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2209.14107.pdf) [[Author]](https://scholar.google.com.hk/citations?user=3LxcBjkAAAAJ&hl=zh-CN)
+
+1. **The Causal Structure of Domain Invariant Supervised Representation Learning.** *Zihao Wang et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2208.06987v4.pdf) [[Author]](https://www.linkedin.com/in/zihao-wang-2b1645123/)
+
+
+1. **Generative Causal Explanations for Graph Neural Networks.** *Wanyu Lin et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/lin21d/lin21d.pdf) [[Author]](https://wanyu-lin.github.io/)
+
+
+
+
+
+2. 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-
-
-
 
 
 
@@ -1466,6 +1498,20 @@ Notes: This paper explicitly explores the side information of data for matrix co
 1. **Graph Convolutional Matrix Completion.** *Rianne van den Berg et al, KDD 2018.*  [[PDF]](https://arxiv.org/pdf/1706.02263.pdf) [[Author]](https://www.microsoft.com/en-us/research/people/rvandenberg/)   
 Notes: This paper considers matrix completion for recommender systems from the point of view of
 link prediction on graphs.
+
+
+
+
+1. **Inductive Matrix Completion Based on Graph Neural Networks.** *Muhan Zhang et al, ICLR 2020.*  [[PDF]](https://arxiv.org/pdf/1904.12058.pdf) [[Author]](https://muhanzhang.github.io/)
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
 
 
 
