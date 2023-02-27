@@ -730,6 +730,11 @@ Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Paramete
 Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
+1. **ASGNN: Graph Neural Networks with Adaptive Structure.** *Zepeng Zhang et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2210.01002.pdf) [[Author]](https://home.zepengzhang.com/)
+
+
+
+
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
@@ -814,6 +819,11 @@ Notes:
 1. **Local Augmentation for Graph Neural Networks.** *Songtao Liu et al, ICML 2022.*  [[PDF]](https://arxiv.org/pdf/2109.03856.pdf) [[Author]](https://songtaoliu0823.github.io/)   
 Notes: 
 
+
+1. **Graph Data Augmentation for Graph Machine Learning: A Survey.** *Tong Zhao et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2202.08871.pdf) [[Author]](https://tzhao.io/)
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 <a name="GraphGeneration" />
 
