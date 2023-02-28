@@ -41,6 +41,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Graph Data Augmentation](#GraphDataAugmentation)
   - [Graph Generation](#GraphGeneration)
   - [Weisfeiler-Lehman Test](#wltest)
+  - [Graph Information Bottleneck](#graphInfoBottle)
   - [Deeper GNN](#deeperGNN)
   - [Few-Shot Learning on Graph](#fewshotGNN)
 - [Diffusion Models](#DiffusionModels)
@@ -64,8 +65,9 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Procrustes Problem](#procrustes)
   - [CUR Decomposition](#cur)
   - [Matrix Completion](#matrixcompletion)
-  - [PAC Learning](#PACLearning)
   - [Optimization Methods](#Optimization)
+  - [PAC Learning](#PACLearning)
+  - [Information Theory](#informationTheory)
   - [Quantum Computing](#quantumcomputing)
 - [Learning Sources](#learningsources)
 - [Acknowledgement](#acknowledgement)
@@ -766,7 +768,8 @@ Notes: This paper proposes **Graph-Revised Convolutional Network (GRCN)**, where
 1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/)  
 Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Parameters with Self-supervision (SLAPS)** for semi-supervised classification, which provides more supervision for inferring a graph structure through self-supervision. The authors also identify a **Supervision Starvation** problem in latent graph learning: the edges between pairs of nodes that are far from labeled nodes receive insufficient supervision. To solve this, a multi-task learning framework is designed by supplementing the classification task with a self-supervised task (which is based on the hypothesis that a graph structure is suitable for predicting the node feature is also suitable for predicting the node labels). Also refer to [paper](http://proceedings.mlr.press/v119/you20a/you20a.pdf).
 
-1. **Graph Structure Learning with Variational Information Bottleneck.** *Qingyun Sun et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2112.08903.pdf) [[Author]](https://sunqysunqy.github.io/)
+1. **Graph Structure Learning with Variational Information Bottleneck.** *Qingyun Sun et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2112.08903.pdf) [[Author]](https://sunqysunqy.github.io/)   
+Notes: This paper proposes **Variational Information Bottleneck guided Graph Structure Learning (VIB-GSL)** that advances the **Information Bottleneck** principle for graph structure learning. 
 
 
 1. **Robust Graph Structure Learning via Multiple Statistical Tests.** *Yaohua Wang et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2210.03956.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)
@@ -940,6 +943,19 @@ Notes:
 1. **Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning.** *Pan Li et al, NeurIPS 2020.* [[PDF]](https://ieeexplore.ieee.org/document/9046288) [[Author]](https://sites.google.com/view/panli-purdue/home)
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+<a name="graphInfoBottle" />
+
+### Graph Information Bottleneck 
+
+
+1. **Graph Information Bottleneck.** *Tailin Wu et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/ebc2aa04e75e3caabda543a1317160c0-Paper.pdf) [[Author]](https://tailin.org/)
+2. 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
 
 
 
@@ -1593,29 +1609,36 @@ Notes: This paper explicitly explores the side information of data for matrix co
 
 1. **Matrix Completion on Graphs.** *Vassilis Kalofolias et al, arXiv 2014.*  [[PDF]](https://arxiv.org/pdf/1408.1717.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
 
-
 1. **Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks.** *Federico Monti et al, NeurIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/2eace51d8f796d04991c831a07059758-Paper.pdf) [[Author]](https://scholar.google.com/citations?hl=en&user=NUdNFucAAAAJ)
-
-
 
 1. **Graph Convolutional Matrix Completion.** *Rianne van den Berg et al, KDD 2018.*  [[PDF]](https://arxiv.org/pdf/1706.02263.pdf) [[Author]](https://www.microsoft.com/en-us/research/people/rvandenberg/)   
 Notes: This paper considers matrix completion for recommender systems from the point of view of
 link prediction on graphs.
 
 
-
-
 1. **Inductive Matrix Completion Based on Graph Neural Networks.** *Muhan Zhang et al, ICLR 2020.*  [[PDF]](https://arxiv.org/pdf/1904.12058.pdf) [[Author]](https://muhanzhang.github.io/)
 
-
-
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
+
+
+
+
+
+
+
+
+
+<a name="Optimization" />
+
+### Optimization Methods
+
+1. **Optimization Methods for Large-Scale Machine Learning.** *L ́eon Bottou et al, SIAM 2018.*  [[PDF]](https://epubs.siam.org/doi/epdf/10.1137/16M1080173) [[Author]](https://leon.bottou.org/start)   
+Notes: This paper provides a review and commentary on the past, present, and future of numerical optimization algorithms in the context of machine learning applications. 
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
 
 
 
@@ -1630,12 +1653,21 @@ link prediction on graphs.
 
 
 
-<a name="Optimization" />
+<a name="informationTheory" />
 
-### Optimization Methods
+### Information Theory
 
-1. **Optimization Methods for Large-Scale Machine Learning.** *L ́eon Bottou et al, SIAM 2018.*  [[PDF]](https://epubs.siam.org/doi/epdf/10.1137/16M1080173) [[Author]](https://leon.bottou.org/start)   
-Notes: This paper provides a review and commentary on the past, present, and future of numerical optimization algorithms in the context of machine learning applications. 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
+
+
+
+
+
 
 <a name="quantumcomputing" />
 
@@ -1692,18 +1724,3 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 
 
-
-
-<a name="acknowledgement" />
-
-## Acknowledgement <a href="#top">[Back to Top]</a>
-
-I would like to express my most sincere appreciation to those who provided me with unwavering encouragement and insightful suggestions throughout the course of my research career.   
-
-[Yun Raymond Fu](http://www1.ece.neu.edu/~yunfu/)              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Jie Zhou]()                                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-[Alexander Lapin](https://kpfu.ru/Alexandr.Lapin?p_lang=2)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Pan Li](https://sites.google.com/view/panli-purdue/home)	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Xi-Zhao Wang](http://www.hebmlc.org/en/)                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[Tongliang Liu](https://tongliang-liu.github.io/)              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-[Yudong Chen]()                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
