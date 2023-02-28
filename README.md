@@ -70,7 +70,6 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Information Theory](#informationTheory)
   - [Quantum Computing](#quantumcomputing)
 - [Learning Sources](#learningsources)
-- [Acknowledgement](#acknowledgement)
 
 
 
