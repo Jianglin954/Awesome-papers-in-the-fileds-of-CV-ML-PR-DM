@@ -10,6 +10,9 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 
 ## Contents
 - [Manifold Learning](#Manifold)
+  - [Nonlinear Dimensionality Reduction](#NonlinearDR)
+  - [Subspace Learning](#subspaceLearning) 
+  - [Graph Construction](#graphConstruction)
 - [Sparse Representation](#sparseRepre)
 - [Low-Rank Representation](#LRR)
 - [Clustering](#clustering)
@@ -29,7 +32,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Spectral-based GNN](#SpectralGNN)
   - [Spatial-based GNN](#SpatialGNN)
   - [Graph Pooling](#GraphPooling)
-  - [Latent Graph Learning](#LGL) 
+  - [Graph Structure Learning](#LGL) 
   - [Self-Supervised GNN](#SSLGNN)
   - [GNN Pre-training](#GNNPreTrain)
   - [GNN Adversarial Attacks](#GNNAA) 
@@ -75,6 +78,12 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 
 ## Manifold Learning [[Back to Top]](#)
 
+
+
+<a name="NonlinearDR" />
+
+### Nonlinear Dimensionality Reduction
+
 1. **A Global Geometric Framework for Nonlinear Dimensionality Reduction.** *Joshua B. Tenenbaum et al, Science 2000.*  [[PDF]](https://www.science.org/doi/10.1126/science.290.5500.2319) [[Author]](http://web.mit.edu/cocosci/josh.html)   
 Notes: This is a classical paper that proposes **Isometric Feature Mapping (ISOMAP)** for nonlinear dimensionality reduction, which contains three step including neighborhood graph construction, shortest paths computing, and low-dimensional embedding.
 
@@ -93,28 +102,46 @@ This paper proposes **Neighborhood Preserving Embedding (NPE)**, which aims at p
 1. **Graph Embedding and Extensions: A General Framework for Dimensionality Reduction.** *Shuicheng Yan et al, IEEE TPAMI 2007.*  [[PDF]](https://ieeexplore.ieee.org/document/4016549) [[Author]](https://yanshuicheng.ai/)     
 Notes: This paper proposes a general framework called **Graph Embedding** for linear dimensionality reduction, in which an intrinsic graph characterizes the intraclass compactness while a penalty graph characterizes the interclass separability. 
 
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+<a name="subspaceLearning" />
+
+### Subspace Learning
+
+
 1. **Spectral Regression for Efficient Regularized Subspace Learning.** *Deng Cai et al, ICCV 2007.*  [[PDF]](https://ieeexplore.ieee.org/document/4016549) [[Author]](http://www.cad.zju.edu.cn/home/dengcai/)   
 Notes: This paper proposes **Spectral Regression (SR)** for subspace learning, which casts the problem of learning the projective functions into a regression framework and avoids the eigen-decomposition of dense matrices. It is worth noting that different kinds of regularizers can be naturally incorporated into SR such as L<sub>1</sub> regularization.
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
 
 
 
+<a name="graphConstruction" />
+
+### Graph Construction
+
+1. **Graph Construction and $b$-Matching for Semi-supervised Learning.** *Tony Jebara et al, ICML 2009.*  [[PDF]](https://icml.cc/Conferences/2009/papers/188.pdf) [[Author]](http://www.cs.columbia.edu/~jebara/)
+
+1. **Influence of Graph Construction on Semi-supervised Learning.** *Celso Sousa et al, ECML PKDD 2013.*  [[PDF]](https://link.springer.com/chapter/10.1007/978-3-642-40994-3_11) [[Author]](https://scholar.google.com/citations?user=i8jXj9kAAAAJ&hl=zh-CN&oi=sra)
+
+1. **How to Learn a Graph from Smooth Signals.** *Vassilis Kalofolias et al, AISTATS 2016.*  [[PDF]](http://proceedings.mlr.press/v51/kalofolias16.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)
+
+
+1. **A Quest for Structure: Jointly Learning the Graph Structure and Semi-Supervised Classification.** *Xuan Wu et al, CIKM 2018.*  [[PDF]](https://arxiv.org/pdf/1909.12385.pdf) [[Author]]()    
+Notes: This paper proposes **Parallel Graph Learning (PG-Learn) for the graph construction step of semi-supervised learning. The two main ingredients include a) a gradient-based optimization of the edge weights (different kernel bandwidths in each dimension) and b) a parallel hyperparameter search algorithm. It adopts LGC algorithm and the corresponding solution can be found without explicitly taking any matrix inverse and instead using the power method. 
 
 
 
 
-
-
-
-
-
-
-
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -147,6 +174,11 @@ Notes:
 
 1. **Robust principal component analysis?.** *Emmanuel J. Cand`es et al, Journal of the ACM 2011.*  [[PDF]](https://dl.acm.org/doi/abs/10.1145/1970392.1970395) [[Author]](https://candes.su.domains/)   
 Notes:
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
 
 
 ### Resources
@@ -211,6 +243,7 @@ Notes:
 
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -275,6 +308,7 @@ Notes: This papers proposes **Sparse Subspace Clustering (SSC)** which introduce
 Notes: This paper proposes **Clustering with Adaptive Neighbors (CAN)** to learn the data similarity matrix and clustering structure simultaneously. It is worth noting that they present an effective method to determine the regularization parameter considering the locality of the data.
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -290,6 +324,16 @@ Notes: This is the first deep subspace clustering network, however, it has been 
 
 1. **A Critique of Self-Expressive Deep Subspace Clustering.** *Benjamin David Haeffele et al, ICLR 2021.*  [[PDF]](https://openreview.net/forum?id=FOyuZ26emy) [[Author]](https://www.cis.jhu.edu/~haeffele/)   
 Notes: This papers show that many previous deep subspace networks are ill-posed, and their performance improvement is largely attributable to an ad-hoc post-processing step.
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
+
+
+
 
 
 
@@ -345,6 +389,11 @@ Notes: This paper proposes **Deep Anchor Graph Hashing (DAGH)**, which adopts an
 
 1. **Deep Cross-Modal Hashing.** *Qing-Yuan Jiang et al, CVPR 2017.*  [[PDF]](https://ieeexplore.ieee.org/document/9010953) [[Author]](https://jiangqy.github.io/)   
 Notes: This paper proposes the first deep cross-modal hashing called **Deep Cross-Modal Hashing (DCMH)** which can be regarded as a cross-modal extension of [Deep Pairwise-Supervised Hashing (DPSH)](https://www.ijcai.org/Proceedings/16/Papers/245.pdf).
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
 
 
 ### Survey
@@ -415,6 +464,7 @@ Notes: This paper exploits importance reweighting or sample transformation to fi
 Notes:
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -425,6 +475,10 @@ Notes:
 
 1. **Universal Domain Adaptation.** *Kaichao You et al, CVPR 2019.*  [[PDF]](https://ieeexplore.ieee.org/document/8954135) [[Author]](https://youkaichao.github.io/about)   
 Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires no prior knowledge on the label sets of source and target domains.
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
 
 
 
@@ -548,12 +602,24 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 1. **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows.** *Ze Liu et al, ICCV 2021.*  [[PDF]](https://ieeexplore.ieee.org/document/9710580) [[Author]](https://zeliu98.github.io/)
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
 
 <a name="GraphTransformers" />
 
 ### Graph Transformers
 
 1. **Graph Transformer Networks.** *Seongjun Yun et al, NeurIPS 2019.*  [[PDF]](https://arxiv.org/abs/1911.06455) [[Author]](https://scholar.google.com/citations?user=8-MZ2RwAAAAJ&hl=en)
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
 
 ### Survey
 
@@ -611,6 +677,10 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
+
+
+
+
 <a name="SpatialGNN" />
 
 ### Spatial-based GNN
@@ -640,6 +710,9 @@ Notes:
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
+
+
+
 <a name="GraphPooling" />
 
 ### Graph Pooling
@@ -647,6 +720,7 @@ Notes:
 1. **Hierarchical Graph Representation Learning with Differentiable Pooling.** *Rex Ying et al, NeurIPS 2018.*  [[PDF]](https://proceedings.neurips.cc/paper/2018/file/e77dbaf6759253c7c6d0efc5690369c7-Paper.pdf) [[Author]](https://cs.stanford.edu/people/rexy/)
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -654,13 +728,10 @@ Notes:
 
 <a name="LGL" />
 
-### Latent Graph Learning (AKA, Graph Structure Learning)
+### Graph Structure Learning (AKA, Latent Graph Learning)
 
 1. **Deep Convolutional Networks on Graph-Structured Data.** *Mikael Henaff et al, arXiv 2015.*  [[PDF]](https://arxiv.org/pdf/1506.05163.pdf) [[Author]](http://www.mikaelhenaff.net/)   
 Notes: 
-
-1. **A Quest for Structure: Jointly Learning the Graph Structure and Semi-Supervised Classification.** *Xuan Wu et al, CIKM 2018.*  [[PDF]](https://arxiv.org/pdf/1909.12385.pdf) [[Author]]()
-
 
 
 1. **Adaptive Graph Convolutional Neural Networks.** *Ruoyu Li et al, AAAI 2018.* [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11691) [[Author]](https://scholar.google.co.uk/citations?user=S23gEPsAAAAJ&hl=en)  
@@ -674,7 +745,7 @@ Notes: This paper proposes **Topology Optimization based GCN (TO-GCN)** to joint
 Notes: This paper proposes **Graph Learning-Convolutional Network (GLCN)** for semi-supervised task, which integrates both graph learning and graph convolution in a unified network architecture such that both given and estimated labels are incorporated to provide weakly supervised information for graph structure refinement. The graph learning function is similar to [GAT](https://arxiv.org/abs/1710.10903) and the graph learning loss is similar to [CAN](https://dl.acm.org/doi/pdf/10.1145/2623330.2623726). The graph learned in the sense of probability is dense and lack sparse structure.
 
 1. **Large Scale Graph Learning from Smooth Signals.** *Vassilis Kalofolias et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1710.05654.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
-Notes: This papers uses approximate nearest neighbor techniques for large scale graph learning from smooth signals.  
+Notes: This papers uses approximate nearest neighbor techniques for large scale graph learning from smooth signals. Also refer to [paper](http://proceedings.mlr.press/v51/kalofolias16.pdf).  
 
 1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
 Notes: This paper proposes **Learning Discrete Structures (LDS)** to learn the graph structure and the parameters of GCNs by approximately solving a bilevel program that learns a discrete probability distribution of the edges of the graph. Given two objective functions $F$ and $L$, the outer and inner objectives, and two sets of variables, $\theta \in \mathcal{R}^{m}$ and $\omega \in \mathcal{R}^{d}$, the outer and inner variables, a **Bilevel Program** is given by: $\min_{\theta, \omega_{\theta}}F(\omega_{\theta}, \theta)$ such that $\omega_{\theta} \in \arg \min_{\omega} L(\omega, \theta)$. LDS only works in the transductive setting and the graph topology learned cannot be controlled due to the sampling strategy. 
@@ -778,6 +849,9 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 
 
 
+
+
+
 <a name="GNNAA" />
 
 ### GNN Adversarial Attacks
@@ -805,12 +879,16 @@ Notes:
 
 
 
+
 <a name="GraphDomainAdaptation" />
 
 ### Graph Domain Adaptation
 
 
 1. **Graph Domain Adaptation via Theory-Grounded Spectral Regularization.** Yuning You* et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=OysfLgrk8mk) [[Author]](https://yyou1996.github.io/)
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
 
 
 
@@ -846,6 +924,11 @@ Notes:
 
 1. **Generative Diffusion Models on Graphs: Methods and Applications.** *Wenqi Fan et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2302.02591.pdf) [[Author]](https://wenqifan03.github.io/)
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
 
 
 <a name="wltest" />
@@ -855,6 +938,10 @@ Notes:
 1. **How Powerful are Graph Neural Networks?** *Keyulu Xu et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1810.00826.pdf) [[Author]](https://people.csail.mit.edu/keyulux/)
 
 1. **Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning.** *Pan Li et al, NeurIPS 2020.* [[PDF]](https://ieeexplore.ieee.org/document/9046288) [[Author]](https://sites.google.com/view/panli-purdue/home)
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
 
 
 
@@ -874,6 +961,11 @@ Notes:
 
 1. **Few-Shot Learning on Graphs.** *Chuxu Zhang et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2203.09308.pdf) [[Author]](https://chuxuzhang.github.io/index.html)
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
 
 
 <a name="heterogeneousGNN" />
@@ -883,6 +975,13 @@ Notes:
 
 
 1. **Heterogeneous Graph Neural Network.** *Chuxu Zhang et al, KDD 2019.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3292500.3330961) [[Author]](https://chuxuzhang.github.io/index.html)
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
 
 
 ### Survey
@@ -911,6 +1010,7 @@ Notes:
 ## Diffusion Models [[Back to Top]](#)
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1127,6 +1227,7 @@ Notes: This is the first survey on pruning at initialization.
 Notes: 
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1206,6 +1307,7 @@ Notes:
 Notes: This is the first work that introduces Transformer for HDR imaging. 
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1346,6 +1448,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 1. **Modeling Point Clouds with Self-Attention and Gumbel Subset Sampling.** *Jiancheng Yang et al, CVPR 2019.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Modeling_Point_Clouds_With_Self-Attention_and_Gumbel_Subset_Sampling_CVPR_2019_paper.pdf) [[Author]](https://jiancheng-yang.com/)
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1595,7 +1698,7 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 ## Acknowledgement <a href="#top">[Back to Top]</a>
 
-<!-- I would like to express my most sincere appreciation to those who provided me with unwavering encouragement and insightful suggestions throughout the course of my research career.   
+I would like to express my most sincere appreciation to those who provided me with unwavering encouragement and insightful suggestions throughout the course of my research career.   
 
 [Yun Raymond Fu](http://www1.ece.neu.edu/~yunfu/)              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Jie Zhou]()                                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -1604,4 +1707,3 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 [Xi-Zhao Wang](http://www.hebmlc.org/en/)                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Tongliang Liu](https://tongliang-liu.github.io/)              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 [Yudong Chen]()                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
--->
