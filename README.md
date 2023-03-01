@@ -784,7 +784,7 @@ Notes: This paper proposes views the feature vector of each node as an independe
 Notes: This paper introduce **pyGSL**, a Python library that provides efficient implementations of state-of-the-art graph structure learning models along with diverse datasets to evaluate them on. The resource is limited and the code repository is not well-developed.
 
 
-1. **Learning Continuous Graph Structure with Bilevel Programming for Graph Neural Networks.** *Minyang Hu et al, IJCAI 2022.*  [[PDF]](https://www.ijcai.org/proceedings/2022/0424.pdf) [[Author]]()
+1. **Learning Continuous Graph Structure with Bilevel Programming for Graph Neural Networks.** *Minyang Hu et al, IJCAI 2022.*  [[PDF]](https://www.ijcai.org/proceedings/2022/0424.pdf) [[Author]](https://scholar.google.com/citations?user=6Saa1ugAAAAJ&hl=zh-CN&oi=sra)
 
 
 1. **Learning Graph Structure from Convolutional Mixtures.** *Max Wasserman et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2205.09575.pdf) [[Author]](https://github.com/maxwass)
