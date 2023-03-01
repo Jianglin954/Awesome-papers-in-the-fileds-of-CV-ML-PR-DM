@@ -40,6 +40,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Graph Domain Adaptation](#GraphDomainAdaptation)
   - [Graph Data Augmentation](#GraphDataAugmentation)
   - [Graph Generation](#GraphGeneration)
+  - [Causality with Graph](#GraphCausality)
   - [Weisfeiler-Lehman Test](#wltest)
   - [Graph Information Bottleneck](#graphInfoBottle)
   - [Deeper GNN](#deeperGNN)
@@ -768,7 +769,12 @@ Notes: This paper proposes **Graph-Revised Convolutional Network (GRCN)**, where
 Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Parameters with Self-supervision (SLAPS)** for semi-supervised classification, which provides more supervision for inferring a graph structure through self-supervision. The authors also identify a **Supervision Starvation** problem in latent graph learning: the edges between pairs of nodes that are far from labeled nodes receive insufficient supervision. To solve this, a multi-task learning framework is designed by supplementing the classification task with a self-supervised task (which is based on the hypothesis that a graph structure is suitable for predicting the node feature is also suitable for predicting the node labels). Also refer to [paper](http://proceedings.mlr.press/v119/you20a/you20a.pdf).
 
 1. **Graph Structure Learning with Variational Information Bottleneck.** *Qingyun Sun et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2112.08903.pdf) [[Author]](https://sunqysunqy.github.io/)   
-Notes: This paper proposes **Variational Information Bottleneck guided Graph Structure Learning (VIB-GSL)** that advances the **Information Bottleneck** principle for graph structure learning. 
+Notes: This paper proposes **Variational Information Bottleneck guided Graph Structure Learning (VIB-GSL)** that advances the **Information Bottleneck** principle for graph structure learning. Refer to [paper](https://proceedings.neurips.cc/paper/2020/file/ebc2aa04e75e3caabda543a1317160c0-Paper.pdf).
+
+
+
+
+1. **Ada-NETS: Face Clustering via Adaptive Neighbour Discovery in the Structure Space.** *Yaohua Wang et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2202.03800.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)
 
 
 1. **Robust Graph Structure Learning via Multiple Statistical Tests.** *Yaohua Wang et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2210.03956.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)
@@ -803,12 +809,15 @@ Notes: This paper proposes **Variational Information Bottleneck guided Graph Str
 1. **Multi-view graph structure learning using subspace merging on Grassmann manifold.** *Razieh Ghiasi et al, Multimedia Tools and Applications 2022.*  [[PDF]](https://arxiv.org/pdf/2204.05258.pdf) [[Author]]()
 
 
-1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)   
-Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. **Latent Graph**: the graph itself is not be explicitly given.      
-
-
 1. **ASGNN: Graph Neural Networks with Adaptive Structure.** *Zepeng Zhang et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2210.01002.pdf) [[Author]](https://home.zepengzhang.com/)
 
+
+
+1. **Self-organization Preserved Graph Structure Learning with Principle of Relevant Information.** *Qingyun Sun et al, AAAI 2023.*  [[PDF]](https://arxiv.org/pdf/2301.00015.pdf) [[Author]](https://sunqysunqy.github.io/) 
+
+
+1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)   
+Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
 
@@ -837,6 +846,9 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 
 1. **Automated Self-Supervised Learning for Graphs.** *Wei Jin et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2106.05470.pdf) [[Author]](http://cse.msu.edu/~jinwei2/)
 
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -931,6 +943,20 @@ Notes:
 
 
 
+<a name="GraphCausality" />
+
+### Causality with Graph
+
+1. **Learning Causal Effects on Hypergraphs.** *Jing Ma et al, KDD 2022.*  [[PDF]](https://arxiv.org/pdf/2207.04049.pdf) [[Author]](https://www.cs.virginia.edu/~jm3mr/index.html)
+
+1. **Learning Causality with Graphs.** *Jing Ma et al, AI Magazine, 2022.*  [[PDF]](https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.12070) [[Author]](https://www.cs.virginia.edu/~jm3mr/index.html)
+
+
+1. **CLEAR: Generative Counterfactual Explanations on Graphs.** *Jing Ma et al, NeurIPS 2022.*  [[PDF]](https://openreview.net/pdf?id=YR-s5leIvh) [[Author]](https://www.cs.virginia.edu/~jm3mr/index.html)
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
 
 
 <a name="wltest" />
@@ -952,12 +978,16 @@ Notes:
 
 
 1. **Graph Information Bottleneck.** *Tailin Wu et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/ebc2aa04e75e3caabda543a1317160c0-Paper.pdf) [[Author]](https://tailin.org/)
-2. 
+
+1. **Recognizing Predictive Substructures with Subgraph Information Bottleneck.** *Junchi Yu et al, TPAMI 2021.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9537601) [[Author]](https://samyu0304.github.io/)
+
+1. **Graph Information Bottleneck for Subgraph Recognition.** *Junchi Yu et al, ICLR 2021.*  [[PDF]](https://openreview.net/pdf?id=bM4Iqfg8M2k) [[Author]](https://samyu0304.github.io/)
+
+1. **Improving Subgraph Recognition with Variational Graph Information Bottleneck.** *Junchi Yu et al, CVPR 2022.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Yu_Improving_Subgraph_Recognition_With_Variational_Graph_Information_Bottleneck_CVPR_2022_paper.pdf) [[Author]](https://samyu0304.github.io/)
+
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-
-
 
 
 
