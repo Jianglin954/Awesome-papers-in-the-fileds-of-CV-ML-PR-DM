@@ -703,10 +703,10 @@ Notes:
 1. **Grale: Designing Networks for Graph Learning.** *Jonathan Halcrow et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403302) [[Author]](https://scholar.google.com/citations?user=2zZucy4AAAAJ&hl=en&oi=ao)   
 
 
-1. **Graph Neural Networks with Adaptive Residual.** *Xiaorui Liu et al, NeurIPS 202.*  [[PDF]](https://proceedings.neurips.cc/paper/2021/file/50abc3e730e36b387ca8e02c26dc0a22-Paper.pdf) [[Author]]()
+1. **Graph Neural Networks with Adaptive Residual.** *Xiaorui Liu et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper/2021/file/50abc3e730e36b387ca8e02c26dc0a22-Paper.pdf) [[Author]]()
 
 
-
+1. **E(n) Equivariant Graph Neural Networks.** *Victor Garcia Satorras et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/satorras21a/satorras21a.pdf) [[Author]](https://scholar.google.com/citations?user=FPRvtUEAAAAJ&hl=zh-CN&oi=sra)
 
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
@@ -772,19 +772,20 @@ Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Paramete
 Notes: This paper proposes **Variational Information Bottleneck guided Graph Structure Learning (VIB-GSL)** that advances the **Information Bottleneck** principle for graph structure learning. Refer to [paper](https://proceedings.neurips.cc/paper/2020/file/ebc2aa04e75e3caabda543a1317160c0-Paper.pdf).
 
 
+1. **Ada-NETS: Face Clustering via Adaptive Neighbour Discovery in the Structure Space.** *Yaohua Wang et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2202.03800.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)   
+Notes: This paper proposes **Ada-NETS** for face clustering, in which each face is transformed to a new structure space and the similarity is calculated by a weighted combination between cosine similarity and Jaccard similarity. An adaptive neighbor discovery strategy based on **$F_{\beta}$-score** is also proposed to determine a proper number of edges connecting to each face image. 
 
 
-1. **Ada-NETS: Face Clustering via Adaptive Neighbour Discovery in the Structure Space.** *Yaohua Wang et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2202.03800.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)
+1. **Robust Graph Structure Learning via Multiple Statistical Tests.** *Yaohua Wang et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2210.03956.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)   
+Notes: This paper proposes views the feature vector of each node as an independent sample, and make the decision of whether creating an edge between two nodes based on their similarity in feature representation by a single statistical test. Transformers based method is proposed, which contains the fourth-order statistics of features. 
 
 
-1. **Robust Graph Structure Learning via Multiple Statistical Tests.** *Yaohua Wang et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2210.03956.pdf) [[Author]](https://scholar.google.com/citations?user=TRAwmsgAAAAJ&hl=zh-CN)
-
-
-1. **pyGSL: A Graph Structure Learning Toolkit.** *Max Wasserman et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2211.03583.pdf) [[Author]](https://github.com/maxwass)
+1. **pyGSL: A Graph Structure Learning Toolkit.** *Max Wasserman et al, NeurIPS Workshop 2022.*  [[PDF]](https://arxiv.org/pdf/2211.03583.pdf) [[Author]](https://github.com/maxwass) [[Resource]](https://github.com/maxwass/pyGSL)   
+Notes: This paper introduce **pyGSL**, a Python library that provides efficient implementations of state-of-the-art graph structure learning models along with diverse datasets to evaluate them on. The resource is limited and the code repository is not well-developed.
 
 
 1. **Learning Continuous Graph Structure with Bilevel Programming for Graph Neural Networks.** *Minyang Hu et al, IJCAI 2022.*  [[PDF]](https://www.ijcai.org/proceedings/2022/0424.pdf) [[Author]]()
-2. 
+
 
 1. **Learning Graph Structure from Convolutional Mixtures.** *Max Wasserman et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2205.09575.pdf) [[Author]](https://github.com/maxwass)
 
@@ -922,16 +923,48 @@ Notes:
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
+
+
+
+
+
+
+
+
+
 <a name="GraphGeneration" />
 
-### Graph Generation
+### Graph Generation (Graph Diffusion Model)
 
 [Graph Generation](#GraphGeneration)
 
 1. **Fast Graph Generation via Spectral Diffusion.** *Tianze Luo et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2211.08892.pdf) [[Author]](https://www.linkedin.com/in/tianze-luo-40720a82/)
 
+1. **DiGress: Discrete Denoising diffusion for graph generation.** *Clement Vignac et al, ICLR 2023.*  [[PDF]](https://arxiv.org/pdf/2209.14734.pdf) [[Author]](https://cvignac.github.io/)
+
+1. **Equivariant Diffusion for Molecule Generation in 3D.** *Emiel Hoogeboom et al, ICML 2022.*  [[PDF]](https://arxiv.org/pdf/2203.17003.pdf) [[Author]](https://ehoogeboom.github.io/)
+
+1. **Bipartite Graph Diffusion Model for Human Interaction Generation.** *Baptiste Chopin et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2301.10134.pdf) [[Author]]()
 
 
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Survey
 
 1. **A Survey on Deep Graph Generation: Methods and Applications.** *Yanqiao Zhu et al, LoG 2022.*  [[PDF]](https://arxiv.org/pdf/2203.06714.pdf) [[Author]](https://sxkdz.github.io/)
 
@@ -984,6 +1017,10 @@ Notes:
 1. **Graph Information Bottleneck for Subgraph Recognition.** *Junchi Yu et al, ICLR 2021.*  [[PDF]](https://openreview.net/pdf?id=bM4Iqfg8M2k) [[Author]](https://samyu0304.github.io/)
 
 1. **Improving Subgraph Recognition with Variational Graph Information Bottleneck.** *Junchi Yu et al, CVPR 2022.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Yu_Improving_Subgraph_Recognition_With_Variational_Graph_Information_Bottleneck_CVPR_2022_paper.pdf) [[Author]](https://samyu0304.github.io/)
+
+1. **Heterogeneous Graph Information Bottleneck.** *Liang Yang et al, IJCAI 2021.*  [[PDF]](https://yangliang.github.io/pdf/ijcai21.pdf) [[Author]](https://yangliang.github.io/)
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1055,7 +1092,12 @@ Notes:
 ## Diffusion Models [[Back to Top]](#)
 
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Denoising Diffusion Probabilistic Models.** *Jonathan Ho et al, NeurIPS 2020.*  [[PDF]](https://arxiv.org/pdf/2006.11239.pdf) [[Author]](http://www.jonathanho.me/)
+
+1. **GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation.** *Minkai Xu et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2203.02923.pdf) [[Author]](https://minkaixu.com/)
+
+
+
 
 
 
