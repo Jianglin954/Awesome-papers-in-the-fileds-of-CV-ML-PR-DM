@@ -32,11 +32,11 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Spectral-based GNN](#SpectralGNN)
   - [Spatial-based GNN](#SpatialGNN)
   - [Graph Pooling](#GraphPooling)
-  - [Graph Structure Learning](#LGL) 
+  - [Graph Structure Learning](#LGL)
+  - [GNN Pruning](#GNNpruning) 
   - [Self-Supervised GNN](#SSLGNN)
   - [GNN Pre-training](#GNNPreTrain)
   - [GNN Adversarial Attacks](#GNNAA) 
-  - [GNN Pruning](#GNNpruning)
   - [Graph Domain Adaptation](#GraphDomainAdaptation)
   - [Graph Data Augmentation](#GraphDataAugmentation)
   - [Graph Generation](#GraphGeneration)
@@ -784,7 +784,12 @@ Notes: This paper proposes views the feature vector of each node as an independe
 Notes: This paper introduce **pyGSL**, a Python library that provides efficient implementations of state-of-the-art graph structure learning models along with diverse datasets to evaluate them on. The resource is limited and the code repository is not well-developed.
 
 
-1. **Learning Continuous Graph Structure with Bilevel Programming for Graph Neural Networks.** *Minyang Hu et al, IJCAI 2022.*  [[PDF]](https://www.ijcai.org/proceedings/2022/0424.pdf) [[Author]](https://scholar.google.com/citations?user=6Saa1ugAAAAJ&hl=zh-CN&oi=sra)
+1. **Learning Continuous Graph Structure with Bilevel Programming for Graph Neural Networks.** *Minyang Hu et al, IJCAI 2022.*  [[PDF]](https://www.ijcai.org/proceedings/2022/0424.pdf) [[Author]](https://scholar.google.com/citations?user=6Saa1ugAAAAJ&hl=zh-CN&oi=sra)   
+Notes: This paper proposes to directly model the continuous graph structure with dual-normalization (using a symmetric normalization function), which implicitly imposes sparse constraint and reduces the influence of noisy edges. The whole learning process is formulated as a bilevel programming problem similar to [Learning Discrete Structures](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) but armed with an improved **Neumann-IFT** algorithm for optimization. 
+
+
+1. **GPN: A Joint Structural Learning Framework for Graph Neural Networks.** *Qianggang Ding et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2205.05964.pdf) [[Author]](http://mrdqg.com/)   
+Notes: 
 
 
 1. **Learning Graph Structure from Convolutional Mixtures.** *Max Wasserman et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2205.09575.pdf) [[Author]](https://github.com/maxwass)
@@ -804,7 +809,7 @@ Notes: This paper introduce **pyGSL**, a Python library that provides efficient 
 
 1. **Boosting Graph Structure Learning with Dummy Nodes.** *Xin Liu et al, ICML 2022.*  [[PDF]](https://arxiv.org/pdf/2206.08561.pdf) [[Author]](https://cse.hkust.edu.hk/~xliucr/)
 
-1. **GPN: A Joint Structural Learning Framework for Graph Neural Networks.** *Qianggang Ding et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2205.05964.pdf) [[Author]](http://mrdqg.com/)
+
 
 
 1. **Multi-view graph structure learning using subspace merging on Grassmann manifold.** *Razieh Ghiasi et al, Multimedia Tools and Applications 2022.*  [[PDF]](https://arxiv.org/pdf/2204.05258.pdf) [[Author]]()
@@ -826,6 +831,38 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
+
+
+
+
+
+<a name="GNNpruning" />
+
+### GNN Pruning
+
+1. **A Unified Lottery Ticket Hypothesis for Graph Neural Networks.** *Tianlong Chen et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/chen21p/chen21p.pdf) [[Author]](https://tianlong-chen.github.io/about/)  
+Notes:
+
+ 
+1. **Rethinking Graph Lottery Tickets: Graph Sparsity Matters.** *Bo Hui et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=fjh7UGQgOB) [[Author]](https://bohui.herokuapp.com/)
+
+
+
+
+ 
+1. **A Study on the Ramanujan Graph Property of Winning Lottery Tickets.** *Bithika Pal et al, ICML 2022.*  [[PDF]](https://proceedings.mlr.press/v162/pal22a/pal22a.pdf) [[Author]](https://sites.google.com/view/bithikapal/home)
+
+
+ 
+1. **Searching Lottery Tickets in Graph Neural Networks: A Dual Perspective.** *Kun Wang et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=Dvs-a3aymPe) [[Author]](http://home.ustc.edu.cn/~wk520529/#publications)
+
+
+ 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+ 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -881,26 +918,12 @@ Notes: This paper proposes **LaGraph**, a predictive SSL framework for represent
 
 
 
-
-<a name="GNNpruning" />
-
-### GNN Pruning
-
-1. **A Unified Lottery Ticket Hypothesis for Graph Neural Networks.** *Tianlong Chen et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/chen21p/chen21p.pdf) [[Author]](https://tianlong-chen.github.io/about/)  
-Notes:
-
- 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-
-
 <a name="GraphDomainAdaptation" />
 
 ### Graph Domain Adaptation
 
 
-1. **Graph Domain Adaptation via Theory-Grounded Spectral Regularization.** Yuning You* et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=OysfLgrk8mk) [[Author]](https://yyou1996.github.io/)
+1. **Graph Domain Adaptation via Theory-Grounded Spectral Regularization.** *Yuning You et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=OysfLgrk8mk) [[Author]](https://yyou1996.github.io/)
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
@@ -1139,12 +1162,17 @@ Notes:
 ### Pruning
 
 1. **The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks.** *Jonathan Frankle et al,  ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1803.03635.pdf) [[Author]](http://www.jfrankle.com/)   
-Notes: This paper proposes the **Lottery Ticket Hypothesis**: A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the
+Notes: This paper proposes the **Lottery Ticket Hypothesis (LTH)**: A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the
 original network after training for at most the same number of iterations.
 
+
+ 
+1. **The Lottery Tickets Hypothesis for Supervised and Self-supervised Pre-training in Computer Vision Models.** *Tianlong Chen et al, CVPR 2021.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_The_Lottery_Tickets_Hypothesis_for_Supervised_and_Self-Supervised_Pre-Training_in_CVPR_2021_paper.pdf) [[Author]](https://tianlong-chen.github.io/about/)
+
+
+
 1. **Dual Lottery Ticket Hypothesis.** *Yue Bai et al,  ICLR 2022.*  [[PDF]](https://openreview.net/pdf?id=fOsN52jn25l) [[Author]](https://yueb17.github.io/)   
-Notes: This paper proposes the **Dual Lottery Ticket Hypothesis**:  A randomly selected subnetwork from a randomly
-initialized dense network can be transformed into a trainable condition, where the transformed subnetwork can be trained in isolation and achieve better at least comparable performance to LTH and other strong baselines.
+Notes: This paper proposes the **Dual Lottery Ticket Hypothesis**:  A randomly selected subnetwork from a randomly initialized dense network can be transformed into a trainable condition, where the transformed subnetwork can be trained in isolation and achieve better at least comparable performance to LTH and other strong baselines.
 
 
 <a name="knowDistil" />
