@@ -843,25 +843,13 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 1. **A Unified Lottery Ticket Hypothesis for Graph Neural Networks.** *Tianlong Chen et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/chen21p/chen21p.pdf) [[Author]](https://tianlong-chen.github.io/about/)  
 Notes:
 
-
 1. **A Study on the Ramanujan Graph Property of Winning Lottery Tickets.** *Bithika Pal et al, ICML 2022.*  [[PDF]](https://proceedings.mlr.press/v162/pal22a/pal22a.pdf) [[Author]](https://sites.google.com/view/bithikapal/home)
-
-
 
 1. **Rethinking Graph Lottery Tickets: Graph Sparsity Matters.** *Bo Hui et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=fjh7UGQgOB) [[Author]](https://bohui.herokuapp.com/)
 
-
-
-
-
- 
 1. **Searching Lottery Tickets in Graph Neural Networks: A Dual Perspective.** *Kun Wang et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=Dvs-a3aymPe) [[Author]](http://home.ustc.edu.cn/~wk520529/#publications)
-
-
-
-
  
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **You Can Have Better Graph Neural Networks by Not Training Weights at All: Finding Untrained GNNs Tickets.** *Tianjin Huang et al, LoG 2022.*  [[PDF]](https://arxiv.org/pdf/2211.15335.pdf) [[Author]](https://tienjinhuang.github.io/)
 
 
  
@@ -1108,6 +1096,27 @@ Notes:
 
 
 
+<a name="ImplicitNerualRepresent" />
+
+## Implicit Neural Representations [[Back to Top]](#)
+
+
+1. **Implicit Neural Representations with Periodic Activation Functions.** *Vincent Sitzmann et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/53c04118df112c13a8c34b38343b9c10-Paper.pdf) [[Author]](https://www.vincentsitzmann.com/)
+
+
+
+1. **Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans.** *Sida Peng et al, CVPR 2021.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Peng_Neural_Body_Implicit_Neural_Representations_With_Structured_Latent_Codes_for_CVPR_2021_paper.pdf) [[Author]](https://pengsida.net/)
+
+
+
+1. **Implicit Neural Representations with Structured Latent Codes for Human Body Modeling.** *Sida Peng et al, TPAMI 2023.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10045794) [[Author]](https://pengsida.net/)
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
 
 
 
@@ -1123,6 +1132,8 @@ Notes:
 1. **GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation.** *Minkai Xu et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2203.02923.pdf) [[Author]](https://minkaixu.com/)
 
 
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
