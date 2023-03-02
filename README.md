@@ -843,18 +843,21 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 1. **A Unified Lottery Ticket Hypothesis for Graph Neural Networks.** *Tianlong Chen et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/chen21p/chen21p.pdf) [[Author]](https://tianlong-chen.github.io/about/)  
 Notes:
 
- 
+
+1. **A Study on the Ramanujan Graph Property of Winning Lottery Tickets.** *Bithika Pal et al, ICML 2022.*  [[PDF]](https://proceedings.mlr.press/v162/pal22a/pal22a.pdf) [[Author]](https://sites.google.com/view/bithikapal/home)
+
+
+
 1. **Rethinking Graph Lottery Tickets: Graph Sparsity Matters.** *Bo Hui et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=fjh7UGQgOB) [[Author]](https://bohui.herokuapp.com/)
 
 
 
 
- 
-1. **A Study on the Ramanujan Graph Property of Winning Lottery Tickets.** *Bithika Pal et al, ICML 2022.*  [[PDF]](https://proceedings.mlr.press/v162/pal22a/pal22a.pdf) [[Author]](https://sites.google.com/view/bithikapal/home)
-
 
  
 1. **Searching Lottery Tickets in Graph Neural Networks: A Dual Perspective.** *Kun Wang et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=Dvs-a3aymPe) [[Author]](http://home.ustc.edu.cn/~wk520529/#publications)
+
+
 
 
  
@@ -1172,8 +1175,8 @@ Notes: This paper proposes the **Lottery Ticket Hypothesis (LTH)**: *A randomly-
 
 
 
-1. **Dual Lottery Ticket Hypothesis.** *Yue Bai et al,  ICLR 2022.*  [[PDF]](https://openreview.net/pdf?id=fOsN52jn25l) [[Author]](https://yueb17.github.io/)   
-Notes: This paper proposes the **Dual Lottery Ticket Hypothesis (DLTH)**: *A randomly selected subnetwork from a randomly initialized dense network can be transformed into a trainable condition, where the transformed subnetwork can be trained in isolation and achieve better at least comparable performance to LTH and other strong baselines*. LTH can be seen as finding structure according to weights, because it prune the pretrained network to find mask using weight magnitude ranking; DLTH can be seen as finding weights based on a given structure, because it transforms weights for a randomly selected sparse network. To substantiate DLTH, a **Random Sparse Network Transformation (RST)** is proposed, which adopts a regularization term to borrow learning capacity and realize information extrusion from the weights that will be masked.
+1. **Dual Lottery Ticket Hypothesis.** *Yue Bai et al, ICLR 2022.*  [[PDF]](https://openreview.net/pdf?id=fOsN52jn25l) [[Author]](https://yueb17.github.io/)   
+Notes: This paper proposes the **Dual Lottery Ticket Hypothesis (DLTH)**: *A randomly selected subnetwork from a randomly initialized dense network can be transformed into a trainable condition, where the transformed subnetwork can be trained in isolation and achieve better at least comparable performance to LTH and other strong baselines*. LTH can be seen as finding structure according to weights, because it prune the pretrained network to find mask using weight magnitude ranking; DLTH can be seen as finding weights based on a given structure, because it transforms weights for a randomly selected sparse network. To substantiate DLTH, a **Random Sparse Network Transformation (RST)** is proposed, which adopts a regularization term to borrow learning capacity and realize information extrusion from the weights that will be masked. 
 
 
 
