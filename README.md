@@ -823,7 +823,7 @@ Notes:
 
 
 1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)   
-Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. **Latent Graph**: the graph itself is not be explicitly given.      
+Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. For discrete DGM, the authors construct a sparse $k$-degree graph by using the **Gumbel-Top-$k$** trick to sample edges from the probabilities. The sampling scheme, however, does not allow the gradient of the downstream classification loss function to flow through the graph prediction branch. To solve this issue, a compound loss is designed which rewards edges involved in a correct classification and penalizes edges that led to misclassification. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
 
