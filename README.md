@@ -826,6 +826,8 @@ Notes:
 Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. For discrete DGM, the authors construct a sparse $k$-degree graph by using the **Gumbel-Top-$k$** trick to sample edges from the probabilities. The sampling scheme, however, does not allow the gradient of the downstream classification loss function to flow through the graph prediction branch. To solve this issue, a compound loss is designed which rewards edges involved in a correct classification and penalizes edges that led to misclassification. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
+1. **Latent Graph Inference using Product Manifolds.** *Haitz Saez de Oc ´ ariz Borde et al, ICLR 2023.*  [[PDF]](https://arxiv.org/pdf/2211.16199.pdf) [[Author]](https://www.linkedin.com/in/haitz-s%C3%A1ez-de-oc%C3%A1riz-borde-0933a9199/details/education/)
+
 
 
 
