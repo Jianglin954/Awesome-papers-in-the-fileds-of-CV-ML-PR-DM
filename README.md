@@ -69,6 +69,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Optimization Methods](#Optimization)
   - [PAC Learning](#PACLearning)
   - [Information Theory](#informationTheory)
+  - [Gumbel-Max Trick](#GumbelmaxTrick)
   - [Quantum Computing](#quantumcomputing)
 - [Learning Sources](#learningsources)
 
@@ -1779,6 +1780,12 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
+
+<a name="GumbelmaxTrick" />
+
+### Gumbel-Max Trick
+
+1. **A Review of the Gumbel-max Trick and its Extensions for Discrete Stochasticity in Machine Learning.** *Iris A. M. Huijben et al, TPAMI 2023.*  [[PDF]](https://arxiv.org/pdf/2110.01515.pdf) [[Author]](https://scholar.google.com/citations?user=1ReBr6sAAAAJ&hl=en)
 
 
 
