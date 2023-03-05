@@ -540,29 +540,24 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ## Convolutional Neural Network [[Back to Top]](#)
 
+1. **Going deeper with convolutions.** *Christian Szegedy et al, CVPR 2015.*  [[PDF]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf) [[Author]](https://scholar.google.com/citations?user=3QeF7mAAAAAJ&hl=zh-CN&oi=sra)
+
+1. **Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification.** *Kaiming He et al, ICCV 2015.*  [[PDF]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf) [[Author]](https://kaiminghe.github.io/)
+
+1. **Deep Residual Learning for Image Recognition.** *Kaiming He et al, CVPR 2016.*  [[PDF]](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) [[Author]](https://kaiminghe.github.io/)
+
+1. **Searching for Activation Functions.** *Prajit Ramachandran et al, arXiv 2017.*  [[PDF]](https://arxiv.org/pdf/1710.05941.pdf) [[Author]](https://scholar.google.com/citations?user=ktKXDuMAAAAJ&hl=en)
+
+
+1. **Densely Connected Convolutional Networks.** *Gao Huang et al, CVPR 2017.*  [[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) [[Author]](http://www.gaohuang.net/)
+
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -603,13 +598,18 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ### Vision Transformers
 
+
+1. **Attention Is All You Need.** *Ashish Vaswani et al, NIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) [[Author]](https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en&oi=sra)
+
+
+
 1. **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows.** *Ze Liu et al, ICCV 2021.*  [[PDF]](https://ieeexplore.ieee.org/document/9710580) [[Author]](https://zeliu98.github.io/)
 
+1. **Tokens-to-Token ViT: Training Vision Transformers From Scratch on ImageNet.** *Li Yuan et al, ICCV 2021.*  [[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Yuan_Tokens-to-Token_ViT_Training_Vision_Transformers_From_Scratch_on_ImageNet_ICCV_2021_paper.pdf) [[Author]](https://yuanli2333.github.io/)
+
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-
-
 
 
 <a name="GraphTransformers" />
