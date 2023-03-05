@@ -688,6 +688,13 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ### Spatial-based GNN
 
+
+1. **Semi-Supervised Classification with Graph Convolutional Networks.** *Thomas N. Kipf et al, ICLR 2017.*  [[PDF]](https://arxiv.org/pdf/1609.02907.pdf) [[Author]](https://tkipf.github.io/) [[Codes]](https://github.com/tkipf/pygcn)
+
+
+
+
+
 1. **Inductive Representation Learning on Large Graphs.** *William L. Hamilton et al, NeurIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf) [[Author]](https://www.cs.mcgill.ca/~wlh/)   
 Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive node embedding.
 
@@ -753,10 +760,10 @@ Notes: This papers uses approximate nearest neighbor techniques for large scale 
 1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
 Notes: This paper proposes **Learning Discrete Structures (LDS)** to learn the graph structure and the parameters of GCNs by approximately solving a bilevel program that learns a discrete probability distribution of the edges of the graph. Given two objective functions $F$ and $L$, the outer and inner objectives, and two sets of variables, $\theta \in \mathcal{R}^{m}$ and $\omega \in \mathcal{R}^{d}$, the outer and inner variables, a **Bilevel Program** is given by: $\min_{\theta, \omega_{\theta}}F(\omega_{\theta}, \theta)$ such that $\omega_{\theta} \in \arg \min_{\omega} L(\omega, \theta)$. LDS only works in the transductive setting and the graph topology learned cannot be controlled due to the sampling strategy. 
 
-1. **Graph Structure Learning for Robust Graph Neural Networks** *Wei Jin et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Author]](http://cse.msu.edu/~jinwei2/)   
+1. **Graph Structure Learning for Robust Graph Neural Networks** *Wei Jin et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Author]](http://cse.msu.edu/~jinwei2/) [[Codes]](https://github.com/ChandlerBang/Pro-GNN)     
 Notes: This paper proposes **Property GNN (Pro-GNN)** that explores graph properties of sparsity, low rank and feature smoothness to defend adversarial attacks. Pro-GNN simultaneously learns the clean graph structure from perturbed graph and GNN parameters to defend against adversarial attacks. This paper assumes that the graph structure has already been perturbed before training GNNs while the node features are not changed.
 
-1. **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings.** *Yu Chen et al, NeurIPS 2020.* [[PDF]](https://proceedings.neurips.cc/paper/2020/file/e05c7ba4e087beea9410929698dc41a6-Paper.pdf) [[Author]](http://academic.hugochan.net/)  
+1. **Iterative Deep Graph Learning for Graph Neural Networks: Better and Robust Node Embeddings.** *Yu Chen et al, NeurIPS 2020.* [[PDF]](https://proceedings.neurips.cc/paper/2020/file/e05c7ba4e087beea9410929698dc41a6-Paper.pdf) [[Author]](http://academic.hugochan.net/) [[Codes]](https://github.com/hugochan/IDGL)  
 Notes: This paper proposes **Iterative Deep Graph Learning (IDGL)** that learns graph structure and graph embedding simultaneously. The graph learning problem is transferred as a similarity metric learning problem and an adaptive graph regularization is leveraged (assume that the optimized graph structure is potentially a shift from the initial graph structure). IDGL adopts multi-head self-attention with $\epsilon$-neighborhood sparsification for graph construction. An **Anchor Graph** based version is also proposed and the corresponding node-anchor message passing strategy is provided. IDGL works on (semi-)supervised tasks and needs an initial $kNN$ graph construction.
 
 1. **Latent-Graph Learning for Disease Prediction.** *Luca Cosmo et al, MICCAI 2020.*  [[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59713-9_62) [[Author]](https://www.dsi.unive.it/~cosmo/)   
@@ -766,7 +773,7 @@ Notes: This paper proposes an end-to-end trainable graph learning architecture t
 Notes: This paper proposes **Graph-Revised Convolutional Network (GRCN)**, where a GCN-based graph revision module is introduced for predicting missing edges and revising edge weights w.r.t. downstream tasks via joint optimization. The similarity graph is calculated based on node embedding using certain kernel function (specifically, using dot product in their implementation for simplicity). The **[Representer Theorem](https://alex.smola.org/papers/2001/SchHerSmo01.pdf)** is provided to show that, under certain conditions, the optimal regression function can be expressed as a linear combination of kernel functions defined on training samples. Compared with the graph revision in [GAT](https://arxiv.org/abs/1710.10903) and [GLCN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) which use entrywise product, GRCN adopts the entrywise addition operator in order for new edges to be considered. A graph sparsification process is also proposed and the gradients will only backpropagate through the top-$K$ values. In GRCN, an initial graph is required.   
 
 
-1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/)  
+1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/) [[Codes]](https://github.com/BorealisAI/SLAPS-GNN)   
 Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Parameters with Self-supervision (SLAPS)** for semi-supervised classification, which provides more supervision for inferring a graph structure through self-supervision. The authors also identify a **Supervision Starvation** problem in latent graph learning: the edges between pairs of nodes that are far from labeled nodes receive insufficient supervision. To solve this, a multi-task learning framework is designed by supplementing the classification task with a self-supervised task (which is based on the hypothesis that a graph structure is suitable for predicting the node feature is also suitable for predicting the node labels). Also refer to [paper](http://proceedings.mlr.press/v119/you20a/you20a.pdf).
 
 1. **Graph Structure Learning with Variational Information Bottleneck.** *Qingyun Sun et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2112.08903.pdf) [[Author]](https://sunqysunqy.github.io/)   
@@ -781,7 +788,7 @@ Notes: This paper proposes **Ada-NETS** for face clustering, in which each face 
 Notes: This paper proposes views the feature vector of each node as an independent sample, and make the decision of whether creating an edge between two nodes based on their similarity in feature representation by a single statistical test. Transformers based method is proposed, which contains the fourth-order statistics of features. 
 
 
-1. **pyGSL: A Graph Structure Learning Toolkit.** *Max Wasserman et al, NeurIPS Workshop 2022.*  [[PDF]](https://arxiv.org/pdf/2211.03583.pdf) [[Author]](https://github.com/maxwass) [[Resource]](https://github.com/maxwass/pyGSL)   
+1. **pyGSL: A Graph Structure Learning Toolkit.** *Max Wasserman et al, NeurIPS Workshop 2022.*  [[PDF]](https://arxiv.org/pdf/2211.03583.pdf) [[Author]](https://github.com/maxwass) [[Codes]](https://github.com/maxwass/pyGSL)   
 Notes: This paper introduce **pyGSL**, a Python library that provides efficient implementations of state-of-the-art graph structure learning models along with diverse datasets to evaluate them on. The resource is limited and the code repository is not well-developed.
 
 
@@ -1789,10 +1796,13 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 
 
+1. **Categorical Reparameterization with Gumbel-Softmax.** *Eric Jang et al, ICLR 2017.*  [[PDF]](https://arxiv.org/pdf/1611.01144.pdf) [[Author]](https://evjang.com/about/)
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 <a name="quantumcomputing" />
@@ -1840,6 +1850,8 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 1. **Deep Graph Library (DGL) Tutorials and Documentation** [[Website]](https://docs.dgl.ai/en/latest/)
 
 1. **PyTorch Lightning Documentation** [[Website]](https://pytorch-lightning.readthedocs.io/en/stable/)
+
+1. **KeOps Documentation** [[Website]](https://www.kernel-operations.io/keops/introduction/why_using_keops.html)
 
 1. **Qiskit Machine Learning Documentation** [[Website]](https://qiskit.org/documentation/machine-learning/index.html)
 
