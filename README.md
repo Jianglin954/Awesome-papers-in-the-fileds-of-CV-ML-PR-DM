@@ -695,7 +695,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
-1. **Inductive Representation Learning on Large Graphs.** *William L. Hamilton et al, NeurIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf) [[Author]](https://www.cs.mcgill.ca/~wlh/)   
+1. **Inductive Representation Learning on Large Graphs.** *William L. Hamilton et al, NeurIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf) [[Author]](https://www.cs.mcgill.ca/~wlh/) [[Codes]](https://github.com/williamleif/graphsage-simple/)   
 Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive node embedding.
 
 1. **Graph Attention Networks.** *Petar Veličković et al, ICLR 2018.*  [[PDF]](https://arxiv.org/abs/1710.10903) [[Author]](https://petar-v.com/)   
@@ -717,11 +717,11 @@ Notes:
 1. **E(n) Equivariant Graph Neural Networks.** *Victor Garcia Satorras et al, ICML 2021.*  [[PDF]](http://proceedings.mlr.press/v139/satorras21a/satorras21a.pdf) [[Author]](https://scholar.google.com/citations?user=FPRvtUEAAAAJ&hl=zh-CN&oi=sra)
 
 
+1. **Understanding over-squashing and bottlenecks on graphs via curvature.** *Jake Topping et al, ICLR 2022.*  [[PDF]](https://openreview.net/pdf?id=7UmjRGzp-A) [[Author]](https://scholar.google.com/citations?hl=en&user=kBDis8EAAAAJ)
+
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-
-
 
 <a name="GraphPooling" />
 
@@ -830,7 +830,7 @@ Notes:
 1. **Self-organization Preserved Graph Structure Learning with Principle of Relevant Information.** *Qingyun Sun et al, AAAI 2023.*  [[PDF]](https://arxiv.org/pdf/2301.00015.pdf) [[Author]](https://sunqysunqy.github.io/) 
 
 
-1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html)   
+1. **Differentiable Graph Module (DGM) for Graph Convolutional Networks.** *Anees Kazi et al, IEEE TPAMI 2023.* [[PDF]](https://ieeexplore.ieee.org/document/9763421) [[Author]](https://campar.in.tum.de/Main/AneesKazi.html) [[Codes]](https://github.com/lcosmo/DGM_pytorch)    
 Notes: The current GNNs are often restricted to the transductive setting and rely on the assumption that underlying graph is known and fixed. This paper proposes **Differentiable Graph Module (DGM)** that infers the graph directly from the data. Specifically, DGM is a learnable function that predicts edge probabilities in the graph which are optimal for the downstream task. For discrete DGM, the authors construct a sparse $k$-degree graph by using the **Gumbel-Top-$k$** trick to sample edges from the probabilities. The sampling scheme, however, does not allow the gradient of the downstream classification loss function to flow through the graph prediction branch. To solve this issue, a compound loss is designed which rewards edges involved in a correct classification and penalizes edges that led to misclassification. **Latent Graph**: the graph itself is not be explicitly given.      
 
 
