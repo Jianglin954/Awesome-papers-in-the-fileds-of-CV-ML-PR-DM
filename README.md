@@ -696,7 +696,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 1. **Inductive Representation Learning on Large Graphs.** *William L. Hamilton et al, NeurIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf) [[Author]](https://www.cs.mcgill.ca/~wlh/) [[Codes]](https://github.com/williamleif/graphsage-simple/)   
-Notes: This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive node embedding.
+Notes: Most existing approaches are inherently transductive, which require all nodes in the graph are present during training of the embeddings. This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive node embedding, which generates embeddings by sampling and aggregating features from a node's local neighborhood. 
 
 1. **Graph Attention Networks.** *Petar Veličković et al, ICLR 2018.*  [[PDF]](https://arxiv.org/abs/1710.10903) [[Author]](https://petar-v.com/)   
 Notes: 
@@ -751,7 +751,7 @@ Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. requi
 Notes: This paper proposes **Topology Optimization based GCN (TO-GCN)** to jointly learn the network topology and the parameters of fully connected network. The refinement of the network topology is modeled as a **[Label Propagation](#labelPropagation)** process where the network topology is modeled as the multiplication of the predicted label matrix with its transpose matrix. The TO-GCN also penalizes the high similarities between the nodes from different classes. 
 
     
-1. **Semi-Supervised Learning With Graph Learning-Convolutional Networks.** *Bo Jiang et al, CVPR 2019.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) [[Author]](https://scholar.google.com/citations?user=n-aTwuMAAAAJ&hl=zh-CN)   
+1. **Semi-Supervised Learning With Graph Learning-Convolutional Networks.** *Bo Jiang et al, CVPR 2019.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Semi-Supervised_Learning_With_Graph_Learning-Convolutional_Networks_CVPR_2019_paper.pdf) [[Author]](https://scholar.google.com/citations?user=n-aTwuMAAAAJ&hl=zh-CN) [[Codes]](https://github.com/jiangboahu/GLCN-tf)   
 Notes: This paper proposes **Graph Learning-Convolutional Network (GLCN)** for semi-supervised task, which integrates both graph learning and graph convolution in a unified network architecture such that both given and estimated labels are incorporated to provide weakly supervised information for graph structure refinement. The graph learning function is similar to [GAT](https://arxiv.org/abs/1710.10903) and the graph learning loss is similar to [CAN](https://dl.acm.org/doi/pdf/10.1145/2623330.2623726). The graph learned in the sense of probability is dense and lack sparse structure.
 
 1. **Large Scale Graph Learning from Smooth Signals.** *Vassilis Kalofolias et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1710.05654.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
