@@ -45,7 +45,12 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Graph Information Bottleneck](#graphInfoBottle)
   - [Deeper GNN](#deeperGNN)
   - [Few-Shot Learning on Graph](#fewshotGNN)
-- [Diffusion Models](#DiffusionModels)
+- [Deep Generative Models](#deepGenerativeModels)
+  - [Generative Adversarial Networks](#GANs)
+  - [Variational Autoencoders](#VAEs)
+  - [Normalizing Flows](#normalizingFlows)
+  - [Autoregressive Models](#autoregress) 
+  - [Diffusion Models](#DiffusionModels)
 - [Network Compression](#networkcompression)
   - [Pruning](#pruning)
   - [Knowledge Distillation](#knowDistil)
@@ -1131,10 +1136,53 @@ Notes:
 
 
 
+<a name="deepGenerativeModels" />
+
+## Deep Generative Models [[Back to Top]](#)
+
+
+### Survey
+
+1. **https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9555209.** *Sam Bond-Taylor et al, TPAMI 2022.*  [[PDF]](https://arxiv.org/pdf/2103.04922.pdf) [[Author]](https://samb-t.github.io/)
+
+
+
+
+<a name="GANs" />
+
+### Generative Adversarial Networks
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+<a name="VAEs" />
+
+### Variational Autoencoders
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+<a name="normalizingFlows" />
+
+### Normalizing Flows
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+<a name="autoregress" />
+
+### Autoregressive Models
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
 
 <a name="DiffusionModels" />
 
-## Diffusion Models [[Back to Top]](#)
+### Diffusion Models
 
 
 1. **Denoising Diffusion Probabilistic Models.** *Jonathan Ho et al, NeurIPS 2020.*  [[PDF]](https://arxiv.org/pdf/2006.11239.pdf) [[Author]](http://www.jonathanho.me/)
@@ -1146,9 +1194,7 @@ Notes:
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
-
-
-### Survey 
+#### Survey 
 
 1. **Diffusion Models in Vision: A Survey.** *Florinel-Alin Croitoru et al, TPAMI 2022.*  [[PDF]](https://arxiv.org/pdf/2209.04747.pdf) [[Author]](https://scholar.google.com/citations?user=RyD1dScAAAAJ&hl=zh-CN&oi=sra)
 
