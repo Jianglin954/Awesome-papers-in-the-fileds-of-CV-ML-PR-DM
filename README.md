@@ -111,10 +111,10 @@ This paper proposes **Neighborhood Preserving Embedding (NPE)**, which aims at p
 Notes: This paper proposes a general framework called **Graph Embedding** for linear dimensionality reduction, in which an intrinsic graph characterizes the intraclass compactness while a penalty graph characterizes the interclass separability. 
 
 
+1. **Learning Signal-Agnostic Manifolds of Neural Fields.** *Yilun Du et al, NeurIPS 2021.*  [[PDF]](https://arxiv.org/pdf/2111.06387.pdf) [[Author]](https://yilundu.github.io/)
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-
 
 <a name="subspaceLearning" />
 
@@ -556,9 +556,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 1. **Densely Connected Convolutional Networks.** *Gao Huang et al, CVPR 2017.*  [[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) [[Author]](http://www.gaohuang.net/)
 
-
-
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **A ConvNet for the 2020s.** *Zhuang Liu et al, CVPR 2022.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_A_ConvNet_for_the_2020s_CVPR_2022_paper.pdf) [[Author]](https://liuzhuang13.github.io/)
 
 
 
@@ -1115,6 +1113,7 @@ Notes:
 
 ## Implicit Neural Representations [[Back to Top]](#)
 
+1. **NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis.** *Ben Mildenhall et al, ECCV 2020.*  [[PDF]](https://arxiv.org/pdf/2003.08934.pdf) [[Author]](https://bmild.github.io/)
 
 1. **Implicit Neural Representations with Periodic Activation Functions.** *Vincent Sitzmann et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/53c04118df112c13a8c34b38343b9c10-Paper.pdf) [[Author]](https://www.vincentsitzmann.com/)
 
@@ -1122,10 +1121,13 @@ Notes:
 
 1. **Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans.** *Sida Peng et al, CVPR 2021.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Peng_Neural_Body_Implicit_Neural_Representations_With_Structured_Latent_Codes_for_CVPR_2021_paper.pdf) [[Author]](https://pengsida.net/)
 
+1. **Learning Continuous Image Representation with Local Implicit Image Function.** *Yinbo Chen et al, CVPR 2021.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Learning_Continuous_Image_Representation_With_Local_Implicit_Image_Function_CVPR_2021_paper.pdf) [[Author]](https://yinboc.github.io/)
 
 
 1. **Implicit Neural Representations with Structured Latent Codes for Human Body Modeling.** *Sida Peng et al, TPAMI 2023.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10045794) [[Author]](https://pengsida.net/)
 
+
+1. **Generalised Implicit Neural Representations.** *Daniele Grattarola et al, NeurIPS 2022.*  [[PDF]](https://openreview.net/pdf?id=2fD1Ux9InIW) [[Author]](https://danielegrattarola.github.io/)
 
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
