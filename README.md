@@ -45,6 +45,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Graph Information Bottleneck](#graphInfoBottle)
   - [Deeper GNN](#deeperGNN)
   - [Few-Shot Learning on Graph](#fewshotGNN)
+- [Implicit Neural Representations](#ImplicitNerualRepresent)
 - [Deep Generative Models](#deepGenerativeModels)
   - [Generative Adversarial Networks](#GANs)
   - [Variational Autoencoders](#VAEs)
@@ -1116,7 +1117,7 @@ Notes:
 1. **NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis.** *Ben Mildenhall et al, ECCV 2020.*  [[PDF]](https://arxiv.org/pdf/2003.08934.pdf) [[Author]](https://bmild.github.io/)
 
 1. **Implicit Neural Representations with Periodic Activation Functions.** *Vincent Sitzmann et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/53c04118df112c13a8c34b38343b9c10-Paper.pdf) [[Author]](https://www.vincentsitzmann.com/) [[Codes]](https://github.com/vsitzmann/siren) [[Project]](https://www.vincentsitzmann.com/siren/)   
-Notes: Most previous implicit neural representations constructed on ReLU-based MLPs lack the capacity to represent fine details in the underlying signals, and typically do not represent the derivatives of a target signal well. This is partly due to the fact that ReLU networks are piecewise linear, their second derivative is zero everywhere, and they are thus incapable of modeling information contained in higher-order derivatives of natural signals. To tackle these problems, this paper proposes **Sinusoidal Representation Networks (SIRENs)** that leverages periodic activation functions for implicit neural representations. Given a class of functions $\Phi$ that satisfy equations of the form: $$\mathcal{C}(x, \Phi, \nabla_{x} \Phi, \nabla_{x}^{2} \Phi, ...)$$, in this implicit problem formulation, a functional $\mathcal{C}$ takes as input the spatio-temporal coordinates $x \in \mathbb{R}^m$ and, optional, derivatives of $\Phi$ with respect to these coordinates. The goal is to learn a neural network that parameterizes $\Phi$ to map $x$ to some quantity of interest while satisfying the constraint presented in the above equation. $\Phi$ is implicitly defined by the relation modeled by $\mathcal{C}$ and we refer to $\Phi$ as **implicit neural representations**.        
+Notes: Most previous implicit neural representations constructed on ReLU-based MLPs lack the capacity to represent fine details in the underlying signals, and typically do not represent the derivatives of a target signal well. This is partly due to the fact that ReLU networks are piecewise linear, their second derivative is zero everywhere, and they are thus incapable of modeling information contained in higher-order derivatives of natural signals. To tackle these problems, this paper proposes **Sinusoidal Representation Networks (SIRENs)** that leverages periodic activation functions for implicit neural representations. Given a class of functions $\Phi$ that satisfy equations of the form: $$\mathcal{C}(x, \Phi, \nabla_{x} \Phi, \nabla_{x}^{2} \Phi, ...)$$in this implicit problem formulation, a functional $\mathcal{C}$ takes as input the spatio-temporal coordinates $x \in \mathbb{R}^m$ and, optional, derivatives of $\Phi$ with respect to these coordinates. The goal is to learn a neural network that parameterizes $\Phi$ to map $x$ to some quantity of interest while satisfying the constraint presented in the above equation. $\Phi$ is implicitly defined by the relation modeled by $\mathcal{C}$ and we refer to $\Phi$ as **implicit neural representations**.        
 
 
 
@@ -1155,7 +1156,7 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 ### Generative Adversarial Networks
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Alias-Free Generative Adversarial Networks.** *Tero Karras et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper/2021/file/076ccd93ad68be51f23707988e934906-Paper.pdf) [[Author]](https://research.nvidia.com/person/tero-karras)
 
 
 
