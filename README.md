@@ -804,6 +804,11 @@ Notes: This paper proposes to directly model the continuous graph structure with
 Notes: 
 
 
+1. **Towards Unsupervised Deep Graph Structure Learning.** *Yixin Liu et al, WWW 2022.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3485447.3512186) [[Author]](https://yixinliu233.github.io/) [[Code]](https://github.com/GRAND-Lab/SUBLIME)
+
+
+
+
 1. **Learning Graph Structure from Convolutional Mixtures.** *Max Wasserman et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2205.09575.pdf) [[Author]](https://github.com/maxwass)
 
 
