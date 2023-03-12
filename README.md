@@ -804,7 +804,8 @@ Notes: This paper proposes to directly model the continuous graph structure with
 Notes: 
 
 
-1. **Towards Unsupervised Deep Graph Structure Learning.** *Yixin Liu et al, WWW 2022.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3485447.3512186) [[Author]](https://yixinliu233.github.io/) [[Code]](https://github.com/GRAND-Lab/SUBLIME)
+1. **Towards Unsupervised Deep Graph Structure Learning.** *Yixin Liu et al, WWW 2022.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3485447.3512186) [[Author]](https://yixinliu233.github.io/) [[Code]](https://github.com/GRAND-Lab/SUBLIME)   
+Notes: This paper proposes an unsupervised learning paradigm for graph structure learning. The proposed method is highly related to **SLAPS** ([paper](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf)). In SLAPS, the authors find that "Although SLAPS2s does not use the node labels in learning an adjacency matrix, it outperforms kNN-GCN (8.4% improvement when using an FP generator). With an FP generator, SLAPS2s even achieves competitive performance with SLAPS; this is mainly because FP does not leverage the supervision provided by GCNC toward learning generalizable patterns that can be used for nodes other than those in the training set."
 
 
 
