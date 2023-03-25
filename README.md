@@ -712,6 +712,12 @@ Notes:
 1. **Adaptive Sampling Towards Fast Graph Representation Learning.** *Wenbing Huang et al, NeurIPS 2018.* [[PDF]](https://proceedings.neurips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf) [[Author]](https://gsai.ruc.edu.cn/addons/teacher/index/info.html?user_id=31&ruccode=ADIIMVRnBzFXMFdnVTAIOw%3D%3D&ln=en) 
 
 
+1. **LanczosNet: Multi-Scale Deep Graph Convolutional Networks.** *Renjie Liao et al, ICLR 2019.*  [[PDF]](https://openreview.net/pdf?id=BkedznAqKQ) [[Author]](https://lrjconan.github.io/) [[Code]](https://github.com/lrjconan/LanczosNetwork) 
+
+1. **Disentangling and Unifying Graph Convolutions for Skeleton-Based Action Recognition.** *Ziyu Liu et al, CVPR 2020.*  [[PDF]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_Disentangling_and_Unifying_Graph_Convolutions_for_Skeleton-Based_Action_Recognition_CVPR_2020_paper.pdf) [[Author]](https://kenziyuliu.github.io/) [[Code]](https://github.com/kenziyuliu/ms-g3d)
+
+
+
 1. **Grale: Designing Networks for Graph Learning.** *Jonathan Halcrow et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403302) [[Author]](https://scholar.google.com/citations?user=2zZucy4AAAAJ&hl=en&oi=ao)   
 
 
