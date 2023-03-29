@@ -786,6 +786,17 @@ Notes: This paper proposes **Graph-Revised Convolutional Network (GRCN)**, where
 1. **SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks.** *Bahare Fatemi et al, NeurIPS 2021.* [[PDF]](https://proceedings.neurips.cc/paper/2021/file/bf499a12e998d178afd964adf64a60cb-Paper.pdf) [[Author]](https://baharefatemi.github.io/homepage/) [[Codes]](https://github.com/BorealisAI/SLAPS-GNN)   
 Notes: This paper proposes **Simultaneous Learning of Adjacency and GNN Parameters with Self-supervision (SLAPS)** for semi-supervised classification, which provides more supervision for inferring a graph structure through self-supervision. The authors also identify a **Supervision Starvation** problem in latent graph learning: the edges between pairs of nodes that are far from labeled nodes receive insufficient supervision. To solve this, a multi-task learning framework is designed by supplementing the classification task with a self-supervised task (which is based on the hypothesis that a graph structure is suitable for predicting the node feature is also suitable for predicting the node labels). Also refer to [paper](http://proceedings.mlr.press/v119/you20a/you20a.pdf).
 
+
+
+1. **Graph Structure Estimation Neural Networks.** *Ruijia Wang et al, WWW 2021.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3442381.3449952) [[Author]](https://scholar.google.com/citations?user=DpsuBrsAAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/BUPT-GAMMA/Graph-Structure-Estimation-Neural-Networks)
+
+
+
+
+
+
+
+
 1. **Graph Structure Learning with Variational Information Bottleneck.** *Qingyun Sun et al, AAAI 2022.*  [[PDF]](https://arxiv.org/pdf/2112.08903.pdf) [[Author]](https://sunqysunqy.github.io/)   
 Notes: This paper proposes **Variational Information Bottleneck guided Graph Structure Learning (VIB-GSL)** that advances the **Information Bottleneck** principle for graph structure learning. Refer to [paper](https://proceedings.neurips.cc/paper/2020/file/ebc2aa04e75e3caabda543a1317160c0-Paper.pdf).
 
@@ -900,6 +911,12 @@ Notes:
 Notes: This paper proposes **LaGraph**, a predictive SSL framework for representation learning of graph data, based on self-supervised latent graph prediction. It makes two assumptions: a. the observed feature vector of each node in an observed graph is independently generated from a certain distribution conditioned on the corresponding latent graph; b. the conditional distribution of the observed graph is centered at the latent graph. 
 
 1. **Automated Self-Supervised Learning for Graphs.** *Wei Jin et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2106.05470.pdf) [[Author]](http://cse.msu.edu/~jinwei2/)
+
+
+1. **Uncovering the Structural Fairness in Graph Contrastive Learning.** *Ruijia Wang et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2210.03011.pdf) [[Author]](https://scholar.google.com/citations?user=DpsuBrsAAAAJ&hl=zh-CN&oi=sra)
+
+
+
 
 
 
@@ -1768,6 +1785,9 @@ Notes:
 Notes: 
 
 
+
+1. **Label Propagation with Weak Supervision** *, ICLR 2023.*  [[PDF]]() [[Author]]()   
+Notes: 
 
 
 
