@@ -731,6 +731,28 @@ Notes:
 
 
 
+
+
+
+1. **DropMessage: Unifying Random Dropping for Graph Neural Networks.** *Taoran Fang et al, AAAI 2023.*  [[PDF]](https://arxiv.org/pdf/2204.10037.pdf) [[Author]]()  [[Code]](https://github.com/zjunet/DropMessage)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 <a name="GraphPooling" />
