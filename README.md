@@ -1318,10 +1318,11 @@ Notes: This paper proposes the **Dual Lottery Ticket Hypothesis (DLTH)**: *A ran
 
 ### Network Quantization
 
+1. **Training Binary Neural Networks through Learning with Noisy Supervision.** *Kai Han et al, ICML 2020.*  [[PDF]](http://proceedings.mlr.press/v119/han20d/han20d.pdf) [[Author]](https://scholar.google.com/citations?user=vThoBVcAAAAJ&hl=zh-CN) [[Code]](https://github.com/zhaohui-yang/Binary-Neural-Networks)  
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-
+2. 
 
 <a name="LRF" />
 
@@ -1399,7 +1400,7 @@ Notes: This is the first survey on pruning at initialization.
 
 ### Statistically Consistent Classifiers
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Are Anchor Points Really Indispensable in Label-Noise Learning?.** *Xiaobo Xia et al, NeurIPS 2019.*  [[PDF]](https://arxiv.org/pdf/1906.00189.pdf) [[Author]](https://xiaoboxia.github.io/) [[Code]](https://github.com/xiaoboxia/T-Revision)  
 
 
 
