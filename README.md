@@ -1400,6 +1400,11 @@ Notes: This is the first survey on pruning at initialization.
 
 ### Statistically Consistent Classifiers
 
+
+
+1. **Classification with Noisy Labels by Importance Reweighting.** *Tongliang Liu et al, TPAMI 2015.*  [[PDF]](https://ieeexplore.ieee.org/abstract/document/7159100) [[Author]](https://tongliang-liu.github.io/)
+
+
 1. **Are Anchor Points Really Indispensable in Label-Noise Learning?.** *Xiaobo Xia et al, NeurIPS 2019.*  [[PDF]](https://arxiv.org/pdf/1906.00189.pdf) [[Author]](https://xiaoboxia.github.io/) [[Code]](https://github.com/xiaoboxia/T-Revision)  
 
 1. **Part-dependent Label Noise: Towards Instance-dependent Label Noise.** *Xiaobo Xia et al, NeurIPS 2020.*  [[PDF]](https://arxiv.org/pdf/2006.07836.pdf) [[Author]](https://xiaoboxia.github.io/) [[Code]](https://github.com/xiaoboxia/Part-dependent-label-noise) 
