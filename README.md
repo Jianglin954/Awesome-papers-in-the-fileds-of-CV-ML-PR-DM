@@ -1090,7 +1090,7 @@ Notes:
 
 
 1. **Graph Information Bottleneck.** *Tailin Wu et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/ebc2aa04e75e3caabda543a1317160c0-Paper.pdf) [[Author]](https://tailin.org/) [[Project]](http://snap.stanford.edu/gib/#code)   
-Notes: This paper proposes **Graph Information Bottleneck (GIB)**, an information-theoretic principle inherited from [Information Bottleneck](https://arxiv.org/pdf/physics/0004057.pdf) (IB), adapted for representation learning on graph-structured data. IB provides a critical principle for representation learning: *an optimal representation should contain the minimal sufficient information for the downstream task*. Based on this, GIB aims to extract information from both the graph structure and node features and further encourages the information in learned representation to be both minimal ans sufficient. The authors further propose a variational upper bound for constraining the information from the node features and graph structure, and a variational lower bound for maximizing the information in the representation to predict the target. *The i.i.d. assumption of data points is typically used to derive variational bounds and make accurate estimation of those bounds to learning IB-based models*. However, node features of graph-structured data may be correlated. 
+Notes: This paper proposes **Graph Information Bottleneck (GIB)**, an information-theoretic principle inherited from [Information Bottleneck](https://arxiv.org/pdf/physics/0004057.pdf) (IB), adapted for representation learning on graph-structured data. IB provides a critical principle for representation learning: *an optimal representation should contain the minimal sufficient information for the downstream task*. Based on this, GIB aims to extract information from both the graph structure and node features and further encourages the information in learned representation to be both minimal ans sufficient. The authors further propose a variational upper bound for constraining the information from the node features and graph structure, and a variational lower bound for maximizing the information in the representation to predict the target. *The i.i.d. assumption of data points is typically used to derive variational bounds and make accurate estimation of those bounds to learning IB-based models*. However, node features of graph-structured data may be correlated. **Local-Dependence** assumption: *given the data related to the neighbors within a certain number of hops of a node $v$, the data in the rest of the graph will be independent of $v$*. 
 
 
 1. **Recognizing Predictive Substructures with Subgraph Information Bottleneck.** *Junchi Yu et al, TPAMI 2021.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9537601) [[Author]](https://samyu0304.github.io/)
@@ -1905,7 +1905,7 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 ### Information Theory
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Deep Variational Information Bottleneck.** *Alexander A. Alemi et al, ICLR 2017.*  [[PDF]](https://arxiv.org/abs/1612.00410) [[Author]](https://www.alexalemi.com/)
 
 
 
