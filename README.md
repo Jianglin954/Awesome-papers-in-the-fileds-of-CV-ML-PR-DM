@@ -44,6 +44,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Weisfeiler-Lehman Test](#wltest)
   - [Graph Information Bottleneck](#graphInfoBottle)
   - [Deeper GNN](#deeperGNN)
+  - [Graph OOD Generalization](#GraphOOD)
   - [Few-Shot Learning on Graph](#fewshotGNN)
 - [Implicit Neural Representations](#ImplicitNerualRepresent)
 - [Deep Generative Models](#deepGenerativeModels)
@@ -1105,7 +1106,6 @@ Notes: This paper proposes **Graph Information Bottleneck (GIB)**, an informatio
 
 
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1115,6 +1115,17 @@ Notes: This paper proposes **Graph Information Bottleneck (GIB)**, an informatio
 
 1. **Towards Deeper Graph Neural Networks.** *Meng Liu et al, KDD 2020.* [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403076) [[Author]](https://mengliu1998.github.io/)   
 Notes: 
+
+
+
+
+<a name="GraphOOD" />
+
+### Graph OOD Generalization
+
+
+1. **Mind the Label Shift of Augmentation-based Graph OOD Generalization.** *Junchi Yu et al, CVPR 2023.*  [[PDF]](https://arxiv.org/pdf/2303.14859.pdf) [[Author]](https://samyu0304.github.io/)
+
 
 
 
