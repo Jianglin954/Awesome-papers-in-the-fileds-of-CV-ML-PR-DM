@@ -1102,7 +1102,7 @@ Notes: This paper proposes **Graph Information Bottleneck (GIB)**, an informatio
 
 1. **Heterogeneous Graph Information Bottleneck.** *Liang Yang et al, IJCAI 2021.*  [[PDF]](https://yangliang.github.io/pdf/ijcai21.pdf) [[Author]](https://yangliang.github.io/)
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.** *Fan-Yun Sun et al, ICLR 2020.*  [[PDF]](https://openreview.net/pdf?id=r1lfF2NYvH) [[Author]](https://sunfanyun.com/)
 
 
 
