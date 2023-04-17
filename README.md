@@ -76,6 +76,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Optimization Methods](#Optimization)
   - [PAC Learning](#PACLearning)
   - [Information Theory](#informationTheory)
+  - [Probability Theory](#ProbabilityTheory)
   - [Gumbel-Max Trick](#GumbelmaxTrick)
   - [Quantum Computing](#quantumcomputing)
 - [Learning Sources](#learningsources)
@@ -1917,6 +1918,15 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 ### Information Theory
 
 1. **Deep Variational Information Bottleneck.** *Alexander A. Alemi et al, ICLR 2017.*  [[PDF]](https://arxiv.org/abs/1612.00410) [[Author]](https://www.alexalemi.com/)
+
+
+
+
+<a name="ProbabilityTheory" />
+
+### Probability Theory
+
+1. **Probability Theory: The Logic of Science.** *E. T. Jaynes et al, Book.*  [[PDF]](https://bayes.wustl.edu/etj/prob/book.pdf) [[Author]](http://theor.jinr.ru/~kuzemsky/etjaybio.html)
 
 
 
