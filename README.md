@@ -1919,6 +1919,9 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 1. **Deep Variational Information Bottleneck.** *Alexander A. Alemi et al, ICLR 2017.*  [[PDF]](https://arxiv.org/abs/1612.00410) [[Author]](https://www.alexalemi.com/)
 
+1. **Visual Information Theory.** *Christopher Olah et al, Blog 2015.*  [[PDF]](http://colah.github.io/posts/2015-09-Visual-Information/#fnref3) [[Author]](http://colah.github.io/)
+
+
 
 
 
