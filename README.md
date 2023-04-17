@@ -1212,7 +1212,7 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 ### Survey
 
-1. **https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9555209.** *Sam Bond-Taylor et al, TPAMI 2022.*  [[PDF]](https://arxiv.org/pdf/2103.04922.pdf) [[Author]](https://samb-t.github.io/)
+1. **Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models.** *Sam Bond-Taylor et al, TPAMI 2022.*  [[PDF]](https://arxiv.org/pdf/2103.04922.pdf) [[Author]](https://samb-t.github.io/)
 
 
 
