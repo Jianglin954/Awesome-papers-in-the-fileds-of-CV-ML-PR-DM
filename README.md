@@ -1926,7 +1926,7 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 ### Probability Theory
 
-1. **Probability Theory: The Logic of Science.** *E. T. Jaynes et al, Book.*  [[PDF]](https://bayes.wustl.edu/etj/prob/book.pdf) [[Author]](http://theor.jinr.ru/~kuzemsky/etjaybio.html)
+1. **Probability Theory: The Logic of Science.** *E. T. Jaynes et al, Book.*  [[PDF]](http://www.med.mcgill.ca/epidemiology/hanley/bios601/GaussianModel/JaynesProbabilityTheory.pdf) [[Author]](http://theor.jinr.ru/~kuzemsky/etjaybio.html)
 
 
 
