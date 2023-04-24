@@ -705,7 +705,12 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 Notes: Most existing approaches are inherently transductive, which require all nodes in the graph are present during training of the embeddings. This paper proposes **SAmple and aggreGatE (GraphSAGE)** for inductive node embedding, which generates embeddings by sampling and aggregating features from a node's local neighborhood. 
 
 1. **Graph Attention Networks.** *Petar Veličković et al, ICLR 2018.*  [[PDF]](https://arxiv.org/abs/1710.10903) [[Author]](https://petar-v.com/)   
-Notes: 
+ 
+
+1. **Pitfalls of Graph Neural Network Evaluation.** *Oleksandr Shchur et al, NeurIPS 2018.*  [[PDF]](https://arxiv.org/pdf/1811.05868.pdf) [[Author]](https://shchur.github.io/)
+
+
+
 
 
 1. **Deeper Insights Into Graph Convolutional Networks for Semi-Supervised Learning.** *Qimai Li et al, AAAI 2018.*  [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11604) [[Author]](https://liqimai.github.io/)
@@ -737,8 +742,6 @@ Notes:
 
 
 1. **DropMessage: Unifying Random Dropping for Graph Neural Networks.** *Taoran Fang et al, AAAI 2023.*  [[PDF]](https://arxiv.org/pdf/2204.10037.pdf) [[Author]]()  [[Code]](https://github.com/zjunet/DropMessage)
-
-
 
 
 
