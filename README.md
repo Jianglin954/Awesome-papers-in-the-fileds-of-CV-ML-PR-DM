@@ -745,7 +745,7 @@ Notes: Most existing approaches are inherently transductive, which require all n
 
 
 
-
+1. **Graph Neural Networks can Recover the Hidden Features Solely from the Graph Structure.** *Ryoma Sato et al, ICML 2023.*  [[PDF]](https://arxiv.org/pdf/2301.10956.pdf) [[Author]](https://joisino.net/en/)
 
 
 
