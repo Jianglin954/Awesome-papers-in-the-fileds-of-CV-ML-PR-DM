@@ -781,6 +781,9 @@ Notes: Most existing approaches are inherently transductive, which require all n
 Notes: 
 
 
+1. **Learning Conditioned Graph Structures for Interpretable Visual Question Answering.** *Will Norcliffe-Brown et al, .*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2018/file/4aeae10ea1c6433c926cdfa558d31134-Paper.pdf) [[Author]](https://www.linkedin.com/in/william-norcliffe-brown/?originalSubdomain=uk)
+
+
 1. **Adaptive Graph Convolutional Neural Networks.** *Ruoyu Li et al, AAAI 2018.* [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/11691) [[Author]](https://scholar.google.co.uk/citations?user=S23gEPsAAAAJ&hl=en)  
 Notes: The bottlenecks of current graph CNNS: a. restrict graph degree; b. required identical graph structure shared among inputs; C. fixed graph constructed without training; d. incapability of learning from topological structure. This paper proposes **Adaptive Graph Convolution Network (AGCN)** that feeds on original data of diverse graph structures. AGCN seems to be designed primarily for graph classification. Besides, AGCN needs an initial graph and suffers from the limitation of transductive models as described in [DGM](https://ieeexplore.ieee.org/document/9763421).
 
