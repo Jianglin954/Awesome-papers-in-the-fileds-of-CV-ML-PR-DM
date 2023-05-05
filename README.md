@@ -46,6 +46,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Deeper GNN](#deeperGNN)
   - [Graph OOD Generalization](#GraphOOD)
   - [Few-Shot Learning on Graph](#fewshotGNN)
+- [Visual Question Answering](#VQA)
 - [Implicit Neural Representations](#ImplicitNerualRepresent)
 - [Deep Generative Models](#deepGenerativeModels)
   - [Generative Adversarial Networks](#GANs)
@@ -1175,6 +1176,29 @@ Notes:
 
 1. **A Survey on Graph Structure Learning: Progress and Opportunities.** *Yanqiao Zhu et al, arXiv 2022.* [[PDF]](https://arxiv.org/pdf/2103.03036.pdf) [[Author]](https://sxkdz.github.io/) 
 
+
+
+
+
+<a name="VQA" />
+
+
+## Visual Question Answering [[Back to Top]](#)
+
+1. **VQA: Visual Question Answering.** *Stanislaw Antol et al, ICCV 2015.*  [[PDF]](https://openaccess.thecvf.com/content_iccv_2015/papers/Antol_VQA_Visual_Question_ICCV_2015_paper.pdf) [[Author]](https://computing.ece.vt.edu/~santol/)
+
+
+1. **Hierarchical Question-Image Co-Attention for Visual Question Answering.** *Jiasen Lu et al, NIPS 2016.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2016/file/9dcb88e0137649590b755372b040afad-Paper.pdf) [[Author]](https://jiasenlu.github.io/)
+
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
