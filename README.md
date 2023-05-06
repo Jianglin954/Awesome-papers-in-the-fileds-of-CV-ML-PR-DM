@@ -750,6 +750,8 @@ Notes: Most existing approaches are inherently transductive, which require all n
 
 
 
+1. **Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and MLPs.** *Chenxiao Yang et al, ICLR 2023.*  [[PDF]](https://arxiv.org/pdf/2212.09034.pdf) [[Author]](https://scholar.google.com/citations?hl=en&user=HScmvrAAAAAJ&view_op=list_works) [[Code]](https://github.com/chr26195/PMLP)
+
 
 
 
@@ -874,6 +876,10 @@ Notes: This paper proposes an unsupervised learning paradigm for graph structure
 
 
 1. **Boosting Graph Structure Learning with Dummy Nodes.** *Xin Liu et al, ICML 2022.*  [[PDF]](https://arxiv.org/pdf/2206.08561.pdf) [[Author]](https://cse.hkust.edu.hk/~xliucr/)
+
+
+1. **NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification.** *Qitian Wu et al, NeurIPS 2022.*  [[PDF]](https://openreview.net/pdf?id=sMezXGG5So) [[Author]](https://qitianwu.github.io/) [[Code]](https://github.com/qitianwu/NodeFormer)
+
 
 
 
