@@ -1340,6 +1340,10 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 Notes: This paper proposes the **Lottery Ticket Hypothesis (LTH)**: *A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations.* Before this paper, contemporary experience is that the architectures uncovered by pruning are harder to train from the start, reaching lower accuracy than the original networks. This paper finds that when the parameters of LTH are randomly reinitialized, the wining tickets no longer match the performance of the original network, offering evidence that these smaller networks do not train effectively unless they are appropriately initialized. In another word, when randomly reinitialized, winning tickets perform far worse, meaning structure alone cannot explain a winning ticket's success. The authors identify a winning ticket by training a network and pruning its smallest-magnitude weights, and then each unpruned connections' value is then reset to its initialization from original network before it was trained. The pruning process can be *one-shot*, but *iterative pruning* shows better performance.The **Lottery Ticket Conjecture** is that *Dense, randomly-initialized networks are easier to train than the sparse networks that result from pruning because there are more possible subnetworks from which training might recover a winning ticket*. A limitation is that on deeper networks (ResNet-18 and VGG-19), iterative pruning is unable to find winning tickets unless train the networks with learning rate warmup.  
 
 
+
+1. **Auto Graph Encoder-Decoder for Neural Network Pruning.** *Sixing Yu et al, ICCV 2021.*  [[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Auto_Graph_Encoder-Decoder_for_Neural_Network_Pruning_ICCV_2021_paper.pdf) [[Author]](https://scholar.google.com/citations?user=DT3qqe8AAAAJ&hl=zh-CN&oi=sra) 
+
+
  
 1. **The Lottery Tickets Hypothesis for Supervised and Self-supervised Pre-training in Computer Vision Models.** *Tianlong Chen et al, CVPR 2021.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_The_Lottery_Tickets_Hypothesis_for_Supervised_and_Self-Supervised_Pre-Training_in_CVPR_2021_paper.pdf) [[Author]](https://tianlong-chen.github.io/about/)
  
@@ -1349,6 +1353,25 @@ Notes: This paper proposes the **Lottery Ticket Hypothesis (LTH)**: *A randomly-
 
 1. **Dual Lottery Ticket Hypothesis.** *Yue Bai et al, ICLR 2022.*  [[PDF]](https://openreview.net/pdf?id=fOsN52jn25l) [[Author]](https://yueb17.github.io/)   
 Notes: This paper proposes the **Dual Lottery Ticket Hypothesis (DLTH)**: *A randomly selected subnetwork from a randomly initialized dense network can be transformed into a trainable condition, where the transformed subnetwork can be trained in isolation and achieve better at least comparable performance to LTH and other strong baselines*. LTH can be seen as finding structure according to weights, because it prune the pretrained network to find mask using weight magnitude ranking; DLTH can be seen as finding weights based on a given structure, because it transforms weights for a randomly selected sparse network. To substantiate DLTH, a **Random Sparse Network Transformation (RST)** is proposed, which adopts a regularization term to borrow learning capacity and realize information extrusion from the weights that will be masked. 
+
+
+
+1. **Topology-Aware Network Pruning using Multi-stage Graph Embedding and Reinforcement Learning.** *Sixing Yu et al, ICML 2022.*  [[PDF]](https://proceedings.mlr.press/v162/yu22e/yu22e.pdf) [[Author]](https://scholar.google.com/citations?user=DT3qqe8AAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/yusx-swapp/GNN-RL-Model-Compression)
+
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
+
+
+
+
+
+
 
 
 
