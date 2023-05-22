@@ -59,6 +59,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Knowledge Distillation](#knowDistil)
   - [Network Quantization](#quantization)
   - [Low-Rank Factorization](#LRF)
+- [Dataset Distillation](#datasetDistil)
 - [Learning with Label Noise](#labelnoise)
   - [Statistically Inconsistent Classifiers](#SICnoise)
   - [Statistically Consistent Classifiers](#SCCnoise)
@@ -1332,6 +1333,7 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 
+
 <a name="pruning" />
 
 ### Pruning
@@ -1423,8 +1425,39 @@ Notes: This is the first survey on pruning at initialization.
 
 
 
+<a name="datasetDistil" />
+
+## Dataset Distillation [[Back to Top]](#)
 
 
+1. **Dataset Distillation.** *Tongzhou Wang et al, arXiv 2018.*  [[PDF]](https://arxiv.org/abs/1811.10959) [[Author]](https://www.tongzhouwang.info/) [[Code]](https://github.com/SsnL/dataset-distillation) [[Website]](https://www.tongzhouwang.info/dataset_distillation/)  
+
+
+
+### Survey
+
+
+1. **Dataset Distillation: A Comprehensive Review.** *Ruonan Yu et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2301.07014.pdf) [[Author]](https://scholar.google.com/citations?user=UHP95egAAAAJ&hl=zh-CN)  
+
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
