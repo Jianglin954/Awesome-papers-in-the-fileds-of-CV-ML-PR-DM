@@ -1684,7 +1684,7 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 ### Image Super-Resolution
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **Cross-Scale Internal Graph Neural Network for Image Super-Resolution.** *Shangchen Zhou et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper/2020/file/23ad3e314e2a2b43b4c720507cec0723-Paper.pdf) [[Author]]()
 
 
 <a name="ImageLLE" />
