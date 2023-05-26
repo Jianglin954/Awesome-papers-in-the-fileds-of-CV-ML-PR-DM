@@ -1066,6 +1066,9 @@ Notes:
 
 1. **Generative Diffusion Models on Graphs: Methods and Applications.** *Wenqi Fan et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2302.02591.pdf) [[Author]](https://wenqifan03.github.io/)
 
+1. **A Survey on Graph Diffusion Models: Generative AI in Science for Molecule, Protein and Material.** *Mengchun Zhang et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2304.01565.pdf) [[Author]]()
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
