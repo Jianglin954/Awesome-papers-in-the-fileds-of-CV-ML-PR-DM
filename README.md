@@ -1257,19 +1257,26 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 
+<a name="VAEs" />
+
+### Variational Autoencoders
+
+1. **Auto-Encoding Variational Bayes.** *Diederik P. Kingma et al, arXiv 2013.*  [[PDF]](https://arxiv.org/pdf/1312.6114.pdf) [[Author]](http://www.dpkingma.com/)
+
+1. **An Introduction to Variational Autoencoders.** *Diederik P. Kingma et al, arXiv 2013.*  [[PDF]](https://arxiv.org/pdf/1906.02691.pdf) [[Author]](http://www.dpkingma.com/)
+
+
+
+
+
+
+
 <a name="GANs" />
 
 ### Generative Adversarial Networks
 
 1. **Alias-Free Generative Adversarial Networks.** *Tero Karras et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper/2021/file/076ccd93ad68be51f23707988e934906-Paper.pdf) [[Author]](https://research.nvidia.com/person/tero-karras)
 
-
-
-<a name="VAEs" />
-
-### Variational Autoencoders
-
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1296,6 +1303,11 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 1. **Denoising Diffusion Probabilistic Models.** *Jonathan Ho et al, NeurIPS 2020.*  [[PDF]](https://arxiv.org/pdf/2006.11239.pdf) [[Author]](http://www.jonathanho.me/) [[Code]](https://github.com/hojonathanho/diffusion)
 
+
+
+1. **Variational Diffusion Models.** *Diederik P. Kingma et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/b578f2a52a0229873fefc2a4b06377fa-Paper.pdf) [[Author]](http://www.dpkingma.com/)
+
+
 1. **GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation.** *Minkai Xu et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2203.02923.pdf) [[Author]](https://minkaixu.com/)
 
 
@@ -1310,6 +1322,9 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 1. **High-Resolution Image Synthesis with Latent Diffusion Models.** *Robin Rombach et al, CVPR 2022.*  [[PDF]](https://arxiv.org/pdf/2112.10752.pdf) [[Author]](https://scholar.google.com/citations?user=ygdQhrIAAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/CompVis/stable-diffusion)
+
+
+
 
 
 
