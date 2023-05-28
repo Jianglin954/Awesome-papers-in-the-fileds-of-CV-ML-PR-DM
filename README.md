@@ -1265,6 +1265,12 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 1. **An Introduction to Variational Autoencoders.** *Diederik P. Kingma et al, arXiv 2013.*  [[PDF]](https://arxiv.org/pdf/1906.02691.pdf) [[Author]](http://www.dpkingma.com/)
 
+
+1. **Improved Variational Inference with Inverse Autoregressive Flows.** *Diederik P. Kingma et al, NIPS 2016.*  [[PDF]](https://arxiv.org/pdf/1606.04934.pdf) [[Author]](http://www.dpkingma.com/) [[Code]](https://github.com/openai/iaf)
+
+1. **Ladder Variational Autoencoders.** *Casper Kaae Sønderby et al, NIPS 2016.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2016/file/6ae07dcb33ec3b7c814df797cbda0f87-Paper.pdf) [[Author]](https://casperkaae.github.io/)
+
+
 1. **Neural Discrete Representation Learning.** *Aaron van den Oord et al, NIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2017/file/7a98af17e63a0ac09ce2e96d03992fbc-Paper.pdf) [[Author]](https://avdnoord.github.io/homepage/)
 
 
@@ -1319,6 +1325,9 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 ### Diffusion Models
 
+1. **Deep Unsupervised Learning using Nonequilibrium Thermodynamics.** *Jascha Sohl-Dickstein et al, ICML 2015.*  [[PDF]](http://proceedings.mlr.press/v37/sohl-dickstein15.pdf) [[Author]](http://www.sohldickstein.com/)
+
+
 
 1. **Denoising Diffusion Probabilistic Models.** *Jonathan Ho et al, NeurIPS 2020.*  [[PDF]](https://arxiv.org/pdf/2006.11239.pdf) [[Author]](http://www.jonathanho.me/) [[Code]](https://github.com/hojonathanho/diffusion)
 
@@ -1342,7 +1351,7 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 1. **High-Resolution Image Synthesis with Latent Diffusion Models.** *Robin Rombach et al, CVPR 2022.*  [[PDF]](https://arxiv.org/pdf/2112.10752.pdf) [[Author]](https://scholar.google.com/citations?user=ygdQhrIAAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/CompVis/stable-diffusion)
 
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
