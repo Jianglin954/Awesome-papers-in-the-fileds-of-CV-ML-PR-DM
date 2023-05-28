@@ -1265,9 +1265,12 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 1. **An Introduction to Variational Autoencoders.** *Diederik P. Kingma et al, arXiv 2013.*  [[PDF]](https://arxiv.org/pdf/1906.02691.pdf) [[Author]](http://www.dpkingma.com/)
 
+1. **Neural Discrete Representation Learning.** *Aaron van den Oord et al, NIPS 2017.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2017/file/7a98af17e63a0ac09ce2e96d03992fbc-Paper.pdf) [[Author]](https://avdnoord.github.io/homepage/)
 
 
 
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
@@ -1286,6 +1289,10 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 1. **Alias-Free Generative Adversarial Networks.** *Tero Karras et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper/2021/file/076ccd93ad68be51f23707988e934906-Paper.pdf) [[Author]](https://research.nvidia.com/person/tero-karras)
+
+1. **Image-to-Image Translation with Conditional Adversarial Networks.** *Phillip Isola et al, CVPR 2017.*  [[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Isola_Image-To-Image_Translation_With_CVPR_2017_paper.pdf) [[Author]](http://web.mit.edu/phillipi/) [[Code]](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) [[Website]](https://phillipi.github.io/pix2pix/)
+
+1. **Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks.** *Jun-Yan Zhu et al, ICCV 2017.*  [[PDF]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf) [[Author]]() [[Code]](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) [[Website]](https://junyanz.github.io/CycleGAN/)
 
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
