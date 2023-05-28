@@ -1275,8 +1275,20 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 ### Generative Adversarial Networks
 
+
+1. **Generative Adversarial Nets.** *Ian J. Goodfellow et al, NeurIPS 2014.*  [[PDF]](https://arxiv.org/pdf/1406.2661.pdf) [[Author]](https://www.iangoodfellow.com/) [[Code]](https://github.com/goodfeli/adversarial)
+
+1. **Conditional Generative Adversarial Nets.** *Mehdi Mirza et al, arXiv 2014.*  [[PDF]](https://arxiv.org/pdf/1411.1784.pdf) [[Author]](https://memimo.net/)
+
+
+1. **Coupled Generative Adversarial Networks.** *Ming-Yu Liu et al, NeurIPS 2016.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2016/file/502e4a16930e414107ee22b6198c578f-Paper.pdf) [[Author]](https://mingyuliu.net/) [[Code]](https://github.com/mingyuliutw/cogan) 
+
+
+
 1. **Alias-Free Generative Adversarial Networks.** *Tero Karras et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper/2021/file/076ccd93ad68be51f23707988e934906-Paper.pdf) [[Author]](https://research.nvidia.com/person/tero-karras)
 
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
