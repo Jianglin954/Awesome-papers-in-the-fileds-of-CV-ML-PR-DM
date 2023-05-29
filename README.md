@@ -1337,17 +1337,21 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 1. **Variational Diffusion Models.** *Diederik P. Kingma et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/b578f2a52a0229873fefc2a4b06377fa-Paper.pdf) [[Author]](http://www.dpkingma.com/)
 
 
-1. **GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation.** *Minkai Xu et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2203.02923.pdf) [[Author]](https://minkaixu.com/)
-
-
 
 1. **Denoising Diffusion Implicit Models.** *Jiaming Song et al, ICLR 2021.*  [[PDF]](https://arxiv.org/pdf/2010.02502.pdf) [[Author]](https://tsong.me/) [[Code]](https://github.com/ermongroup/ddim)
+
+
+1. **Diffusion Models Beat GANs on Image Synthesis.** *Prafulla Dhariwal et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf) [[Author]](https://prafulladhariwal.com/)
+
 
 1. **Classifier-Free Diffusion Guidance.** *Jonathan Ho et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2207.12598.pdf) [[Author]](http://www.jonathanho.me/)
 
 1. **Progressive Distillation for Fast Sampling of Diffusion Models.** *Tim Salimans et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2202.00512.pdf) [[Author]](https://scholar.google.nl/citations?hl=en&user=w68-7AYAAAAJ&view_op=list_works&sortby=pubdate) [[Code]](https://github.com/google-research/google-research/tree/master/diffusion_distillation) 
 
-1. **On Distillation of Guided Diffusion Models.** *Chenlin Meng et al, CVPR 2023.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf) [[Author]](https://cs.stanford.edu/~chenlin/)
+
+1. **GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation.** *Minkai Xu et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2203.02923.pdf) [[Author]](https://minkaixu.com/)
+
+
 
 
 1. **High-Resolution Image Synthesis with Latent Diffusion Models.** *Robin Rombach et al, CVPR 2022.*  [[PDF]](https://arxiv.org/pdf/2112.10752.pdf) [[Author]](https://scholar.google.com/citations?user=ygdQhrIAAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/CompVis/stable-diffusion)
@@ -1356,11 +1360,16 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 1. **Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding.** *Chitwan Saharia et al, NeurIPS 2022.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/ec795aeadae0b7d230fa35cbaf04c041-Paper-Conference.pdf) [[Author]](https://scholar.google.co.in/citations?user=JApued4AAAAJ&hl=en)
 
 
+1. **Hierarchical Text-Conditional Image Generation with CLIP Latents.** *Aditya Ramesh et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2204.06125.pdf) [[Author]](http://adityaramesh.com/about.html)
+
+
+1. **Understanding Diffusion Models: A Unified Perspective.** *Calvin Luo et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2208.11970.pdf) [[Author]](https://calvinyluo.com/about.html)
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
-
+1. **On Distillation of Guided Diffusion Models.** *Chenlin Meng et al, CVPR 2023.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf) [[Author]](https://cs.stanford.edu/~chenlin/)
+2. 
 
 #### Survey 
 
