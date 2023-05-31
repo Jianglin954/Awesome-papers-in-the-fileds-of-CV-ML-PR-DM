@@ -1354,7 +1354,7 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 
-1. **High-Resolution Image Synthesis with Latent Diffusion Models.** *Robin Rombach et al, CVPR 2022.*  [[PDF]](https://arxiv.org/pdf/2112.10752.pdf) [[Author]](https://scholar.google.com/citations?user=ygdQhrIAAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/CompVis/stable-diffusion)
+1. **High-Resolution Image Synthesis with Latent Diffusion Models.** *Robin Rombach et al, CVPR 2022.*  [[PDF]](https://arxiv.org/pdf/2112.10752.pdf) [[Author]](https://scholar.google.com/citations?user=ygdQhrIAAAAJ&hl=zh-CN&oi=sra) [[Code1]](https://github.com/CompVis/stable-diffusion) [[Code2]](https://github.com/CompVis/latent-diffusion)
 
 
 1. **Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding.** *Chitwan Saharia et al, NeurIPS 2022.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/ec795aeadae0b7d230fa35cbaf04c041-Paper-Conference.pdf) [[Author]](https://scholar.google.co.in/citations?user=JApued4AAAAJ&hl=en)
@@ -1381,6 +1381,10 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 ### Score-based Generative Models
 
+
+
+1. **Bayesian Learning via Stochastic Gradient Langevin Dynamics.** *Max Welling et al, ICML 2011.*  [[PDF]](https://www.stats.ox.ac.uk/~teh/research/compstats/WelTeh2011a.pdf) [[Author]](https://scholar.google.com/citations?user=8200InoAAAAJ&hl=en)
+
 1. **Generative Modeling by Estimating Gradients of the Data Distribution.** *Yang Song et al, NeurIPS 2019.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2019/file/3001ef257407d5a371a96dcd947c7d93-Paper.pdf) [[Author]](https://yang-song.net/)
 
 1. **Improved Techniques for Training Score-Based Generative Models.** *Yang Song et al, NeurIPS 2020.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2020/file/92c3b916311a5517d9290576e3ea37ad-Paper.pdf) [[Author]](https://yang-song.net/)
@@ -1389,9 +1393,6 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 
-
-
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
