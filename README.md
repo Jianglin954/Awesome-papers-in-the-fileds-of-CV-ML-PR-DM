@@ -1067,12 +1067,14 @@ Notes:
 
 1. **Generative Diffusion Models on Graphs: Methods and Applications.** *Wenqi Fan et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2302.02591.pdf) [[Author]](https://wenqifan03.github.io/)
 
+
 1. **A Survey on Graph Diffusion Models: Generative AI in Science for Molecule, Protein and Material.** *Mengchun Zhang et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2304.01565.pdf) [[Author]]()
 
 
+1. **A Systematic Survey on Deep Generative Models for Graph Generation.** *Xiaojie Guo et al, TPAMI 2023.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9920219) [[Author]](https://sites.google.com/view/xiaojie-guo-personal-site)
+
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
 
 
 <a name="GraphCausality" />
@@ -1365,11 +1367,18 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 1. **Understanding Diffusion Models: A Unified Perspective.** *Calvin Luo et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2208.11970.pdf) [[Author]](https://calvinyluo.com/about.html)
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+1. **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps.** *Cheng Lu et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2206.00927.pdf) [[Author]](https://luchengthu.github.io/) [[Code]](https://github.com/LuChengTHU/dpm-solver) 
 
 
 1. **On Distillation of Guided Diffusion Models.** *Chenlin Meng et al, CVPR 2023.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf) [[Author]](https://cs.stanford.edu/~chenlin/)
-2. 
+
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+
+
+
 
 #### Survey 
 
