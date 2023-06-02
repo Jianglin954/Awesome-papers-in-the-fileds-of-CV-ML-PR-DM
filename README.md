@@ -1043,6 +1043,8 @@ Notes:
 1. **Bipartite Graph Diffusion Model for Human Interaction Generation.** *Baptiste Chopin et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2301.10134.pdf) [[Author]]()
 
 
+1. **Diffusion Probabilistic Models for Graph-Structured Prediction.** *Hyosoon Jang et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2302.10506.pdf) [[Author]]() [[Code]](https://github.com/hsjang0/DPM-GSP)
+
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
