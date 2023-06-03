@@ -81,6 +81,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Information Theory](#informationTheory)
   - [Probability Theory](#ProbabilityTheory)
   - [Gumbel-Max Trick](#GumbelmaxTrick)
+  - [Stochastic Differential Equations](#SDE)
   - [Quantum Computing](#quantumcomputing)
 - [Learning Sources](#learningsources)
 
@@ -2144,7 +2145,11 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+<a name="SDE" />
+
+### Stochastic Differential Equations
+
+1. **An Intuitive Introduction For Understanding and Solving Stochastic Differential Equations.** *Chris Rackauckas et al, 2014.*  [[PDF]](https://www.ics.uci.edu/~xhx/courses/math227c/CourseScribeNotes.pdf) [[Author]](https://chrisrackauckas.com/index.html)
 
 
 <a name="quantumcomputing" />
