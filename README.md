@@ -1344,6 +1344,8 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 1. **Denoising Diffusion Implicit Models.** *Jiaming Song et al, ICLR 2021.*  [[PDF]](https://arxiv.org/pdf/2010.02502.pdf) [[Author]](https://tsong.me/) [[Code]](https://github.com/ermongroup/ddim)
 
+1. **Improved Denoising Diffusion Probabilistic Models.** *Alex Nichol et al, ICML 2021.*  [[PDF]](https://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf) [[Author]](https://aqnichol.com/) [[Code]](https://github.com/openai/improved-diffusion)
+
 
 1. **Diffusion Models Beat GANs on Image Synthesis.** *Prafulla Dhariwal et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf) [[Author]](https://prafulladhariwal.com/)
 
@@ -1367,9 +1369,16 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 1. **Hierarchical Text-Conditional Image Generation with CLIP Latents.** *Aditya Ramesh et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2204.06125.pdf) [[Author]](http://adityaramesh.com/about.html)
 
 
+1. **GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models.** *Alex Nichol et al, 2022 arXiv.*  [[PDF]](https://arxiv.org/pdf/2112.10741.pdf) [[Author]](https://aqnichol.com/)
+
+
+
 1. **Understanding Diffusion Models: A Unified Perspective.** *Calvin Luo et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2208.11970.pdf) [[Author]](https://calvinyluo.com/about.html)
 
 1. **DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps.** *Cheng Lu et al, NeurIPS 2022.*  [[PDF]](https://arxiv.org/pdf/2206.00927.pdf) [[Author]](https://luchengthu.github.io/) [[Code]](https://github.com/LuChengTHU/dpm-solver) 
+
+
+1. **Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models.** *Fan Bao et al, ICLR 2022.*  [[PDF]](https://arxiv.org/pdf/2201.06503.pdf) [[Author]](https://baofff.github.io/)
 
 
 1. **On Distillation of Guided Diffusion Models.** *Chenlin Meng et al, CVPR 2023.*  [[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Meng_On_Distillation_of_Guided_Diffusion_Models_CVPR_2023_paper.pdf) [[Author]](https://cs.stanford.edu/~chenlin/)
@@ -1404,10 +1413,10 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 
+1. **How to Train Your Energy-Based Models.** *Yang Song et al, arXiv 2021.*  [[PDF]](https://arxiv.org/pdf/2101.03288.pdf) [[Author]](https://yang-song.net/)
 
 
-
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
