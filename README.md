@@ -1390,6 +1390,10 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 
 
 
+#### Diffusion Pruning
+
+1. **Structural Pruning for Diffusion Models.** *Gongfan Fang et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2305.10924.pdf) [[Author]](https://fangggf.github.io/) [[Code]](https://github.com/VainF/Diff-Pruning) 
+
 
 
 #### Survey 
