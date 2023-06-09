@@ -686,6 +686,7 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 ### Spectral-based GNN
 
+1. **Simplifying Graph Convolutional Networks.** *Felix Wu et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/wu19e/wu19e.pdf) [[Author]](https://sites.google.com/view/felixwu/home)
 
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
