@@ -25,6 +25,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Shallow Domain Adaptation](#shallowDA)
   - [Deep Domain Adaptation](#deepDA)
 - [Convolutional Neural Network](#CNN)
+- [Neural Tangent Kernel](#NTK)
 - [Transformers](#Transformers)
   - [Vision Transformers](#ViT)
   - [Graph Transformers](#GraphTransformers)
@@ -531,11 +532,25 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 
 
 
+<a name="NTK" />
+
+## Neural Tangent Kernel [[Back to Top]](#)
+
+
+1. **Neural Tangent Kernel: Convergence and Generalization in Neural Networks.** *Arthur Jacot et al, NeurIPS 2018.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2018/file/5a4be1fa34e62bb8a6ec6b91d2462f5a-Paper.pdf) [[Author]](https://sites.google.com/view/arthurjacot/)
+
+
+1. **Wide Neural Networks of Any Depth Evolve as Linear Models Under Gradient Descent.** *Jaehoon Lee et al, NeurIPS 2019.*  [[PDF]](https://arxiv.org/pdf/1902.06720.pdf) [[Author]](https://jaehlee.github.io/)
+
+
+1. **Graph Neural Tangent Kernel: Fusing Graph Neural Networks with Graph Kernels.** *Simon S. Du et al, NeurIPS 2019.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2019/file/663fd3c5144fd10bd5ca6611a9a5b92d-Paper.pdf) [[Author]](https://simonshaoleidu.com/)
+
+
+1. **Gradient Descent Finds Global Minima of Deep Neural Networks.** *Simon S. Du et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/du19c/du19c.pdf) [[Author]](https://simonshaoleidu.com/)
 
 
 
-
-
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
