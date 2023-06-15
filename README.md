@@ -175,7 +175,7 @@ Notes: This paper proposes **Parallel Graph Learning (PG-Learn) for the graph co
 <a name="sparseRepre" />
 
 ## Sparse Representation [[Back to Top]](#)
-
+F
 1. **Regression Shrinkage and Selection Via the Lasso.** *Rob Tibshirani, Journal of the Royal Statistical Society 1996.*  [[PDF]](https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/j.2517-6161.1996.tb02080.x) [[Author]](http://tibshirani.su.domains/)   
 Notes: This is a classical paper that proposes **Least absolute shrinkage and selection operator (LASSO)** for linear regression, which minimizes the residual sum of squares subject to the sum of the absolute value of the coefficients being less than a constant. AKA L<sub>1</sub> penalty. 
 
@@ -1467,6 +1467,10 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 1. **The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks.** *Jonathan Frankle et al,  ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1803.03635.pdf) [[Author]](http://www.jfrankle.com/)   
 Notes: This paper proposes the **Lottery Ticket Hypothesis (LTH)**: *A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations.* Before this paper, contemporary experience is that the architectures uncovered by pruning are harder to train from the start, reaching lower accuracy than the original networks. This paper finds that when the parameters of LTH are randomly reinitialized, the wining tickets no longer match the performance of the original network, offering evidence that these smaller networks do not train effectively unless they are appropriately initialized. In another word, when randomly reinitialized, winning tickets perform far worse, meaning structure alone cannot explain a winning ticket's success. The authors identify a winning ticket by training a network and pruning its smallest-magnitude weights, and then each unpruned connections' value is then reset to its initialization from original network before it was trained. The pruning process can be *one-shot*, but *iterative pruning* shows better performance.The **Lottery Ticket Conjecture** is that *Dense, randomly-initialized networks are easier to train than the sparse networks that result from pruning because there are more possible subnetworks from which training might recover a winning ticket*. A limitation is that on deeper networks (ResNet-18 and VGG-19), iterative pruning is unable to find winning tickets unless train the networks with learning rate warmup.  
 
+
+
+
+1. **Rethinking the Value of Network Pruning.** *Zhuang Liu et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1810.05270.pdf) [[Author]](https://liuzhuang13.github.io/) [[Code]](https://github.com/Eric-mingjie/rethinking-network-pruning)
 
 
 1. **Auto Graph Encoder-Decoder for Neural Network Pruning.** *Sixing Yu et al, ICCV 2021.*  [[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_Auto_Graph_Encoder-Decoder_for_Neural_Network_Pruning_ICCV_2021_paper.pdf) [[Author]](https://scholar.google.com/citations?user=DT3qqe8AAAAJ&hl=zh-CN&oi=sra) 
