@@ -1389,6 +1389,9 @@ Notes: Most previous implicit neural representations constructed on ReLU-based M
 1. **GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models.** *Alex Nichol et al, 2022 arXiv.*  [[PDF]](https://arxiv.org/pdf/2112.10741.pdf) [[Author]](https://aqnichol.com/)
 
 
+1. **Elucidating the Design Space of Diffusion-Based Generative Models.** *Tero Karras et al, NeurIPS 2022.*  [[PDF]](https://openreview.net/pdf?id=k7FuTOWMOc7) [[Author]](https://research.nvidia.com/person/tero-karras)
+
+
 
 1. **Understanding Diffusion Models: A Unified Perspective.** *Calvin Luo et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2208.11970.pdf) [[Author]](https://calvinyluo.com/about.html)
 
