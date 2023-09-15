@@ -1067,7 +1067,10 @@ Notes:
 
 1. **Diffusion Probabilistic Models for Structured Node Classification.** *Hyosoon Jang et al, ICMLW 2023.*  [[PDF]](https://openreview.net/pdf?id=DxKGgBtaR1) [[Author]]() [[Code]](https://github.com/hsjang0/DPM-SNC)
 
-1. **Structured Denoising Diffusion Models in Discrete State-Spaces.** *Jacob Austin et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) [[Author]](https://scholar.google.com/citations?user=NWXxqQ8AAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/google-research/google-research/tree/master/d3pm)
+1. **Structured Denoising Diffusion Models in Discrete State-Spaces.** *Jacob Austin et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) [[Author]](https://scholar.google.com/citations?user=NWXxqQ8AAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/google-research/google-research/tree/master/d3pm)  
+Notes: While $q(x_t|x_{t-1})$ can in theory be arbitrary, efficient training of $p_{\theta}$ is possible when $q(x_t|x_{t-1})$:  
+$\quad$ a. Permits efficient sampling of $x_t$ from $q(x_t|x_0)$ for an arbitrary time $t$.  
+$\quad$ b. Has a tractable expression for the forward process posterior $q(x_{t-1}|x_{t}, x_0)$. 
 
 1. **DiGress: Discrete Denoising Diffusion for Graph Generation.** *Clement Vignac et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=UaAD-Nu86WX) [[Author]](https://cvignac.github.io/) [[Code]](https://github.com/cvignac/DiGress)
 
