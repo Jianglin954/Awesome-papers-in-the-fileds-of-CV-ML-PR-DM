@@ -1049,8 +1049,6 @@ Notes:
 
 ### Graph Generation (Graph Diffusion Model)
 
-[Graph Generation](#GraphGeneration)
-
 1. **Fast Graph Generation via Spectral Diffusion.** *Tianze Luo et al, arXiv 2022.*  [[PDF]](https://arxiv.org/pdf/2211.08892.pdf) [[Author]](https://www.linkedin.com/in/tianze-luo-40720a82/)
 
 1. **DiGress: Discrete Denoising diffusion for graph generation.** *Clement Vignac et al, ICLR 2023.*  [[PDF]](https://arxiv.org/pdf/2209.14734.pdf) [[Author]](https://cvignac.github.io/)
