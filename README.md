@@ -2158,6 +2158,8 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 1. **Visual Information Theory.** *Christopher Olah et al, Blog 2015.*  [[PDF]](http://colah.github.io/posts/2015-09-Visual-Information/#fnref3) [[Author]](http://colah.github.io/)
 
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
 
 
 
