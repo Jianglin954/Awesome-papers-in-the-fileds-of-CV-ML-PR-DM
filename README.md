@@ -1063,6 +1063,18 @@ Notes:
 1. **Diffusion Probabilistic Models for Graph-Structured Prediction.** *Hyosoon Jang et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2302.10506.pdf) [[Author]]() [[Code]](https://github.com/hsjang0/DPM-GSP)
 
 
+1. **Argmax Flows and Multinomial Diffusion: Learning Categorical Distributions.** *Emiel Hoogeboom et al, NeurIPS 2021.*  [[PDF]](https://arxiv.org/pdf/2102.05379.pdf) [[Author]](https://ehoogeboom.github.io/) [[Code]](https://github.com/ehoogeboom/multinomial_diffusion) 
+
+1. **GMNN: Graph Markov Neural Networks.** *Meng Qu et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/qu19a/qu19a.pdf) [[Author]](https://mnqu.github.io/) [[Code]](https://github.com/DeepGraphLearning/GMNN))
+
+1. **Diffusion Probabilistic Models for Structured Node Classification.** *Hyosoon Jang et al, ICMLW 2023.*  [[PDF]](https://openreview.net/pdf?id=DxKGgBtaR1) [[Author]]() [[Code]](https://github.com/hsjang0/DPM-SNC)
+
+1. **Structured Denoising Diffusion Models in Discrete State-Spaces.** *Jacob Austin et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) [[Author]](https://scholar.google.com/citations?user=NWXxqQ8AAAAJ&hl=zh-CN&oi=sra) [[Code]](https://github.com/google-research/google-research/tree/master/d3pm)
+
+1. **DiGress: Discrete Denoising Diffusion for Graph Generation.** *Clement Vignac et al, ICLR 2023.*  [[PDF]](https://openreview.net/pdf?id=UaAD-Nu86WX) [[Author]](https://cvignac.github.io/) [[Code]](https://github.com/cvignac/DiGress)
+
+1. **Efficient and Degree-Guided Graph Generation via Discrete Diffusion Modeling.** *Xiaohui Chen et al, ICML 2023.*  [[PDF]](https://arxiv.org/pdf/2305.04111.pdf) [[Author]](https://sites.google.com/view/xiaohuichen)  [[Code]](https://github.com/tufts-ml/graph-generation-edge)
+
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
