@@ -480,7 +480,8 @@ Notes: This paper exploits importance reweighting or sample transformation to fi
 Notes:
 
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
+
+1. **Structural Re-weighting Improves Graph Domain Adaptation.** *Shikun Liu et al, ICML 2023.*  [[PDF]](https://arxiv.org/pdf/2306.03221.pdf) [[Author]]()
 
 
 
