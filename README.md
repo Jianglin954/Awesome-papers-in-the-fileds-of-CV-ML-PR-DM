@@ -1,11 +1,11 @@
-# Awesome papers in the fields of computer vision, machine learning, pattern recognition, and data mining.
+# Awesome papers in the fields of computer vision, machine learning, pattern recognition, data mining, and natural language processing.
 
 
 ![Paper Reading](https://img.shields.io/badge/PhD-Paper_Reading-green)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Paper Reading](https://img.shields.io/badge/Fields-CV_ML_PR_DM-blue)
+![Paper Reading](https://img.shields.io/badge/Fields-CV_ML_PR_DM_NLP-blue)
 
-This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, pattern recognition, and data mining (where the notes only represent my personal views). The collection will be continuously updated, so stay tuned. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
+This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, pattern recognition, data mining, and natural language processing (where the notes only represent my personal views). The collection will be continuously updated, so stay tuned. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
 
 
 ## Contents
@@ -73,6 +73,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 - [Vision Language Pretraining](#VLP)
 - [Point Cloud](#pointcloud)
 - [Causal Inference](#cause)
+- [Natural Language rocessing](#NLP)
 - [Others](#others)
   - [Procrustes Problem](#procrustes)
   - [CUR Decomposition](#cur)
@@ -2020,6 +2021,15 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
+
+
+
+
+<a name="NLP" />
+
+## Natural Language rocessing [[Back to Top]](#)
+
+1. **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing.** *Pengfei Liu et al, 2022 ACM Computing Surveys.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3560815) [[Author]](http://pfliu.com/)
 
 
 
