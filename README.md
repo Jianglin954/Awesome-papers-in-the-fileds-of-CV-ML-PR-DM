@@ -2033,6 +2033,10 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
+1. **Sparks of Artificial General Intelligence: Early experiments with GPT-4.** *S´ebastien Bubeck et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2303.12712.pdf) [[Author]](http://sbubeck.com/)
+
+
+1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
