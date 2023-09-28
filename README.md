@@ -75,6 +75,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 - [Causal Inference](#cause)
 - [Natural Language rocessing](#NLP)
 - [Others](#others)
+  - [Variational Inference](#VI)
   - [Procrustes Problem](#procrustes)
   - [CUR Decomposition](#cur)
   - [Matrix Completion](#matrixcompletion)
@@ -2065,6 +2066,15 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 <a name="others" />
 
 ## Others [[Back to Top]](#)
+
+
+<a name="VI" />
+
+### Variational Inference
+
+
+1. **Variational Inference: A Review for Statisticians.** *David Blei et al, arXiv 2018.*  [[PDF]](https://arxiv.org/pdf/1601.00670.pdf) [[Author]](https://scholar.google.com/citations?user=8OYE6iEAAAAJ&hl=zh-CN&oi=sra)
+
 
 
 
