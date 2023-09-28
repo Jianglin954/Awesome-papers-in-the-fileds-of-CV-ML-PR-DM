@@ -1583,6 +1583,15 @@ Notes: This is the first survey on pruning at initialization.
 1. **Dataset Distillation.** *Tongzhou Wang et al, arXiv 2018.*  [[PDF]](https://arxiv.org/abs/1811.10959) [[Author]](https://www.tongzhouwang.info/) [[Code]](https://github.com/SsnL/dataset-distillation) [[Website]](https://www.tongzhouwang.info/dataset_distillation/)  
 
 
+1. **Generalizing Dataset Distillation via Deep Generative Prior.** *George Cazenavette et al, CVPR 2023.*  [[PDF]](https://arxiv.org/pdf/2305.01649.pdf) [[Author]](https://georgecazenavette.github.io/)
+
+
+
+
+
+
+
+
 
 ### Survey
 
@@ -1605,10 +1614,6 @@ Notes: This is the first survey on pruning at initialization.
 
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
-
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
 
 
 
