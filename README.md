@@ -649,6 +649,8 @@ Notes: This paper introduces **Universal Domain Adaptation (UDA)** that requires
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
 
+1. **Meta-Transformer: A Unified Framework for Multimodal Learning.** *Yiyuan Zhang et al, arXiv 2023.*  [[PDF]](https://arxiv.org/pdf/2307.10802.pdf) [[Author]](https://invictus717.github.io/)
+
 
 
 ### Survey
