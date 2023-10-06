@@ -74,9 +74,11 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 - [Point Cloud](#pointcloud)
 - [Causal Inference](#cause)
 - [Natural Language rocessing](#NLP)
+- [AI for Sciences](#AI4S)
 - [Others](#others)
   - [Variational Inference](#VI)
   - [Procrustes Problem](#procrustes)
+  - [Label Propagation](#labelPropagation)
   - [CUR Decomposition](#cur)
   - [Matrix Completion](#matrixcompletion)
   - [Optimization Methods](#Optimization)
@@ -2053,6 +2055,40 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="AI4S" />
+
+## AI for Sciences [[Back to Top]](#)
+
+1. **Scientific discovery in the age of artificial intelligence.** *Hanchen Wang et al, 2023 Nature.*  [[PDF]](https://wenhao-gao.github.io/assets/publications/2023_ai4sci/paper.pdf) [[Author]](https://www.hanchenw.com/)
 
 
 
