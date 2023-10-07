@@ -82,6 +82,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [CUR Decomposition](#cur)
   - [Matrix Completion](#matrixcompletion)
   - [Optimization Methods](#Optimization)
+  - [Bilevel Programming](#BiP)
   - [PAC Learning](#PACLearning)
   - [Information Theory](#informationTheory)
   - [Probability Theory](#ProbabilityTheory)
@@ -826,7 +827,7 @@ Notes: This paper proposes **Graph Learning-Convolutional Network (GLCN)** for s
 1. **Large Scale Graph Learning from Smooth Signals.** *Vassilis Kalofolias et al, ICLR 2019.*  [[PDF]](https://arxiv.org/pdf/1710.05654.pdf) [[Author]](https://scholar.google.ch/citations?user=Bz1RQ8MAAAAJ&hl=en)  
 Notes: This papers uses approximate nearest neighbor techniques for large scale graph learning from smooth signals. Also refer to [paper](http://proceedings.mlr.press/v51/kalofolias16.pdf).  
 
-1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao)  
+1. **Learning Discrete Structures for Graph Neural Networks.** *Luca Franceschi et al, ICML 2019.*  [[PDF]](http://proceedings.mlr.press/v97/franceschi19a/franceschi19a.pdf) [[Author]](https://scholar.google.com/citations?user=NCls8VMAAAAJ&hl=en&oi=ao) [[Code]](https://github.com/lucfra/LDS-GNN)   
 Notes: This paper proposes **Learning Discrete Structures (LDS)** to learn the graph structure and the parameters of GCNs by approximately solving a bilevel program that learns a discrete probability distribution of the edges of the graph. Given two objective functions $F$ and $L$, the outer and inner objectives, and two sets of variables, $\theta \in \mathcal{R}^{m}$ and $\omega \in \mathcal{R}^{d}$, the outer and inner variables, a **Bilevel Program** is given by: $\min_{\theta, \omega_{\theta}}F(\omega_{\theta}, \theta)$ such that $\omega_{\theta} \in \arg \min_{\omega} L(\omega, \theta)$. LDS only works in the transductive setting and the graph topology learned cannot be controlled due to the sampling strategy. 
 
 1. **Graph Structure Learning for Robust Graph Neural Networks** *Wei Jin et al, KDD 2020.*  [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403049) [[Author]](http://cse.msu.edu/~jinwei2/) [[Code]](https://github.com/ChandlerBang/Pro-GNN)     
@@ -2208,6 +2209,15 @@ Notes: This paper provides a review and commentary on the past, present, and fut
 
 
 
+
+<a name="BiP" />
+
+### Bilevel Programming
+
+1. **Smooth Bilevel Programming
+for Sparse Regularization.** *Clarice Poon et al, NeurIPS 2021.*  [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/0bed45bd5774ffddc95ffe500024f628-Paper.pdf) [[Author]]()
+
+1. **Bilevel Optimization Portal.**  [[Website]](https://bi-level.org/)
 
 
 <a name="PACLearning" />
