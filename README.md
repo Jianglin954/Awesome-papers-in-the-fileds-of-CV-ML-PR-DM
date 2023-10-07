@@ -7,6 +7,7 @@
 
 This is a collection of awesome papers I have read (carefully or roughly) in the fields of computer vision, machine learning, pattern recognition, data mining, and natural language processing (where the notes only represent my personal views). The collection will be continuously updated, so stay tuned. Any suggestions and comments are welcome (jianglinlu@outlook.com). 
 
+test]\
 
 ## Contents
 - [Manifold Learning](#Manifold)
