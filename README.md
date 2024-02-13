@@ -937,8 +937,14 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 
 ### GNNs+LMs
 
-1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
-
+1. **Efficient and effective training of language and graph neural network models** * et al, .*  [[PDF]](https://knowledge-nlp.github.io/aaai2023/papers/016-m5gnn-poster.pdf) [[Author]]()
+1. **Beyond Graph Neural Networks: A New Frontier for Large Language Models** * et al, .*  [[PDF]](https://ai.plainenglish.io/beyond-graph-neural-networks-a-new-frontier-for-large-language-models-15ccb93c50d) [[Author]]()
+1. **GNN-LM: Language Modeling based on Global Contexts via GNN** * et al, .*  [[PDF]](https://openreview.net/pdf?id=BS49l-B5Bql) [[Author]]()
+1. **GPT4Graph: Can Large Language Models Understand Graph Structured Data? An Empirical Evaluation and Benchmarking** * et al, .*  [[PDF]](https://arxiv.org/pdf/2305.15066.pdf) [[Author]]()
+1. **Disentangled Representation Learning with Large Language Models for Text-Attributed Graphs** * et al, .*  [[PDF]](https://arxiv.org/pdf/2310.18152.pdf) [[Author]]()
+1. **Empower Text-Attributed Graphs Learning with Large Language Models (LLMs)** * et al, .*  [[PDF]](https://arxiv.org/pdf/2310.09872.pdf) [[Author]]()
+1. **GraphGPT: Graph Instruction Tuning for Large Language Models** * et al, .*  [[PDF]](https://arxiv.org/pdf/2310.13023.pdf) [[Author]]()
+1. **Can LLMs Effectively Leverage Graph Structural Information: When and Why** * et al, .*  [[PDF]](https://arxiv.org/pdf/2309.16595.pdf) [[Author]]()
 
 
 
