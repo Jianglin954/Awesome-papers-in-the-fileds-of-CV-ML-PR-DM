@@ -34,6 +34,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
   - [Spatial-based GNN](#SpatialGNN)
   - [Graph Pooling](#GraphPooling)
   - [Graph Structure Learning](#LGL)
+  - [GNNs+LMs](#GNNLM)
   - [GNN Pruning](#GNNpruning) 
   - [Self-Supervised GNN](#SSLGNN)
   - [GNN Pre-training](#GNNPreTrain)
@@ -929,6 +930,12 @@ Notes: The current GNNs are often restricted to the transductive setting and rel
 
 
 
+
+
+
+<a name="GNNLM" />
+
+### GNNs+LMs
 
 1. **Updating....** * et al, .*  [[PDF]]() [[Author]]()
 
