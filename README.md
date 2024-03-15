@@ -76,6 +76,7 @@ This is a collection of awesome papers I have read (carefully or roughly) in the
 - [Causal Inference](#cause)
 - [Natural Language rocessing](#NLP)
 - [AI for Sciences](#AI4S)
+  - [Drug-Target Binding](#DTA)
 - [Others](#others)
   - [Variational Inference](#VI)
   - [Procrustes Problem](#procrustes)
@@ -2106,6 +2107,54 @@ Notes: This is the first work that introduces Transformer for HDR imaging.
 
 1. **Scientific discovery in the age of artificial intelligence.** *Hanchen Wang et al, 2023 Nature.*  [[PDF]](https://wenhao-gao.github.io/assets/publications/2023_ai4sci/paper.pdf) [[Author]](https://www.hanchenw.com/)
 
+
+
+<a name="DTA" />
+
+### Drug-Target Binding
+
+
+1. **DeepDTA: deep drug–target binding affinity prediction.** *Hakime Öztürk et al, Bioinformatics 2018.*  [[PDF]](https://academic.oup.com/bioinformatics/article-pdf/34/17/i821/50582374/bioinformatics_34_17_i821.pdf) [[Author]](https://hkmztrk.github.io/) [[Code]](https://github.com/hkmztrk/DeepDTA)
+
+1. **PADME: A Deep Learning-based Framework for Drug-Target Interaction Prediction
+.** *Qingyuan Feng et al, arXiv 2018.*  [[PDF]](https://arxiv.org/pdf/1807.09741.pdf) [[Author]]()
+
+1. **WideDTA: prediction of drug-target binding affinity.** *Hakime Öztürk et al, arXiv 2019.*  [[PDF]](https://arxiv.org/pdf/1902.04166.pdf) [[Author]](https://hkmztrk.github.io/)
+
+1. **AttentionDTA: prediction of drug–target binding affinity using attention model.** *Qichang Zhao et al, BIBM 2019.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8983125) [[Author]](https://scholar.google.com/citations?user=7ixMXO0AAAAJ&hl=en)
+
+1. **Comparison Study of Computational Prediction Tools for Drug-Target Binding Affinities.** *Maha A. Thafar et al, Frontiers in chemistry 2019.*  [[PDF]](https://www.frontiersin.org/articles/10.3389/fchem.2019.00782/full) [[Author]](https://scholar.google.com/citations?user=QgCWtUQAAAAJ&hl=zh-CN&oi=sra)
+
+1. **DeepAffinity: interpretable deep learning of compound–protein affinity through unified recurrent and convolutional neural networks.** *Mostafa Karimi et al, Bioinformatics 2019.*  [[PDF]](https://academic.oup.com/bioinformatics/article-pdf/35/18/3329/48975803/bioinformatics_35_18_3329.pdf) [[Author]](https://mostafakarimi71.github.io/index.html)
+
+1. **GANsDTA: Predicting Drug-Target Binding Affinity Using GANs.** *Lingling Zhao et al, Frontiers in Genetics 2020.*  [[PDF]](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.01243/full) [[Author]]()
+
+1. **DeepPurpose: a deep learning library for drug–target interaction prediction.** *Kexin Huang et al, Bioinformatics 2020.*  [[PDF]](https://academic.oup.com/bioinformatics/article-pdf/36/22-23/5545/50716143/btaa1005.pdf) [[Author]](https://www.kexinhuang.com/) [[Code]](https://github.com/kexinhuang12345/DeepPurpose)
+
+1. **GraphDTA: predicting drug–target binding affinity with graph neural networks.** *Thin Nguyen et al, Bioinformatics 2021.*  [[PDF]](https://academic.oup.com/bioinformatics/article-pdf/37/8/1140/50340643/btaa921.pdf) [[Author]](https://scholar.google.com.au/citations?user=BlTfdtMAAAAJ&hl=en) [[Code]](https://github.com/thinng/GraphDTA)
+
+1. **Prediction of drug–target binding afnity using similarity‑based convolutional neural network.** *Jooyong Shim et al, Scientific Reports 2021.*  [[PDF]](https://www.nature.com/articles/s41598-021-83679-y.pdf) [[Author]]()
+
+1. **Deep drug-target binding affinity prediction with multiple attention blocks.** *Yuni Zeng et al, Briefings in Bioinformatics 2021.*  [[PDF]](https://academic.oup.com/bib/article-pdf/22/5/bbab117/40260749/bbab117.pdf) [[Author]](https://scholar.google.com/citations?user=y2IUBmIAAAAJ&hl=zh-CN&oi=sra)
+
+1. **NerLTR-DTA: drug–target binding affinity prediction based on neighbor relationship and learning to rank.** *Xiaoqing Ru et al, Bioinformatics 2022.*  [[PDF]](https://academic.oup.com/bioinformatics/article-pdf/38/7/1964/49010139/btac048.pdf) [[Author]](https://scholar.google.com.hk/citations?user=5Vc3Ub8AAAAJ&hl=zh-CN)
+
+1. **Hierarchical graph representation learning for the prediction of
+drug-target binding affinity.** *Zhaoyang Chu et al, Information Sciences 2022.*  [[PDF]](https://arxiv.org/pdf/2203.11458.pdf) [[Author]](https://scholar.google.com/citations?user=81U4yEAAAAAJ&hl=zh-CN&oi=sra)
+
+1. **Co-VAE: Drug-Target Binding Affinity Prediction by Co-Regularized Variational Autoencoders.** *Tianjiao Li et al, TPAMI 2022.*  [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9576631) [[Author]]()
+
+1. **Affinity2Vec: drug-target binding affinity prediction through representation learning, graph mining, and machine learning.** *Maha A. Thafar et al, Scientific Reports 2022.*  [[PDF]](https://www.nature.com/articles/s41598-022-08787-9) [[Author]](https://scholar.google.com/citations?user=QgCWtUQAAAAJ&hl=en)
+
+1. **DTITR: End-to-end drug–target binding affinity prediction with transformers.** *Nelson R. C. Monteiro et al, Computers in Biology and Medicine 2022.*  [[PDF]](https://www.sciencedirect.com/science/article/pii/S0010482522005406) [[Author]](https://scholar.google.com/citations?user=onq9LwwAAAAJ&hl=pt-PT)
+
+1. **MGraphDTA: deep multiscale graph neural network for explainable drug–target binding affinity prediction.** *Ziduo Yang et al, 2022.*  [[PDF]](https://pubs.rsc.org/en/content/articlelanding/2022/sc/d1sc05180f) [[Author]](https://scholar.google.com/citations?user=w21CvkUAAAAJ&hl=zh-CN)
+
+1. **Improving the generalizability of protein-ligand binding predictions with AI-Bind
+.** *Ayan Chatterjee et al, Nature Communications 2023.*  [[PDF]](https://www.nature.com/articles/s41467-023-37572-z.pdf) [[Author]](https://chatterjeeayan.github.io/) [[Code]](https://zenodo.org/records/7730755)
+
+
+1. **.** * et al, .*  [[PDF]]() [[Author]]()
 
 
 
